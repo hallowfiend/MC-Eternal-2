@@ -2315,7 +2315,7 @@
 		{
 			dependencies: ["5C433B46F78658D6"]
 			description: ["&7Summons a &5Possessed Ghast&7 that drops &61–3 Ghast Tears&7."]
-			icon: "vanillabackport:dried_ghast"
+			icon: "minecraft:dried_ghast"
 			id: "648DB2331DDA8E78"
 			rewards: [
 				{
@@ -5480,3 +5480,4 @@
 	]
 	title: "&7Occultism"
 }
+
