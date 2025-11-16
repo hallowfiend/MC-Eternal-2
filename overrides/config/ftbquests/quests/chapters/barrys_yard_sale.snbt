@@ -496,11 +496,11 @@
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "vanillabackport:music_disc_lava_chicken"
+			icon: "minecraft:music_disc_lava_chicken"
 			id: "160FEAD5EF3B96C3"
 			rewards: [{
 				id: "2D9CA78605E260DB"
-				item: "vanillabackport:music_disc_lava_chicken"
+				item: "minecraft:music_disc_lava_chicken"
 				type: "item"
 			}]
 			subtitle: "Purchase Music Disc"
@@ -1176,4 +1176,5 @@
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
 }
+
 
