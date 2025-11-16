@@ -1106,5 +1106,5 @@
 'vampirism:vampire_minion' : '',
 'vampirism:villager_angry' : '',
 'vampirism:villager_converted' : '',
-'vanillabackport:creaking' : '',
-'vanillabackport:happy_ghast' : '',
+'minecraft:creaking' : '',
+'minecraft:happy_ghast' : '',
