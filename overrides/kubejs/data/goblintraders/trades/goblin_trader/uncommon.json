@@ -252,7 +252,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "vanillabackport:dried_ghast"
+        "item": "minecraft:dried_ghast"
       },
       "payment_item": {
         "count": 16,
@@ -308,7 +308,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "vanillabackport:music_disc_tears"
+        "item": "minecraft:music_disc_tears"
       },
       "payment_item": {
         "count": 18,
