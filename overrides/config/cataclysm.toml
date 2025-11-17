@@ -96,7 +96,7 @@
 	DeathLaserHpdamage = 10.1
 	#Player's Laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	Laserdamage = 19.0
+	Laserdamage = 13.0
 	#Blazing Bone's Damage
 	#Range: 0.0 ~ 1000000.0
 	BlazingBonedamage = 10.0
@@ -155,7 +155,7 @@
 	EnderGuardianHealthMultiplier = 4.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 2.5
+	EnderGuardianDamageMultiplier = 3.5
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 52.0
@@ -210,7 +210,7 @@
 	MonstrosityHealthMultiplier = 2.0
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 9.6
+	MonstrosityDamageMultiplier = 7.6
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 0.0
@@ -303,7 +303,7 @@
 	HarbingerHealthMultiplier = 4.5
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 6.7
+	HarbingerDamageMultiplier = 4.7
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerHealingMultiplier = 0.0
@@ -334,7 +334,7 @@
 	LeviathanHealthMultiplier = 3.5
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 4.0
+	LeviathanDamageMultiplier = 2.5
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0

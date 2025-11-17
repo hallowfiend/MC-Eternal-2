@@ -1387,7 +1387,7 @@
 				}
 				{
 					id: "6945EB2F28C161D2"
-					item: "lavachickenmusicdisc:music_disc_lava_chicken"
+					item: "vanillabackport:music_disc_lava_chicken"
 					type: "item"
 				}
 				{
@@ -2520,3 +2520,4 @@
 	]
 	title: "&7Challenges"
 }
+

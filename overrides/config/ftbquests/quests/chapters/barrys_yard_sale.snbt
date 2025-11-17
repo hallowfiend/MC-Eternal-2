@@ -1173,6 +1173,100 @@
 			x: 11.0d
 			y: 3.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:artifact_endergem"
+			id: "6467B7A9EF8FF8A1"
+			rewards: [{
+				id: "0987500A6CD054AA"
+				item: "kubejs:artifact_endergem"
+				type: "item"
+			}]
+			subtitle: "Purchase a Soul Stone"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "1B02D3B0EC9C4C50"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale: &rSoul Stone"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["&6&nOnly one in stock!"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ias_spellbooks:book_of_dark_mutations"
+				tag: {
+					ISB_Spells: {
+						data: [
+							{
+								id: "ias_spellbooks:dragline"
+								index: 0
+								level: 10
+								locked: 1b
+							}
+							{
+								id: "ias_spellbooks:pumpkin_spice"
+								index: 1
+								level: 3
+								locked: 1b
+							}
+						]
+						maxSpells: 12
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "4ECD27BFFE6C351B"
+			rewards: [{
+				id: "56E2EB583C28CE15"
+				item: {
+					Count: 1
+					id: "ias_spellbooks:book_of_dark_mutations"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "ias_spellbooks:dragline"
+									index: 0
+									level: 10
+									locked: 1b
+								}
+								{
+									id: "ias_spellbooks:pumpkin_spice"
+									index: 1
+									level: 3
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Book of Dark Mutations"
+			tasks: [{
+				amount: 1200L
+				currency: "eternalcurrencies:coins"
+				id: "23F6A86EB917A8D7"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale: &rBook of Dark Mutations"
+			x: 12.0d
+			y: 5.0d
+		}
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"
 }

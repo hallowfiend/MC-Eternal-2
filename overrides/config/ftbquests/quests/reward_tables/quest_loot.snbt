@@ -16,7 +16,7 @@
 		string_id: "quest_loot"
 	}
 	loot_size: 1
-	order_index: 16
+	order_index: 17
 	rewards: [
 		{
 			item: {
@@ -45,9 +45,6 @@
 				}
 			}
 		}
-		{ item: "minecraft:oak_sapling" }
-		{ item: "minecraft:dark_oak_sapling" }
-		{ count: 8, item: "minecraft:kelp" }
 		{ item: "advancementframes:advancement_frame" }
 		{ count: 8, item: "archers_paradox:blaze_arrow" }
 		{ item: "minecraft:spectral_arrow" }
@@ -718,7 +715,6 @@
 				}
 				id: "farmersdelight:smoked_ham"
 			}
-			weight: 15.0f
 		}
 		{
 			item: {
@@ -730,7 +726,6 @@
 				}
 				id: "kubejs:artifact_endergem"
 			}
-			weight: 80.0f
 		}
 		{ item: "farmersdelight:stove" }
 		{ item: "farmersdelight:basket" }
@@ -2373,7 +2368,7 @@
 		{ item: "mekanism:robit" }
 		{ item: "mekanism:chargepad" }
 		{ count: 16, item: "mcwdoors:iron_portcullis" }
-		{ item: "rats:rat_burger", random_bonus: 3, weight: 30.0f }
+		{ item: "rats:rat_burger", random_bonus: 5 }
 		{ count: 3, item: "alexsmobs:kangaroo_burger" }
 		{ item: "iceandfire:siren_tear" }
 		{ item: "minecraft:heart_of_the_sea" }
@@ -4484,8 +4479,8 @@
 				}
 			}
 		}
-		{ item: "kubejs:artifact_endergem", weight: 150.0f }
-		{ count: 8, item: "irons_spellbooks:arcane_essence", weight: 50.0f }
+		{ item: "kubejs:artifact_endergem", weight: 3.0f }
+		{ count: 8, item: "irons_spellbooks:arcane_essence" }
 		{ count: 2, item: "irons_spellbooks:frozen_bone" }
 		{ item: "jadensnetherexpansiondelight:nether_dog_food" }
 		{ item: "jadensnetherexpansiondelight:glowcheese_sandwich" }
@@ -4959,12 +4954,12 @@
 					tic_name: "Peter's Ruby Ring "
 					tic_persistent: { }
 					tic_stats: {
-						"tconstruct:durability": 200.0f
+						"tconstruct:durability": 3514.0f
+						"tinkersjewelry:amplification": 0.5f
 					}
 				}
 			}
 		}
-		{ item: "lavachickenmusicdisc:music_disc_lava_chicken" }
 		{
 			item: {
 				Count: 1
@@ -5316,6 +5311,100 @@
 		{ item: "uniqueaccessories:strong_sticky_slime_ball" }
 		{ item: "uniqueaccessories:fossil_shark_tooth" }
 		{ item: "uniqueaccessories:royal_honeycomb" }
+		{ item: "uniqueaccessories:snow_golem_doll" }
+		{ item: "uniqueaccessories:survival_belt" }
+		{ item: "uniqueaccessories:rocket_shoes" }
+		{ item: "uniqueaccessories:all_purpose_seasoning" }
+		{ item: "uniqueaccessories:golden_egg_charm" }
+		{ item: "uniqueaccessories:soul_gem" }
+		{ item: "uniqueaccessories:devils_eyeball" }
+		{ item: "uniqueaccessories:cursed_doll_head" }
+		{ item: "uniqueaccessories:anklet_of_fortune" }
+		{ item: "uniqueaccessories:waist_warmer" }
+		{ item: "uniqueaccessories:tabi" }
+		{ item: "uniqueaccessories:life_jacket_belt" }
+		{ item: "uniqueaccessories:amplifier_stone" }
+		{ item: "uniqueaccessories:royal_honeycomb" }
+		{ item: "uniqueaccessories:sharp_fishing_hook" }
+		{ item: "uniqueaccessories:fossil_shark_tooth" }
+		{ item: "uniqueaccessories:small_propulsion_device" }
+		{ item: "uniqueaccessories:withered_heart" }
+		{ item: "vanillabackport:dried_ghast" }
+		{ item: "vanillabackport:music_disc_lava_chicken" }
+		{
+			amount: 250L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+		{
+			amount: 1000L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+		{
+			amount: 2500L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+		{
+			amount: 50L
+			currency: "eternalcurrencies:coins"
+			ignore_reward_blocking: true
+			type: "eternalcurrencies:currency"
+		}
+		{ item: "mowziesmobs:wrought_helmet" }
+		{ count: 5, item: "mowziesmobs:glowing_jelly" }
+		{ item: "mowziesmobs:gong" }
+		{
+			item: {
+				Count: 1
+				id: "cgs:launcher"
+				tag: {
+					Ammo: "cgs:rocket"
+					AmmoCount: 3
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cgs:flintlock"
+				tag: {
+					Ammo: "cgs:paper_cartridge"
+					AmmoCount: 1
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+		}
+		{ item: "cgs:ballistazooka" }
+		{
+			item: {
+				Count: 1
+				id: "pneumaticcraft:micromissiles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 12, item: "cgs:round_revolver" }
+		{
+			item: {
+				Count: 1
+				id: "minecolonies:santa_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:confit_byaldi" }
+		{ item: "rats:rat_and_crossbones_banner_pattern" }
+		{ item: "cataclysm_spellbooks:mechanical_brace" }
 	]
 	title: "&e"
 	use_title: true
