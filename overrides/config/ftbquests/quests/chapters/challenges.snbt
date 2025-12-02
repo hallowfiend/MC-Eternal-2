@@ -111,7 +111,6 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "44D67900CFDC6ADE"
 					item: {
 						Count: 1
@@ -146,7 +145,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
 					id: "5CBA9A228D649D5D"
 					item: {
 						Count: 1
@@ -186,7 +184,6 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
 					id: "7293E15F656361D7"
 					item: {
 						Count: 1
@@ -221,18 +218,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "6DB6338F17552A41"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
 					id: "2790DCB7339693AF"
 					item: {
 						Count: 1
@@ -266,18 +251,6 @@
 			id: "4A7697691FBAF6E9"
 			optional: true
 			rewards: [
-				{
-					count: 2
-					id: "729D4EA2848718B1"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "1B1AA34E68F57FDD"
 					item: {
@@ -313,20 +286,23 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
-					id: "03C46CF9EE5D5E95"
+					id: "3F9199022F807FF7"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					id: "21E9B37C7FA53D54"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "3F9199022F807FF7"
-					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -344,20 +320,23 @@
 			optional: true
 			rewards: [
 				{
-					count: 5
-					id: "6D62B65C6E7398ED"
+					id: "4E6202F9E0D746A3"
+					item: "kubejs:chocolate_coin"
+					type: "item"
+				}
+				{
+					id: "06A42FD05F60A8DA"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "4E6202F9E0D746A3"
-					item: "kubejs:chocolate_coin"
 					type: "item"
 				}
 			]
@@ -823,7 +802,7 @@
 					type: "item"
 				}
 				{
-					amount: 5000L
+					amount: 1000L
 					currency: "eternalcurrencies:coins"
 					id: "77C53D0688E0D986"
 					ignore_reward_blocking: true

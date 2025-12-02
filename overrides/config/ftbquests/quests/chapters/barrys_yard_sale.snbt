@@ -515,8 +515,14 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["13049AEB2F8829E1"]
-			description: ["&6&nOnly one in stock!"]
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
+			description: [
+				"&2Unlocked by Expert Mode"
+				"&6&nOnly one in stock!"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -526,6 +532,7 @@
 					Ammo: "cgs:round_shotgun"
 					AmmoCount: 2
 					FireMode: "ntgl:semi"
+					ThrowMode: "ntgl:safe"
 					display: {
 						Name: "{\"text\":\"Junkyard Shotgun\"}"
 					}
@@ -533,23 +540,31 @@
 				}
 			}
 			id: "76AE8F18AD0E7279"
-			rewards: [{
-				id: "2F7B5099818D6B27"
-				item: {
-					Count: 1
-					id: "cgs:shotgun"
-					tag: {
-						Ammo: "cgs:round_shotgun"
-						AmmoCount: 2
-						FireMode: "ntgl:semi"
-						display: {
-							Name: "{\"text\":\"Junkyard Shotgun\"}"
+			rewards: [
+				{
+					id: "2F7B5099818D6B27"
+					item: {
+						Count: 1
+						id: "cgs:shotgun"
+						tag: {
+							Ammo: "cgs:round_shotgun"
+							AmmoCount: 2
+							FireMode: "ntgl:semi"
+							display: {
+								Name: "{\"text\":\"Junkyard Shotgun\"}"
+							}
+							variant: "default"
 						}
-						variant: "default"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 20
+					id: "199F91DD09062B74"
+					item: "cgs:round_shotgun"
+					type: "item"
+				}
+			]
 			subtitle: "Purchase a Junkyard Shotgun"
 			tasks: [{
 				amount: 2500L
@@ -829,7 +844,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["13049AEB2F8829E1"]
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
 			description: [
 				"The Mechanical Dragonfly is a true marvel of engineering!"
 				"It can be mounted and is capable of flight using its large brass wings!"
@@ -838,6 +856,7 @@
 				""
 				"&eHint:&r Upon purchasing this item, the dragonfly will be summoned nearby already tamed!"
 				""
+				"&2Unlocked by Expert Mode"
 				"&6&nOnly one in stock!"
 			]
 			hide_dependency_lines: true
@@ -1266,6 +1285,77 @@
 			title: "&eYard Sale: &rBook of Dark Mutations"
 			x: 12.0d
 			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["&8Warning:&r May cause the user to gain some dwarven features.."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionColor: 16333189
+					CustomPotionEffects: [{
+						Ambient: 0b
+						Amplifier: 0b
+						CurativeItems: [{
+							Count: 1b
+							id: "minecraft:milk_bucket"
+						}]
+						Duration: 33600
+						Id: 326
+						ShowIcon: 1b
+						ShowParticles: 1b
+						"forge:id": "species:tanked"
+						pufferfish_unofficial_additions.modified: 0b
+					}]
+					display: {
+						Name: "{\"text\":\"Ancient Dwarven Potion\"}"
+					}
+				}
+			}
+			id: "4DB01A559F0CE91E"
+			rewards: [{
+				id: "30D78D47A2D79D4A"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionColor: 16333189
+						CustomPotionEffects: [{
+							Ambient: 0b
+							Amplifier: 1b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							Duration: 33600
+							Id: 326
+							ShowIcon: 1b
+							ShowParticles: 1b
+							"forge:id": "species:tanked"
+							pufferfish_unofficial_additions.modified: 0b
+						}]
+						display: {
+							Name: "{\"text\":\"Ancient Dwarven Potion\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Ancient Dwarven Potion"
+			tasks: [{
+				amount: 450L
+				currency: "eternalcurrencies:coins"
+				id: "2A2A47445211E79E"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Ancient Dwarven Potion"
+			x: 6.0d
+			y: 8.0d
 		}
 	]
 	title: "&7<pend f=0.5 a=25 r=2><grad from=#7FFFD4 to=#1E90FF hue uni><glitch f=0.35 j=0.025 b=0.012 s=0.06><neon p=9 r=2 a=0.2>Barry's Yard Sale"

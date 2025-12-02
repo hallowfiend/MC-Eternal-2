@@ -1,5 +1,5 @@
 
-const mechanicalSqueezing = (event, outputs, input, duration) => {
+const mechanicalSqueezing = (event, outputs, input, duration, fluid) => {
     //let fullPath = `kubejs/data/${path}.json`
     let recipe = {
         type: "integrateddynamics:mechanical_squeezer",
@@ -9,12 +9,14 @@ const mechanicalSqueezing = (event, outputs, input, duration) => {
         "item": input,
         "duration": duration
     }
+    if(fluid)
+        recipe.result.fluid = fluid.toJson()
     //console.warn(`Integrated Dynamics recipetypes are acting up with KubeJS and do not preserve their count, the Recipe has been written to a Data file at ${fullPath}, comment out the code generating it until it needs to be regenerated.`)
     //JsonIO.write(fullPath, recipe)
     return event.custom(recipe)
 }
 
-const squeezing = (event, outputs, input, duration) => {
+const squeezing = (event, outputs, input, duration, fluid) => {
     //let fullPath = `kubejs/data/${path}.json`
     let recipe = {
         type: "integrateddynamics:squeezer",
@@ -24,6 +26,8 @@ const squeezing = (event, outputs, input, duration) => {
         "item": input,
         "duration": duration
     }
+    if(fluid)
+        recipe.result.fluid = fluid.toJson()
     //console.warn(`Integrated Dynamics recipetypes are acting up with KubeJS and do not preserve their count, the Recipe has been written to a Data File at ${fullPath}, comment out the code generating it until it needs to be regenerated.`)
     //JsonIO.write(fullPath, recipe)
     return event.custom(recipe)
