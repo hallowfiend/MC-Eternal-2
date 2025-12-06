@@ -2314,8 +2314,6 @@
 		}
 		{
 			dependencies: ["5C433B46F78658D6"]
-			description: ["&7Summons a &5Possessed Ghast&7 that drops &61–3 Ghast Tears&7."]
-			icon: "minecraft:dried_ghast"
 			description: ["{ftbquests.chapter.occultism.quest7245643308122934904.description1}"]
 			icon: "minecraft:dried_ghast"
 			id: "648DB2331DDA8E78"
@@ -5482,4 +5480,5 @@
 	]
 	title: "{ftbquests.chapter.occultism.title}"
 }
+
 
