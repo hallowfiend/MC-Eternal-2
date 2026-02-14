@@ -3116,7 +3116,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:king_rat"
+					command: "/titles add {p} titles:rat_king"
 					icon: "titles:title_scroll_rare"
 					id: "51B0A310C167FFBE"
 					title: "{ftbquests.chapter.llegendary_artifacts.quest2413032287311520114.reward.5886384005332860862.title}"
