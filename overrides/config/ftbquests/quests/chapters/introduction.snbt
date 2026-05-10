@@ -231,7 +231,7 @@
 			y: 0.5510204081632608d
 		}
 		{
-			dependency: "267B32028E3E70E5"
+			dependency: "2785A42DDDEB324C"
 			height: 0.7d
 			image: "minecraft:block/cave_vines"
 			rotation: 90.0d
@@ -240,7 +240,7 @@
 			y: 2.0d
 		}
 		{
-			dependency: "267B32028E3E70E5"
+			dependency: "2785A42DDDEB324C"
 			height: 0.7d
 			image: "minecraft:block/cave_vines_lit"
 			rotation: 90.0d
@@ -1518,6 +1518,11 @@
 					item: "kubejs:mossy_letter1"
 					type: "item"
 				}
+				{
+					id: "54228A81BE32AB42"
+					item: "waystones:waystone"
+					type: "item"
+				}
 			]
 			subtitle: "{ftbquests.chapter.introduction.quest2160938210214528656.subtitle}"
 			tasks: [{
@@ -1674,7 +1679,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["267B32028E3E70E5"]
+			dependencies: ["2785A42DDDEB324C"]
 			description: [
 				"{ftbquests.chapter.introduction.quest4146132267962063935.description1}"
 				""
@@ -2335,6 +2340,7 @@
 				"{ftbquests.chapter.introduction.quest1510417649203490773.description1}"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "14F614D973412FD5"
 			rewards: [
@@ -2367,7 +2373,7 @@
 				}
 			]
 			shape: "pentagon"
-			size: 0.6d
+			size: 0.8d
 			subtitle: "{ftbquests.chapter.introduction.quest1510417649203490773.subtitle}"
 			tasks: [{
 				id: "31965A206D8A6D7A"
@@ -2523,6 +2529,7 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "267B32028E3E70E5"
+			optional: true
 			rewards: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
@@ -3120,7 +3127,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -3508,58 +3515,6 @@
 			]
 			x: 2.7789115646258225d
 			y: 1.2455782312925265d
-		}
-		{
-			dependencies: ["0901DBD03773B644"]
-			description: [
-				"{ftbquests.chapter.introduction.quest6920559528164792937.description1}"
-				"{ftbquests.chapter.introduction.quest6920559528164792937.description2}"
-				"{ftbquests.chapter.introduction.quest6920559528164792937.image0}"
-				"{ftbquests.chapter.introduction.quest6920559528164792937.description3}"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			icon: "kubejs:mossy_letter"
-			id: "600AC43963351A69"
-			invisible: true
-			optional: true
-			rewards: [
-				{
-					icon: "create:orange_toolbox"
-					id: "569400F41840FC63"
-					table_id: 6664182306022005570L
-					title: "{ftbquests.chapter.introduction.quest6920559528164792937.reward.6238612432193911907.title}"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					icon: "quark:crate"
-					id: "3D111F6602DA6524"
-					table_id: 7614141430405098414L
-					title: "{ftbquests.chapter.introduction.quest6920559528164792937.reward.4400332833912677668.title}"
-					type: "loot"
-				}
-				{
-					auto: "enabled"
-					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
-					icon: "mekanism:cardboard_box"
-					id: "697FDD5060CAD73D"
-					title: "{ftbquests.chapter.introduction.quest6920559528164792937.reward.7602038033315714877.title}"
-					type: "command"
-				}
-			]
-			shape: "heart"
-			subtitle: "{ftbquests.chapter.introduction.quest6920559528164792937.subtitle}"
-			tasks: [{
-				icon: "minecolonies:blockpostbox"
-				id: "5E0F3C50395E9A2F"
-				title: "{ftbquests.chapter.introduction.quest6920559528164792937.task.6777702279473437231.title}"
-				type: "custom"
-			}]
-			title: "{ftbquests.chapter.introduction.quest6920559528164792937.title}"
-			x: 0.0d
-			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -4578,7 +4533,7 @@
 			y: 0.6903061224489733d
 		}
 		{
-			dependencies: ["398A05549FA9DC3F"]
+			dependencies: ["2785A42DDDEB324C"]
 			description: [
 				"{ftbquests.chapter.introduction.quest2255290511382822904.description1}"
 				""
@@ -4842,7 +4797,7 @@
 			y: 1.0858843537414913d
 		}
 		{
-			dependencies: ["398A05549FA9DC3F"]
+			dependencies: ["2785A42DDDEB324C"]
 			description: [
 				"{ftbquests.chapter.introduction.quest585419226656653018.description1}"
 				"{ftbquests.chapter.introduction.quest585419226656653018.description2}"
