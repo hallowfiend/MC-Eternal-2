@@ -27,7 +27,7 @@
 		}
 		{
 			height: 18.0d
-			image: "chipped:block/bookshelf/oak_webbed_bookshelf"
+			image: "hexcasting:block/akashic_bookshelf"
 			order: -1
 			rotation: 0.0d
 			width: 18.0d
@@ -1562,14 +1562,14 @@
 				item: "sophisticatedbackpacks:copper_backpack"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.subtitle}"
+			subtitle: "Purchase Copper Backpack"
 			tasks: [{
 				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "23F6A86EB917A8D7"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.title}"
+			title: "&eYard Sale:&r Copper Backpack"
 			x: 9.0d
 			y: 8.0d
 		}
