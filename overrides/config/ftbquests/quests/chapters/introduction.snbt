@@ -1514,13 +1514,9 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "718DAC46D2B6CE80"
-					item: "kubejs:mossy_letter1"
-					type: "item"
-				}
-				{
-					id: "54228A81BE32AB42"
-					item: "waystones:waystone"
+					count: 3
+					id: "1111B761DEDA633E"
+					item: "alexscaves:slam"
 					type: "item"
 				}
 			]
@@ -1645,6 +1641,7 @@
 							type: "quest_loot"
 						}
 					}
+					random_bonus: 4
 					type: "item"
 				}
 				{
@@ -2061,8 +2058,8 @@
 			]
 			description: ["{ftbquests.chapter.introduction.quest5466476700636945767.description1}"]
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4BDCD398BA6A1D67"
-			invisible: true
 			rewards: [
 				{
 					id: "08CC1C6E6A303BC0"
@@ -3992,6 +3989,7 @@
 				"{ftbquests.chapter.introduction.quest6889383401803672761.description2}"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "5F9C01B3D1FAECB9"
 			optional: true
@@ -4683,6 +4681,7 @@
 				""
 				"{ftbquests.chapter.introduction.quest2419472415563076544.description6}"
 			]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "2193B157D17E53C0"
 			rewards: [
