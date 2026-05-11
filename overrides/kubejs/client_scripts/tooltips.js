@@ -94,6 +94,7 @@ ItemEvents.tooltip(event => {
 	event.add('majruszs_difficulty:recall_potion', Text.translate("tooltip.mce2.majruszs_difficulty.recall_potion.2").color('#FFFF55'));
 	event.add('dreadsteel:dreadsteel_scythe', Text.translate("tooltip.mce2.dreadsteel.dreadsteel_scythe").color('#FFFFFF'));
 	event.add('dreadsteel:dreadsteel_shield', Text.translate("tooltip.mce2.dreadsteel.dreadsteel_shield").color('#FFFFFF'));
+	event.add('cataclysm:sandstorm_in_a_bottle', Text.translate("tooltip.mce2.vampirism.holy_water_bottle_normal").color('#FFFFFF'));
 	event.add('vampirism:holy_water_bottle_normal', Text.translate("tooltip.mce2.vampirism.holy_water_bottle_normal").color('#FFFFFF'));
 	event.add('vampirism:holy_water_bottle_enhanced', Text.translate("tooltip.mce2.vampirism.holy_water_bottle_enhanced").color('#FFFFFF'));
 	event.add('vampirism:holy_water_bottle_ultimate', Text.translate("tooltip.mce2.vampirism.holy_water_bottle_ultimate").color('#FFFFFF'));
