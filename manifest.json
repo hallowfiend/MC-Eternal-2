@@ -13,7 +13,7 @@
   "manifestVersion": 1,
   "name": "MC Eternal 2",
   "version": "1.2.0.4",
-  "author": "adam989911",
+  "author": "adam98991",
   "files": [
     {
       "projectID": 557999,
@@ -305,7 +305,7 @@
     },
     {
       "projectID": 832882,
-      "fileID": 6277111,
+      "fileID": 7962587,
       "required": true,
       "isLocked": false
     },
@@ -658,6 +658,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1031448,
+      "fileID": 8071992,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 363703,
       "fileID": 4802505,
       "required": true,
@@ -791,7 +797,7 @@
     },
     {
       "projectID": 326652,
-      "fileID": 5470032,
+      "fileID": 7905744,
       "required": true,
       "isLocked": false
     },
@@ -3419,7 +3425,7 @@
     },
     {
       "projectID": 304675,
-      "fileID": 6301038,
+      "fileID": 7768323,
       "required": true,
       "isLocked": false
     },
@@ -3491,7 +3497,7 @@
     },
     {
       "projectID": 362479,
-      "fileID": 6141111,
+      "fileID": 7953178,
       "required": true,
       "isLocked": false
     },
