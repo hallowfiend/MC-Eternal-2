@@ -6,13 +6,13 @@
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Skeleton Chance" = 1500
+		"Generate Dragon Skeleton Chance" = 700
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 2200
+		"Generate Dragon Cave Chance" = 800
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 2600
+		"Generate Dragon Roost Chance" = 1000
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
 		"Dragon Den Gold Amount" = 2
@@ -23,10 +23,10 @@
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist From Spawn" = 2500
+		"Dangerous World Gen Dist From Spawn" = 900
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist Seperation" = 500
+		"Dangerous World Gen Dist Seperation" = 450
 		#Whether to generate glacier biomes or not
 		"Generate Glaciers" = true
 		#Glacier Spawn Weight. Higher number = more common
@@ -122,7 +122,7 @@
 		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
 		"Animals Fear Dragons" = true
 		#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
-		"Intelligent Dragon Pathfinding" = false
+		"Intelligent Dragon Pathfinding" = true
 
 [Mobs]
 
@@ -145,7 +145,7 @@
 		"Spawn Wandering Cyclops Chance" = 100
 		#Maximum cyclops health
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Max Health" = 250.0
+		"Cyclops Max Health" = 350.0
 		#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Cyclopes Sheep Search Length" = 17
@@ -161,7 +161,7 @@
 	[Mobs.Sirens]
 		#Maximum siren health
 		#Range: 1.0 ~ 10000.0
-		"Siren Max Health" = 35.0
+		"Siren Max Health" = 50.0
 		#True to make the screen pink when sirens attract players
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
@@ -193,7 +193,7 @@
 	[Mobs.Cockatrice]
 		#Maximum cockatrice health
 		#Range: 1.0 ~ 10000.0
-		"Cockatrice Health" = 40.0
+		"Cockatrice Health" = 70.0
 		#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
 		#Range: > 1
 		"Cockatrice chicken Search Length" = 30
@@ -236,7 +236,7 @@
 		"Trolls Drop Weapon" = true
 		#Troll spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Troll Spawn Weight" = 20
+		"Troll Spawn Weight" = 50
 		#Maximum troll health
 		#Range: 1.0 ~ 10000.0
 		"Troll Max Health" = 250.0
@@ -291,7 +291,7 @@
 	[Mobs.SeaSerpents]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 1000
+		"Spawn Sea Serpent Chance" = 380
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
@@ -299,7 +299,7 @@
 		"Sea Serpent Base Health" = 60.0
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Attack Strength" = 13.0
+		"Sea Serpent Base Attack Strength" = 8.0
 
 	[Mobs.Hippocampus]
 		#1 out of this number chance per chunk for generation
