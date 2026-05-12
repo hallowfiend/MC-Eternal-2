@@ -62,7 +62,7 @@
 			y: 2.429761904761911d
 		}
 		{
-			dependency: "099610C83CC67421"
+			dependency: "13049AEB2F8829E1"
 			height: 0.5d
 			image: "iceandfire:textures/tinkers/battlesign/mod_flame.png"
 			rotation: 0.0d
@@ -148,8 +148,8 @@
 			image: "supplementaries:item/buntings/bunting_yellow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.119047619047628d
-			y: 5.425595238095241d
+			x: 10.10238095238092d
+			y: 5.478571428571428d
 		}
 		{
 			dependency: "13049AEB2F8829E1"
@@ -166,8 +166,8 @@
 			image: "supplementaries:item/buntings/bunting_yellow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.654761904761905d
-			y: 5.389880952380956d
+			x: 8.619047619047613d
+			y: 5.5d
 		}
 		{
 			dependency: "13049AEB2F8829E1"
@@ -184,8 +184,8 @@
 			image: "supplementaries:item/buntings/bunting_red"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.8690476190476275d
-			y: 5.49702380952381d
+			x: 7.866666666666646d
+			y: 5.5261904761904646d
 		}
 		{
 			dependency: "13049AEB2F8829E1"
@@ -193,8 +193,8 @@
 			image: "supplementaries:item/buntings/bunting_yellow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.083333333333336d
-			y: 5.56845238095238d
+			x: 7.130952380952365d
+			y: 5.601190476190467d
 		}
 		{
 			dependency: "13049AEB2F8829E1"
@@ -265,8 +265,8 @@
 			image: "supplementaries:item/buntings/bunting_yellow"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.797619047619051d
-			y: 5.532738095238095d
+			x: 2.7738095238095113d
+			y: 5.458333333333329d
 		}
 		{
 			dependency: "13049AEB2F8829E1"
@@ -328,8 +328,8 @@
 			image: "iceandfire:textures/tinkers/battlesign/mod_flame.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 4.047619047619037d
-			y: 7.427380952380936d
+			x: 9.011904761904745d
+			y: 2.429761904761911d
 		}
 		{
 			dependency: "13049AEB2F8829E1"
@@ -494,8 +494,8 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "{ftbquests.chapter.barrys_yard_sale.quest5429973448536698512.title}"
-			x: 4.0d
-			y: 8.0d
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -656,10 +656,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"13049AEB2F8829E1"
-				"099610C83CC67421"
-			]
+			dependencies: ["13049AEB2F8829E1"]
 			description: [
 				"{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.description1}"
 				""
@@ -833,14 +830,8 @@
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"13049AEB2F8829E1"
-				"099610C83CC67421"
-			]
-			description: [
-				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description1}"
-				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
-			]
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -1149,7 +1140,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.subtitle}"
 			tasks: [{
-				amount: 300L
+				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "4B04842062FB6833"
 				type: "eternalcurrencies:currency"
@@ -1160,10 +1151,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"13049AEB2F8829E1"
-				"099610C83CC67421"
-			]
+			dependencies: ["13049AEB2F8829E1"]
 			description: [
 				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description1}"
 				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description2}"
@@ -1172,7 +1160,6 @@
 				""
 				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description4}"
 				""
-				"{ftbquests.chapter.barrys_yard_sale.quest4140933213205700549.description5}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1389,44 +1376,16 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "species:crankbow"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "species:scattershot"
-						lvl: 1s
-					}]
-					RepairCost: 1
-					display: {
-						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.5\"}"
-					}
-				}
-			}
+			icon: "rats:rat_upgrade_biplane_mount"
 			id: "5198C6BA616C90BC"
 			rewards: [{
-				id: "1E6B5A792B59B726"
-				item: {
-					Count: 1
-					id: "species:crankbow"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "species:scattershot"
-							lvl: 1s
-						}]
-						RepairCost: 1
-						display: {
-							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.5\"}"
-						}
-					}
-				}
+				id: "2FA7A7AD9D341AD8"
+				item: "rats:rat_upgrade_biplane_mount"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5879667817332904124.subtitle}"
 			tasks: [{
-				amount: 300L
+				amount: 1500L
 				currency: "eternalcurrencies:coins"
 				id: "7E68A9874146A055"
 				type: "eternalcurrencies:currency"
@@ -1537,7 +1496,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest5678238410744804635.subtitle}"
 			tasks: [{
-				amount: 500L
+				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "23F6A86EB917A8D7"
 				type: "eternalcurrencies:currency"
@@ -1661,6 +1620,87 @@
 			}]
 			title: "&eYard Sale:&r Sculk Pizza "
 			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description7}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mekanismgenerators:wind_generator"
+			id: "176BA8DF6CE01411"
+			rewards: [{
+				id: "36C660DCD62333E3"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			subtitle: "Purchase Wind Generator"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:coins"
+				id: "640DF55935494627"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Wind Generator"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:torch"
+			id: "67E144F0188C69E9"
+			rewards: [{
+				count: 32
+				id: "691C4D775432969C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Purchase x32 Torches"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "3559D9191B76DD2D"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Torches"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:dimensional_carver"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2ABA52C2E7B0CEF8"
+			rewards: [{
+				id: "39FC0AD586F95840"
+				item: {
+					Count: 1
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Dimensional Carver"
+			tasks: [{
+				amount: 5000L
+				currency: "eternalcurrencies:coins"
+				id: "0DE4D40860669FD1"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Dimensional Carver"
+			x: 4.0d
 			y: 8.0d
 		}
 	]
