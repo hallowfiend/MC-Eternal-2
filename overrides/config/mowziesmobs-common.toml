@@ -56,7 +56,7 @@
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 3.6
+		attack_multiplier = 4.0
 		#Set to true for the ice crystal to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
@@ -124,7 +124,7 @@
 	[tools_and_abilities.earthrend_gauntlet]
 		#Multiply all damage done with the Earthrend Gauntlet by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 3.8
+		attack_multiplier = 4.0
 		#Set to true for the Earthrend Gauntlet to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
@@ -584,13 +584,13 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 3
+			spawn_rate = 6
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 2
 			#Maximum number of mobs that appear in a spawn group
 			#Range: > 1
-			max_group_size = 2
+			max_group_size = 3
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 0.4
@@ -618,7 +618,7 @@
 		[mobs.naga.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 2.0
+			health_multiplier = 3.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 7.5
