@@ -1,0 +1,19 @@
+#If the Quarky modifier's multiplication is applied to the currently calculated Damage rather than the Base Damage.
+opQuarky = false
+#How much the Quarky modifier increases Damage per valid stack.
+#Range: 0.001 ~ 1.0
+quarkyEffectPerStack = 0.05
+#How many hits are required for Overcharging to add Overslime to all worn armor that accepts it.
+#Range: 1 ~ 100
+overchargingHits = 5
+#Delay in Ticks between attempts by items with the Overmending modifier to drain charge and gain Overslime.
+#Range: 1 ~ 1200
+overmendingRechargeFrequency = 200
+#Window of time after attacking in which the Deflecting modifier can be used.
+#Range: 5 ~ 100
+deflectingWindow = 80
+#Base Cooldown after using the Deflecting modifier's Block.
+#This value is divided by the tool's Attack Speed to produce the applied cooldown.
+#Range: 5 ~ 200
+deflectingBaseCooldown = 30
+
