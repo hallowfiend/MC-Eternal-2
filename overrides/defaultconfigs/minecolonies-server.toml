@@ -95,7 +95,7 @@
 	maxdistancefromworldspawn = 2147483647
 	#Min distance (in blocks) from world spawn for a colony. [Default: 0, min: 0, max: 1000]
 	#Range: 0 ~ 1000
-	mindistancefromworldspawn = 512
+	mindistancefromworldspawn = 0
 
 #All configuration items related to the combat elements of MineColonies
 [combat]
@@ -126,7 +126,7 @@
 	pvp_mode = false
 	#minecolonies.config.guarddamagemultiplier.comment [Default: 1.000000, min: 0.100000, max: 15.000000]
 	#Range: 0.1 ~ 15.0
-	guardDamageMultiplier = 5.5
+	guardDamageMultiplier = 6.5
 
 #All permission configuration options
 [permissions]
