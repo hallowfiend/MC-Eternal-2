@@ -3472,10 +3472,7 @@
 								Count: 1b
 								id: "irons_spellbooks:protection_upgrade_orb"
 							}
-							{
-								Count: 1b
-								id: "alshanex_familiars:sound_upgrade_orb"
-							}
+						
 							{
 								Count: 1b
 								id: "cataclysm_spellbooks:abyssal_upgrade_orb"
