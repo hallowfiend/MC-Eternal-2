@@ -165,14 +165,6 @@
 			y: 14.294897959183679d
 		}
 		{
-			height: 2.0d
-			image: "alshanex_familiars:item/upgrade_orb_sound"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.7758503401360457d
-			y: 13.997959183673458d
-		}
-		{
 			height: 0.4d
 			image: "relics:item/fragrant_flower"
 			rotation: 0.0d
@@ -262,7 +254,7 @@
 		}
 		{
 			height: 3.0d
-			image: "ftblibrary:icons/controller"
+			image: "amendments:block/music_discs/cataclysm/music_disc_the_harbinger"
 			rotation: 0.0d
 			width: 3.0d
 			x: 18.985714285714288d
@@ -307,14 +299,6 @@
 			width: 3.0d
 			x: 10.0d
 			y: -24.0d
-		}
-		{
-			height: 2.0d
-			image: "alshanex_familiars:item/upgrade_orb_swirl_sound"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.8044217687074706d
-			y: 13.997959183673458d
 		}
 		{
 			height: 4.0d
@@ -470,13 +454,20 @@
 				"{ftbquests.chapter.irons_spells_and_spellbooks.quest5864189743436766875.description6}"
 			]
 			id: "5161C98079099E9B"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "36AAF87752E10115"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "36AAF87752E10115"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "726A67E0A99C0A2B"
+					item: "irons_restrictions:fragment"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				consume_items: false
@@ -632,6 +623,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0353D0438E7EC42C"
+					item: "irons_restrictions:unfinished_manuscript"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "461985041258E475"
@@ -718,13 +714,20 @@
 			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest2055641086258977452.description1}"]
 			icon: "irons_spellbooks:cinder_essence"
 			id: "1C871AAD3C2A1AAC"
-			rewards: [{
-				amount: 150L
-				currency: "eternalcurrencies:coins"
-				id: "14DDDBFEAF88DC53"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "14DDDBFEAF88DC53"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "19859559847CC1B6"
+					item: "irons_restrictions:unfinished_manuscript"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "74D716796B517B4C"
 				item: "irons_spellbooks:cinder_essence"
@@ -2257,132 +2260,6 @@
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"7C291600402C8DFF"
-				"60D2F8A46F9CAFBF"
-			]
-			description: [""]
-			id: "4C16CCFE24538F0F"
-			rewards: [{
-				amount: 80L
-				currency: "eternalcurrencies:coins"
-				id: "28B1858B95C2CAE9"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.subtitle}"
-			tasks: [{
-				id: "7625D641A9ABE596"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "alshanex_familiars:sound_spell_book"
-								tag: {
-									ISB_Spells: {
-										data: [ ]
-										maxSpells: 10
-										mustEquip: 1b
-										spellWheel: 1b
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "alshanex_familiars:familiar_spellbook"
-								tag: {
-									ISB_Spells: {
-										data: [ ]
-										maxSpells: 10
-										mustEquip: 1b
-										spellWheel: 1b
-									}
-								}
-							}
-						]
-					}
-				}
-				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.task.8513446248121623958.title}"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest5482794988273372943.title}"
-			x: 0.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["79E22E61B3D7F832"]
-			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.description1}"]
-			id: "746FDCADDE8671C7"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "76FA46E76D9437E5"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "65912DA520AE43C2"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ias_spellbooks:magispellers_legacy"
-								tag: {
-									ISB_Spells: {
-										data: [{
-											id: "ias_spellbooks:restorative_rain"
-											index: 0
-											level: 5
-											locked: 1b
-										}]
-										maxSpells: 12
-										mustEquip: 1b
-										spellWheel: 1b
-									}
-								}
-							}
-							{
-								Count: 1b
-								id: "ias_spellbooks:book_of_dark_mutations"
-								tag: {
-									ISB_Spells: {
-										data: [
-											{
-												id: "ias_spellbooks:dragline"
-												index: 0
-												level: 10
-												locked: 1b
-											}
-											{
-												id: "ias_spellbooks:pumpkin_spice"
-												index: 1
-												level: 3
-												locked: 1b
-											}
-										]
-										maxSpells: 12
-										mustEquip: 1b
-										spellWheel: 1b
-									}
-								}
-							}
-						]
-					}
-				}
-				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.task.7318681056694911938.title}"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest8390167270135329223.title}"
-			x: 1.0d
-			y: 9.0d
-		}
-		{
 			dependencies: ["1216AEB3FB47642F"]
 			id: "0A2E4B027C2D4E89"
 			rewards: [{
@@ -3314,47 +3191,23 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"483F44B451C33BCD"
-				"0DD6705B00E9AFBE"
-			]
-			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.description1}"]
-			id: "652FD4B14D238A98"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "6FDC8F2E5CAD295F"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "7F6CD11294971BFA"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "irons_spellbooks:salvageable_curio"
-					}
-				}
-				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.task.9181943618034146298.title}"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest7291280179704597144.title}"
-			x: 5.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["791BEBC41E54EE77"]
 			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest5205955235520134093.description1}"]
 			id: "483F44B451C33BCD"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "56B4E3A66369957D"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "56B4E3A66369957D"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "24030E0286AD6B7E"
+					item: "irons_restrictions:unfinished_manuscript"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -3388,7 +3241,7 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "7933957F08F4A030"
+					id: "3628F3254B84FCC1"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
@@ -3403,18 +3256,8 @@
 					type: "item"
 				}
 				{
-					id: "3628F3254B84FCC1"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							HideFlags: 33
-							display: {
-								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
-							}
-							type: "quest_loot"
-						}
-					}
+					id: "5AD9E761350C38BD"
+					item: "irons_restrictions:unfinished_manuscript"
 					type: "item"
 				}
 			]
@@ -3697,13 +3540,20 @@
 		{
 			dependencies: ["483F44B451C33BCD"]
 			id: "128D84A63C435A60"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "263CF146F450DF90"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "263CF146F450DF90"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2FC246AC23A53391"
+					item: "irons_restrictions:unfinished_manuscript"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "46BD87ACA3F74D51"
 				item: {
@@ -5101,33 +4951,6 @@
 			y: 17.0d
 		}
 		{
-			description: ["{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.description1}"]
-			icon: {
-				Count: 1
-				id: "alexsmobs:tab_icon"
-				tag: {
-					DisplayEntityType: "alshanex_familiars:bard_pet"
-					DisplayMobScale: 2.0d
-				}
-			}
-			id: "60D2F8A46F9CAFBF"
-			rewards: [{
-				amount: 80L
-				currency: "eternalcurrencies:coins"
-				id: "0915C47B7C113540"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			tasks: [{
-				id: "0A3F97B18E076D1C"
-				title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.task.738475652759907612.title}"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest6976912157881184191.title}"
-			x: 2.0d
-			y: 13.0d
-		}
-		{
 			description: [""]
 			icon: {
 				Count: 1
@@ -5138,13 +4961,20 @@
 				}
 			}
 			id: "2E93490E1274F9F3"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "0F49794273988A38"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "0F49794273988A38"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "69AECCDE4EE09A48"
+					item: "irons_restrictions:unfinished_manuscript"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.irons_spells_and_spellbooks.quest3356106472109177331.subtitle}"
 			tasks: [{
 				entity: "minecraft:hoglin"
@@ -5237,6 +5067,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6B8DFD3501314129"
+					item: "irons_restrictions:unfinished_manuscript"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57553BF691A25593"
+					table_id: 3509111899537109183L
+					type: "choice"
+				}
 			]
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
@@ -5283,6 +5124,17 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "29CE145D49CB9C2B"
+					item: "irons_restrictions:unfinished_manuscript"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3440C553C4EFDD70"
+					table_id: 3509111899537109183L
+					type: "choice"
 				}
 			]
 			tasks: [{
@@ -5402,6 +5254,97 @@
 			title: "{ftbquests.chapter.irons_spells_and_spellbooks.quest1220284491402482986.title}"
 			x: 4.0d
 			y: -23.0d
+		}
+		{
+			dependencies: ["5161C98079099E9B"]
+			description: [
+				"Most spells except for the default Fireball (and spells that are imbued to weapons) must be researched before they can be cast! The &eUnfinished Manuscript&r can be crafted and researchs one random spell upon being used! It has a 30% chance of failure however!"
+				""
+				"&6Tip:&r You can craft finished manuscripts for each spell school to pick what spell you want to unlock! This is far more reliable!"
+			]
+			id: "5A219058111F3D94"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "56FEA88D6A71BF28"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C6C05BB71CDEE33"
+					table_id: 3509111899537109183L
+					type: "choice"
+				}
+			]
+			subtitle: "Obtain an &eUnfinished Manuscript"
+			tasks: [{
+				id: "256A24EBBF01A67D"
+				item: "irons_restrictions:unfinished_manuscript"
+				type: "item"
+			}]
+			title: "The Wizardly Scholar"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["308882A4A4DF3E7F"]
+			description: ["In order to be powerful enough to cast Legendary Spells, you must craft and use the &eLegendary Upgrade"]
+			id: "3E2C1A3F65EA95EC"
+			optional: true
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "6501EF1EC1A26896"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29E14368C816C9E6"
+					table_id: 3509111899537109183L
+					type: "choice"
+				}
+			]
+			subtitle: "Craft an &eLegendary Upgrade"
+			tasks: [{
+				id: "54B22563434BAB40"
+				item: "irons_restrictions:legendary_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A219058111F3D94"]
+			description: ["In order to be powerful enough to cast Epic Spells, you must craft and use the &eEpic Upgrade"]
+			id: "308882A4A4DF3E7F"
+			optional: true
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "71802B9289962765"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FF0748B443F2CB9"
+					table_id: 3509111899537109183L
+					type: "choice"
+				}
+			]
+			subtitle: "Craft an &eEpic Upgrade"
+			tasks: [{
+				id: "17C1EDDE0C0BD49E"
+				item: "irons_restrictions:epic_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.irons_spells_and_spellbooks.title}"
