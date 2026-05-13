@@ -178,17 +178,7 @@
     "result":"deny",
     "when": "onjoin"
   },
-  {
-    "mod":"illageandspillage",
-    "gamestage":"expert",
-    "result":"default",
-    "when": "onjoin"
-  },
-  {
-    "mod":"illageandspillage",
-    "result":"deny",
-    "when": "onjoin"
-  },
+ 
   {
     "mod": "alexsmobs",
     "when": "finalize",
@@ -198,12 +188,12 @@
     "speedmultiply": 1.0
   },
   {
-    "mod": "alshanex_familiars",
+    "mod": "irons_spellbooks:ice_spider",
     "when": "onjoin",
     "result": "allow",
     "healthmultiply": 3.0,
     "damagemultiply": 2.5,
-    "speedmultiply": 1.0
+    "speedmultiply": 1.1
   },
   {
     "mod": "ars_nouveau",
