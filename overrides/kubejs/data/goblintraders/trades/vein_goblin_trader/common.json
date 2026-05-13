@@ -162,13 +162,13 @@
     {
       "type": "goblintraders:basic",
       "experience": 4,
-		"max_trades": 3,
+		"max_trades": 4,
       "offer_item": {
-        "count": 1,
+        "count": 4,
         "item": "irons_restrictions:fragment"
       },
       "payment_item": {
-        "count": 1,
+        "count": 25,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
