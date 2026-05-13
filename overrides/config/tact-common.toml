@@ -132,7 +132,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	boundroidWrinchArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	brainiacWrinchMaxHealth = 40.0
+	brainiacWrinchMaxHealth = 80.0
 	#Range: 1.0 ~ 1000000.0
 	brainiacAttackDamage = 35.0
 	#Range: 0.0 ~ 1000000.0
@@ -308,7 +308,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 1.0 ~ 1000000.0
 	tremorsaurusMaxHealth = 860.0
 	#Range: 1.0 ~ 1000000.0
-	tremorsaurusAttackDamage = 85.0
+	tremorsaurusAttackDamage = 45.0
 	#Range: 0.0 ~ 1000000.0
 	tremorsaurusArmor = 35.0
 	#Range: 1.0 ~ 1000000.0
@@ -354,9 +354,9 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	tripodfishArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	underzealotMaxHealth = 20.0
+	underzealotMaxHealth = 90.0
 	#Range: 1.0 ~ 1000000.0
-	underzealotAttackDamage = 4.0
+	underzealotAttackDamage = 16.0
 	#Range: 0.0 ~ 1000000.0
 	underzealotArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
@@ -372,7 +372,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	vesperArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	watcherMaxHealth = 60.0
+	watcherMaxHealth = 90.0
 	#Range: 1.0 ~ 1000000.0
 	watcherAttackDamage = 34.0
 	#Range: 0.0 ~ 1000000.0
