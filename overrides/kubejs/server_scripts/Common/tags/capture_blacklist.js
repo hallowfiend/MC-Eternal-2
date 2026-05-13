@@ -35,6 +35,7 @@ ServerEvents.tags("entity_type", event => {
     event.add("c:capturing_not_supported", [
         "#forge:bosses",
         "minecraft:warden",
+        "irons_spellbooks:cursed_armor_stand,
         "irons_spellbooks:citadel_keeper",
         "irons_spellbooks:pyromancer",
         "irons_spellbooks:archevoker",
