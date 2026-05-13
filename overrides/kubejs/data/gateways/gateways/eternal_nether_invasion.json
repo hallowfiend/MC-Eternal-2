@@ -7,6 +7,10 @@
                     "entity": "cataclysm:draugr",
                     "count": 2
                 },
+                 {
+                    "entity": "goety:bone_spider",
+                    "count": 1
+                },
                 {
                     "entity": "cataclysm:elite_draugr",
                     "count": 1
@@ -36,6 +40,14 @@
                     "entity": "cataclysm:draugr",
                     "count": 4
                 },
+                 {
+                    "entity": "goety:bone_spider",
+                    "count": 2
+                },
+                  {
+                    "entity": "goety:wraith",
+                    "count": 1
+                },
                 {
                     "entity": "cataclysm:elite_draugr",
                     "count": 1
@@ -64,6 +76,14 @@
                 {
                     "entity": "cataclysm:draugr",
                     "count": 5
+                },
+                 {
+                    "entity": "goety:bone_spider",
+                    "count": 2
+                },
+                  {
+                    "entity": "goety:wraith",
+                    "count": 1
                 },
                   {
                     "entity": "cataclysm:royal_draugr",
@@ -116,7 +136,7 @@
             
                 {
                     "entity": "cataclysm:draugr",
-                    "count": 6
+                    "count": 3
                 },
                   
                 {
@@ -126,6 +146,41 @@
                 {
                     "entity": "cataclysm:elite_draugr",
                     "count": 2
+                },
+                 {
+                    "entity": "goety:cairn_necromancer",
+                    "desc": "Eternal Warlock",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Eternal Warlock\",\"color\":\"dark_purple\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "modifiers": [
+                        
+                       
+                        {
+                            "attribute": "attributeslib:armor_shred",
+                            "operation": "ADDITION",
+                            "value": 0.4
+                        },
+                        {
+                            "attribute": "attributeslib:prot_shred",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        },
+                        {
+                            "attribute": "generic.attack_knockback",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        },
+                        {
+                            "attribute": "generic.knockback_resistance",
+                            "operation": "ADDITION",
+                            "value": 0.1
+                        }
+                    ],
+                    "count": 1,
+                    "finalize_spawn": false
                 }
             ],
             "modifiers": [
@@ -179,7 +234,10 @@
             "entities": [
                 
             
-               
+               {
+                    "entity": "goety:wraith",
+                    "count": 2
+                },
             
                 
                    {
@@ -261,7 +319,7 @@
                     "modifiers": [
                         {
                             "type": "gateways:gear_set",
-                            "gear_set": "gateways:gold_with_axe"
+                            "gear_set": "gateways:eternal"
                         },
                         {
                             "attribute": "generic.max_health",
