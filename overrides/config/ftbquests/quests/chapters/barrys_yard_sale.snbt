@@ -465,7 +465,7 @@
 				tag: {
 					HideFlags: 33
 					display: {
-						Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+						Name: "{\"late\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 					}
 					type: "quest_loot"
 				}
@@ -479,7 +479,7 @@
 					tag: {
 						HideFlags: 33
 						display: {
-							Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							Name: "{\"late\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
 						}
 						type: "quest_loot"
 					}
@@ -693,7 +693,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.subtitle}"
 			tasks: [{
-				amount: 2000L
+				amount: 2500L
 				currency: "eternalcurrencies:coins"
 				id: "15D985D888F354CB"
 				type: "eternalcurrencies:currency"
