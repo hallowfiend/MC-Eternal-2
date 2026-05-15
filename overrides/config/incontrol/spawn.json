@@ -73,6 +73,19 @@
     "result": "deny"
   },
    {
+    "mod": "minecraft",
+    "when": "onjoin",
+    "biome": [
+      "alexscaves:abyssal_chasm",
+      "alexscaves:forlorn_hollows",
+      "alexscaves:primordial_caves",
+      "alexscaves:magnetic_caves",
+      "alexscaves:toxic_caves",
+      "alexscaves:candy_cavity"
+    ],
+    "result": "deny"
+  },
+   {
     "mod": "species",
     "when": "onjoin",
     "biome": [
