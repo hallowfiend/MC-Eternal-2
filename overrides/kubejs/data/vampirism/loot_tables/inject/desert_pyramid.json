@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vampirism:item_garlic",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.6,
+                "min": 0.6
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:blood_bottle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "vampirism:add_book_nbt"
+            }
+          ],
+          "name": "vampirism:vampire_book",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 60
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "vampirism:vampire",
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:amulet"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "vampirism:vampire",
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:ring"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "vampirism:vampire",
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:obi_belt"
+        }
+      ],
+      "rolls": 0.0
+    }
+  ],
+  "random_sequence": "vampirism:inject/desert_pyramid"
+}

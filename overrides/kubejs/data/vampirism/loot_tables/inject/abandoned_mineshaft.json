@@ -1,0 +1,255 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vampirism:vampire_fang",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vampirism:item_garlic",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:blood_bottle",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "vampirism:add_book_nbt"
+            }
+          ],
+          "name": "vampirism:vampire_book",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 40
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 0.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.3
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:armor_of_swiftness_head_ultimate",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.3
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:armor_of_swiftness_chest_ultimate",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.3
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:armor_of_swiftness_legs_ultimate",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.3
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:armor_of_swiftness_feet_ultimate",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 88
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.3
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:hunter_axe_ultimate",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.3
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:heart_seeker_enhanced",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.3
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:heart_striker_enhanced",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 60
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vampirism:holy_water_bottle_normal",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vampirism:holy_water_bottle_enhanced",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vampirism:holy_water_bottle_ultimate",
+          "weight": 1
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "vampirism:vampire",
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:amulet"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "vampirism:vampire",
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:ring"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "vampirism:vampire",
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:obi_belt"
+        }
+      ],
+      "rolls": 0.0
+    }
+  ],
+  "random_sequence": "vampirism:inject/abandoned_mineshaft"
+}
