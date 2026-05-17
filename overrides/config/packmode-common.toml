@@ -1,5 +1,5 @@
 #The current Pack Mode
-"Pack Mode" = "Normal"
+"Pack Mode" = "Default"
 #All valid Pack Modes
-"Valid PackModes" = ["Normal", "Expert"]
+"Valid PackModes" = ["Calm", "Default"]
 
