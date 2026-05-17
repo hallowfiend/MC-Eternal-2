@@ -1,4 +1,6 @@
 ItemEvents.tooltip(event => {
+	event.add('alexscaves:quarry', 'Place a Magnetic Activator below the Quarry to increase efficiency!')
+	event.add('alexscaves:magnetic_activator', 'Can be placed below the Quarry to increase efficiency!')
 	event.add('botania:laputa_shard', Text.translate("tooltip.mce2.botania.laputa_shard").color('#FFFFFF')); 
 	event.add('%gateways', Text.translate("tooltip.mce2.gateways").color('#FFFFFF')); 
 	event.add('%pitchperfect', Text.translate("tooltip.mce2.pitchperfect").color('#FFFFFF')); 
