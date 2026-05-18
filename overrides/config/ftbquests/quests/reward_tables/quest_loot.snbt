@@ -470,11 +470,11 @@
 						}
 						{
 							level: 2
-							name: "tconstruct:jagged"
+							name: "tconstruct:pierce"
 						}
 						{
 							level: 2
-							name: "tconstruct:pierce"
+							name: "tconstruct:jagged"
 						}
 					]
 					tic_multipliers: {
@@ -5401,6 +5401,149 @@
 		{ item: "rats:confit_byaldi" }
 		{ item: "rats:rat_and_crossbones_banner_pattern" }
 		{ item: "cataclysm_spellbooks:mechanical_brace" }
+		{ item: "rats:vial_of_sentience" }
+		{ item: "irons_spellbooks:graybeard_staff" }
+		{ item: "irons_restrictions:unfinished_manuscript" }
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:rotten_spell_book"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:furled_map"
+				tag: {
+					display: {
+						Lore: ["{\"color\":\"gold\",\"translate\":\"item.irons_spellbooks.furled_map_descriptor_framing\",\"with\":[{\"translate\":\"item.irons_spellbooks.evoker_fort_battle_plans\"}]}"]
+					}
+					"irons_spellbooks:furled_map_data": {
+						descriptionOverride: {
+							translate: "item.irons_spellbooks.evoker_fort_battle_plans"
+						}
+						destination: "irons_spellbooks:evoker_fort"
+						dimension: "minecraft:overworld"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "irons_spellbooks:hither_thither_wand"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:portal"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+		}
+		{ item: "alexscaves:tremorsaurus_egg" }
+		{ item: "iceandfire:dragonegg_amythest" }
+		{ item: "cataclysm:aptrgangr_head" }
+		{ count: 16, item: "iceandfire:hydra_arrow" }
+		{ count: 3, item: "species:hopelight" }
+		{ count: 3, item: "species:speclight" }
+		{ item: "species:wicked_candle" }
+		{
+			item: {
+				Count: 1
+				id: "species:crankbow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "species:ricoshield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "species:chaindelier" }
+		{ item: "species:youth_potion" }
+		{ item: "species:ancient_pinecone" }
+		{ item: "royalvariations:spectral_gauntlet" }
+		{
+			item: {
+				Count: 1
+				id: "royalvariations:royal_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 3, item: "royalvariations:royal_bomb" }
+		{
+			item: {
+				Count: 1
+				id: "royalvariations:royal_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alekiships:cannon" }
+		{ item: "enderio:enderman_head" }
+		{ item: "netherexp:ectoplasm_bucket" }
+		{ item: "irons_spellbooks:arcane_anvil" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:troll_weapon_trunk"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "biomancy:modular_larynx" }
+		{ item: "enchlibathome:library" }
+		{ item: "alexscaves:scarlet_magnet" }
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 16383998
+					clothColor: 16383998
+				}
+			}
+		}
+		{ item: "botania:mana_bottle" }
+		{ item: "brewinandchewin:dread_nog" }
+		{ item: "alexscaves:quarry_smasher" }
+		{
+			item: {
+				Count: 1
+				id: "thegreatbelow:high_resonance_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 8, item: "integrateddynamics:crystalized_menril_chunk" }
+		{ item: "netherexp:ancient_skeleton_skull_candle" }
+		{ item: "irons_spellbooks:concentration_amulet" }
 	]
 	title: "{ftbquests.loot_table.5682295257556819944.title}"
 	use_title: true
