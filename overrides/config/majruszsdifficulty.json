@@ -659,7 +659,7 @@
           "chests": [
             "minecraft:chests/simple_dungeon"
           ],
-          "chance": 0.5
+          "chance": 0.3
         },
         {
           "loot": "majruszsdifficulty:gameplay/cursed_armor_stronghold",
