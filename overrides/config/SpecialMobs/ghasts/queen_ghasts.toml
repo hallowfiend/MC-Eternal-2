@@ -27,8 +27,8 @@
   #   * 0.6" ]
   #    Range for Values: Any Value
   general.attributes = [
-    "minecraft:generic.max_health + 20.0",
-    "minecraft:generic.attack_damage + 2.0",
+    "minecraft:generic.max_health + 250.0",
+    "minecraft:generic.attack_damage + 80.0",
     "minecraft:generic.movement_speed * 0.6"
   ]
 
@@ -84,7 +84,7 @@
     general.special_data.ranged_attack.charge_time = 20
     # The total delay (in ticks) queen ghasts wait between each ranged attack. (20 ticks = 1 second)
     # <Integer> Range: ≥ 0, Default: 60
-    general.special_data.ranged_attack.refire_time = 60
+    general.special_data.ranged_attack.refire_time = 15
     # The maximum distance (in blocks) at which queen ghasts can use their ranged attacks. 0 disables ranged attacks.
     # <Number> Range: ≥ 0.0, Default: 64.0
     general.special_data.ranged_attack.max_range = 64.0
@@ -97,10 +97,10 @@
   # <Integer> Range: ≥ 0, Default: 3
   queen.babies.min = 3
   # <Integer> Range: ≥ 0, Default: 6
-  queen.babies.max = 6
+  queen.babies.max = 8
 
   # The minimum and maximum (inclusive) number of times queen ghasts can summon minions.
   # <Integer> Range: ≥ 0, Default: 4
   queen.summons.min = 4
   # <Integer> Range: ≥ 0, Default: 10
-  queen.summons.max = 10
+  queen.summons.max = 12
