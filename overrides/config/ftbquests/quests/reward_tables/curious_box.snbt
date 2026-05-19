@@ -805,54 +805,27 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "vista:cassette"
-				tag: {
-					cassette_tape: "vista:notsoon"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "vista:cassette"
-				tag: {
-					cassette_tape: "vista:67"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "vista:cassette"
-				tag: {
-					cassette_tape: "vista:maze3d"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "vista:cassette"
-				tag: {
-					cassette_tape: "vista:tower"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "vista:cassette"
-				tag: {
-					cassette_tape: "vista:cyclops"
-				}
-			}
-		}
 		{ item: "goety:ominous_shackles" }
 		{ item: "alexscaves:sack_of_sating" }
 		{ item: "farmingforblockheads:market" }
+		{
+			item: {
+				Count: 1
+				id: "royalvariations:royal_knight_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:projectile_protection"
+						lvl: 3s
+					}]
+					RepairCost: 1
+				}
+			}
+		}
+		{ item: "majruszsdifficulty:undead_battle_standard" }
+		{ item: "compressedcreativity:air_blower" }
+		{ item: "enderio:enchanter" }
+		{ item: "pneumaticcraft:vacuum_trap" }
 	]
 	title: "{ftbquests.loot_table.7614141430405098414.title}"
 }

@@ -157,15 +157,6 @@
 		{
 			item: {
 				Count: 1
-				id: "relics:rage_glove"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "artifacts:umbrella"
 				tag: {
 					Damage: 0
@@ -1288,7 +1279,6 @@
 			}
 		}
 		{ item: "minecraft:anvil" }
-		{ item: "illageandspillage:totem_of_banishment" }
 		{ item: "botania:tiny_potato" }
 		{
 			item: {
@@ -1362,7 +1352,6 @@
 				}
 			}
 		}
-		{ item: "illageandspillage:totem_of_banishment" }
 		{ item: "goety:music_disc_apostle" }
 		{ item: "mekanism:flamethrower" }
 		{ item: "supplementaries:clock_block" }
@@ -4254,21 +4243,6 @@
 				}
 			}
 		}
-		{ item: "goety_spillage:factory_package" }
-		{ item: "goety_spillage:hinder_package" }
-		{ item: "goety_spillage:chagrin_package" }
-		{
-			item: {
-				Count: 1
-				id: "goety_spillage:engineer_mallet"
-				tag: {
-					Damage: 0
-					etstlib_tool_uuid: "d33840bb-6112-4b5e-aeee-8804ab30de9e"
-				}
-			}
-		}
-		{ item: "goety_spillage:pumpkin_bomb" }
-		{ item: "goety_spillage:skull_bomb" }
 		{ count: 3, item: "minecraft:emerald" }
 		{ item: "irons_spellbooks:emerald_stoneplate_ring" }
 		{
@@ -5265,7 +5239,6 @@
 		{ item: "kubejs:ingot_thousand_metals" }
 		{ item: "kubejs:chocolate_coin" }
 		{ item: "kubejs:sunscreen" }
-		{ count: 6, item: "goety_spillage:skull_bomb" }
 		{ item: "cataclysm:azure_seastone_mural_underworld" }
 		{ item: "mcwwindows:key" }
 		{ item: "cloudstorage:cotton_candy" }
@@ -5544,6 +5517,43 @@
 		{ count: 8, item: "integrateddynamics:crystalized_menril_chunk" }
 		{ item: "netherexp:ancient_skeleton_skull_candle" }
 		{ item: "irons_spellbooks:concentration_amulet" }
+		{ item: "species:smoke_bomb" }
+		{ item: "alexscaves:glow_ink_bomb" }
+		{ item: "supplementaries:bomb_blue" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:troll_weapon_trunk"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 32, item: "minecraft:andesite" }
+		{
+			item: {
+				Count: 1
+				id: "immersive_machinery:bamboo_bee"
+				tag: {
+					ContainerPositions: [ ]
+				}
+			}
+		}
+		{ item: "immersive_machinery:redstone_sheep" }
+		{
+			item: {
+				Count: 1
+				id: "royalvariations:royal_knight_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:projectile_protection"
+						lvl: 3s
+					}]
+					RepairCost: 1
+				}
+			}
+		}
 	]
 	title: "{ftbquests.loot_table.5682295257556819944.title}"
 	use_title: true
