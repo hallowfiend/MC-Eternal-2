@@ -3,25 +3,25 @@
     "constructs_casting:adornment": {},
     "tconstruct:binding": {},
     "tconstruct:grip": {
-      "accuracy": -0.05,
-      "durability": -0.1,
+      "accuracy": 0.05,
+      "durability": 0.1,
       "melee_damage": 1.4
     },
     "tconstruct:handle": {
-      "durability": -0.1,
+      "durability": 0.1,
       "melee_damage": 0.2,
-      "melee_speed": -0.1,
+      "melee_speed": 0.1,
       "mining_speed": -0.15
     },
     "tconstruct:head": {
-      "durability": 1871,
-      "melee_attack": 5.4,
-      "mining_speed": 6.0,
+      "durability": 2871,
+      "melee_attack": 5.9,
+      "mining_speed": 8.6,
       "mining_tier": "minecraft:netherite"
     },
     "tconstruct:limb": {
-      "accuracy": -0.05,
-      "draw_speed": -0.2,
+      "accuracy": 0.05,
+      "draw_speed": 0.2,
       "durability": 1671,
       "velocity": 0.2
     }
