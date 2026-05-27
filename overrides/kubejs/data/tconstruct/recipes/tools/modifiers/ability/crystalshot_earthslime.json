@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "allow_crystal": false,
+  "inputs": [
+    {
+      "item": "tconstruct:earth_slime_crystal_cluster"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "tconstruct:earth_slime_crystal_cluster"
+    },
+    {
+      "item": "amethyst_tools:enchanted_alloy"
+    },
+    {
+      "item": "amethyst_tools:enchanted_alloy"
+    }
+  ],
+  "result": {
+    "name": "tconstruct:crystalshot",
+    "value": "earthslime"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/ranged/bows"
+  }
+}
