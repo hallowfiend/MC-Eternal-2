@@ -66,19 +66,8 @@
             "weirdness": -0.4,
             "offset": 0.0
           }
-        },
-        {
-  "biome": "alexscaves:toxic_caves",
-  "parameters": {
-    "temperature": -0.6,
-    "humidity": 0.8,
-    "continentalness": -0.3,
-    "erosion": 0.4,
-    "depth": 0.0,
-    "weirdness": 0.7,
-    "offset": 0.0
-  }
-}
+        }
+    
       ]
     },
     "settings": "mce:dwarven_depths"
