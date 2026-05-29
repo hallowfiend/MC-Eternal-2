@@ -111,6 +111,18 @@
       "minCount": 1,
       "maxCount": 3
     },
+            {
+      "type": "mowziesmobs:bluff",
+      "weight": 250,
+      "minCount": 1,
+      "maxCount": 3
+    },
+              {
+      "type": "thermal:basalz",
+      "weight": 250,
+      "minCount": 1,
+      "maxCount": 3
+    },
     {
       "type": "creeperoverhaul:cave_creeper",
       "weight": 160,
