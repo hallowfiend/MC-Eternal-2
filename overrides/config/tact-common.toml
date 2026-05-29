@@ -360,15 +360,15 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	underzealotArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	vallumraptorMaxHealth = 34.0
+	vallumraptorMaxHealth = 44.0
 	#Range: 1.0 ~ 1000000.0
 	vallumraptorAttackDamage = 9.0
 	#Range: 0.0 ~ 1000000.0
 	vallumraptorArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	vesperMaxHealth = 16.0
+	vesperMaxHealth = 46.0
 	#Range: 1.0 ~ 1000000.0
-	vesperAttackDamage = 3.0
+	vesperAttackDamage = 16.0
 	#Range: 0.0 ~ 1000000.0
 	vesperArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
