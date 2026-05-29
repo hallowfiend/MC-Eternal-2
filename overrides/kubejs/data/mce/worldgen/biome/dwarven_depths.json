@@ -50,8 +50,7 @@
          [
       "alexscaves:amber_monolith",
       "alexscaves:volcano_boulder",
-      "alexscaves:tesla_bulb",
-      "alexscaves:azure_magnetic_node"
+      "alexscaves:tesla_bulb"
     ],
         [
             "minecraft:ore_coal_upper",
