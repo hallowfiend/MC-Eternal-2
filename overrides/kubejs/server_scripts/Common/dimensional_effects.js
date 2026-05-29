@@ -19,13 +19,14 @@ const addDimensionalEffect = (dim, effect, amp, duration, visible, condition) =>
         ? dimEffects.get(dim).push(effectObj)
         : dimEffects.put(dim, [effectObj]);
 }
-
+//great below
 addDimensionalEffect("thegreatbelow:thegreatbelow", "xaerominimap:no_waypoints", 0, 225, false)
 addDimensionalEffect("thegreatbelow:thegreatbelow", "xaerominimap:no_minimap", 0, 225, false)
 addDimensionalEffect("thegreatbelow:thegreatbelow", "xaeroworldmap:no_world_map", 0, 225, false)
 
-
-
+//dwarven depths
+addDimensionalEffect("mce:dwarven_depths", "goety:burn_hex", 0, 225, false)
+addDimensionalEffect("mce:dwarven_depths", "goety:nyctophobia", 2, 225, false)
 
 ServerEvents.tick(event => {
     //console.log(dimEffectTickCounter, dimEffectUpdateDelay)
