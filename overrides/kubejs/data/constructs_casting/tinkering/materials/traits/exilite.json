@@ -1,0 +1,22 @@
+{
+  "perStat": {
+    "constructs_casting:adornment": [
+      {
+        "level": 2,
+        "name": "constructs_casting:spell_dispulsion"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 2,
+        "name": "constructs_casting:spell_protection"
+      }
+    ],
+    "tconstruct:melee_harvest": [
+      {
+        "level": 3,
+        "name": "constructs_casting:antimagic"
+      }
+    ]
+  }
+}
