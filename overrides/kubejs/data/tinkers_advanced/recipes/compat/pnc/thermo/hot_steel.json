@@ -21,7 +21,7 @@
   "fluid_input": {
     "type": "pneumaticcraft:fluid",
     "amount": 1000,
-    "fluid": "tconstruct:blazing_blood"
+    "fluid": "tinkers_advanced:gaseous_lava"
   },
   "item_input": {
     "tag": "forge:ingots/steel"
