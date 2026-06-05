@@ -104,6 +104,12 @@
                 "minCount": 1,
                 "weight": 50
             },
+             {
+                "type": "illager_additions:shogun",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 50
+            },
             {
                 "type": "iceandfire:troll",
                 "maxCount": 2,
