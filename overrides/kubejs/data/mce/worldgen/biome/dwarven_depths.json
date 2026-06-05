@@ -99,6 +99,12 @@
         "misc": [],
         "monster": [
             {
+                "type": "illager_additions:beamloger",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 50
+            },
+            {
                 "type": "iceandfire:troll",
                 "maxCount": 2,
                 "minCount": 1,
@@ -114,7 +120,7 @@
       "type": "species:ghoul",
       "weight": 150,
       "minCount": 1,
-      "maxCount": 3
+      "maxCount": 2
     },
             {
       "type": "mowziesmobs:bluff",
@@ -143,7 +149,7 @@
     },
     {
       "type": "alexscaves:forsaken",
-      "weight": 1,
+      "weight": 40,
       "minCount": 1,
       "maxCount": 1
     },
@@ -161,14 +167,14 @@
     },
              {
       "type": "species:quake",
-      "weight": 10,
+      "weight": 20,
       "minCount": 1,
       "maxCount": 1
     },
         
              {
       "type": "goety:brood_mother",
-      "weight": 10,
+      "weight": 40,
       "minCount": 1,
       "maxCount": 1
     },
