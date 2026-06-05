@@ -90,6 +90,11 @@
       "weight": 100,
       "minCount": 1,
       "maxCount": 3
+    },  {
+      "type": "goety:volcano",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 1
     }],
         "misc": [],
         "monster": [
