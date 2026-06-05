@@ -148,6 +148,25 @@
       "minCount": 1,
       "maxCount": 2
     },
+            {
+      "type": "species:cliff_hanger",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    },
+             {
+      "type": "species:quake",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    },
+        
+             {
+      "type": "goety:brood_mother",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    },
     {
       "type": "alexsmobs:underminer",
       "weight": 70,
