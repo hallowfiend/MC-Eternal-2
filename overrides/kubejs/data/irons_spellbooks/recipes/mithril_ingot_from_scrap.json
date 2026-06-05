@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SDD",
+    "DD "
+  ],
+  "key": {
+    "S": {
+      "item": "irons_spellbooks:mithril_scrap"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "irons_spellbooks:mithril_ingot",
+    "count": 1
+  }
+}
