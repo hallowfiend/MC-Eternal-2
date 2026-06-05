@@ -1,7 +1,6 @@
 ItemEvents.tooltip(event => {
-	event.add('irons_restrictions:common_upgrade', 'You are already at this level!')
-	event.add('irons_restrictions:uncommon_upgrade', 'You are already at this level!')
-	event.add('irons_restrictions:rare_upgrade', 'You are already at this level!')
+	event.add('quark:diamond_heart', 'Can be used to activate a portal to The Dwarven Depths')
+	event.add('minecraft:raw_gold_block', 'Can be used to build a portal frame to The Dwarven Depths')
 	event.add('botania:laputa_shard', Text.translate("tooltip.mce2.botania.laputa_shard").color('#FFFFFF')); 
 	event.add('%gateways', Text.translate("tooltip.mce2.gateways").color('#FFFFFF')); 
 	event.add('%pitchperfect', Text.translate("tooltip.mce2.pitchperfect").color('#FFFFFF')); 
