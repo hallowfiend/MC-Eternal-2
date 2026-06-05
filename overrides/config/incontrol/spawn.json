@@ -1,4 +1,5 @@
 [
+ 
   {
     "mob":"vampirism:advanced_vampire",
     "when": "onjoin",
@@ -316,6 +317,7 @@
     "damagemultiply": 5.0,
     "speedmultiply": 1.0
   },
+  
   {
     "mod":"mutantmonsters",
     "gamestage":"master",
@@ -330,20 +332,36 @@
     "when": "onjoin"
   },
   {
-    "mob": "alexscaves:forsaken",
-    "dimension": "mce:dwarven_depths",
-    "maxcount": {
-      "amount": 1,
-      "perplayer": false,
-      "when": "onjoin"
-    }
+  "mob": "goety:brood_mother",
+  "dimension": "mce:dwarven_depths",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 2
   },
+  "result": "deny"
+},
+  {
+  "mob": "alexscaves:forsaken",
+  "dimension": "mce:dwarven_depths",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 2
+  },
+  "result": "deny"
+},
+
   {
     "mob": "alexscaves:forsaken",
     "dimension": "mce:dwarven_depths",
     "customname": "§4Durin's Bane",
     "result": "true",
-    "when": "onjoin"
+    "when": "onjoin",
+        "healthmultiply": 5.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
   },
   {
     "mob": "thermal:basalz",
@@ -362,8 +380,11 @@
     "result": "true",
     "when": "onjoin",
     "healthmultiply": 5.0,
-    "damagemultiply": 5.5,
-    "speedmultiply": 1.2
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
   },
   {
     "mob": "alexscaves:corrodent",
@@ -372,8 +393,11 @@
     "result": "true",
     "when": "onjoin",
     "healthmultiply": 5.0,
-    "damagemultiply": 5.5,
-    "speedmultiply": 1.2
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
   },
    {
     "mob": "alexsmobs:rocky_roller",
@@ -381,19 +405,61 @@
     "customname": "§4Ancient Rocky Roller",
     "result": "true",
     "when": "onjoin",
-    "healthmultiply": 5.0,
+    "healthmultiply": 3.5,
     "damagemultiply": 5.5,
-    "speedmultiply": 1.2
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
   },
   {
+    "mob": "species:quake",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Dwarven Automaton",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 1.5,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "species:cliff_hanger",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient CLiff Hanger",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 1.0,
+    "damagemultiply": 2.5,
+    "speedmultiply": 1.2
+  },
+   {
     "mob": "iceandfire:troll",
     "dimension": "mce:dwarven_depths",
     "customname": "§4Ancient Cave Troll",
     "result": "true",
     "when": "onjoin",
-    "healthmultiply": 2.5,
+    "healthmultiply": 3.5,
     "damagemultiply": 5.5,
-    "speedmultiply": 1.2
+    "speedmultiply": 1.1,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+    {
+    "mob": "goety:brood_mother",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Shelob",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 13.0,
+    "damagemultiply": 8.5,
+    "speedmultiply": 1.1,
+      "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
   },
   {
     "mod":"thermal",
