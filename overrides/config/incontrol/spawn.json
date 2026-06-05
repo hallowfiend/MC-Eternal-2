@@ -399,13 +399,39 @@
     "lavafishing:lava_walker,999999,1"
   ]
   },
+  {
+    "mob": "illager_additions:beamloger",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient Cultist",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 5.0,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "illager_additions:shogun",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Lost Shogun",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 6.0,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
    {
     "mob": "alexsmobs:rocky_roller",
     "dimension": "mce:dwarven_depths",
     "customname": "§4Ancient Rocky Roller",
     "result": "true",
     "when": "onjoin",
-    "healthmultiply": 3.5,
+    "healthmultiply": 1.5,
     "damagemultiply": 5.5,
     "speedmultiply": 1.2,
         "potion": [
