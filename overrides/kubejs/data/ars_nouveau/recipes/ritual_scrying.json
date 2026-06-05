@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "minecraft:raw_gold_block"
+    },
+    {
+      "item": "minecraft:raw_gold_block"
+    },
+    {
+      "item": "minecraft:raw_gold_block"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "tag": "forge:storage_blocks/source"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:ritual_scrying"
+  }
+}
