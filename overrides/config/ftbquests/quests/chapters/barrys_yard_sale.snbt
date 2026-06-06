@@ -849,31 +849,23 @@
 				}
 			}
 			id: "76AE8F18AD0E7279"
-			rewards: [
-				{
-					id: "2F7B5099818D6B27"
-					item: {
-						Count: 1
-						id: "cgs:shotgun"
-						tag: {
-							Ammo: "cgs:round_shotgun"
-							AmmoCount: 2
-							FireMode: "ntgl:semi"
-							display: {
-								Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
-							}
-							variant: "default"
+			rewards: [{
+				id: "2F7B5099818D6B27"
+				item: {
+					Count: 1
+					id: "cgs:shotgun"
+					tag: {
+						Ammo: "cgs:round_shotgun"
+						AmmoCount: 2
+						FireMode: "ntgl:semi"
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
 						}
+						variant: "default"
 					}
-					type: "item"
 				}
-				{
-					count: 45
-					id: "199F91DD09062B74"
-					item: "cgs:round_shotgun"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.subtitle}"
 			tasks: [{
 				amount: 3500L
@@ -884,37 +876,6 @@
 			title: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.title}"
 			x: 8.0d
 			y: 10.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["13049AEB2F8829E1"]
-			description: [
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description1}"
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description2}"
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description3}"
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description4}"
-				""
-				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description5}"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: "petcapturetool:capture_tool"
-			id: "0D54B09097CA96F2"
-			rewards: [{
-				id: "10F50DE1FFBFB2C3"
-				item: "petcapturetool:capture_tool"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.subtitle}"
-			tasks: [{
-				amount: 500L
-				currency: "eternalcurrencies:coins"
-				id: "0CC79025F886B2F2"
-				type: "eternalcurrencies:currency"
-			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.title}"
-			x: 7.0d
-			y: 12.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
@@ -1636,7 +1597,7 @@
 			}]
 			subtitle: "Purchase Wind Generator"
 			tasks: [{
-				amount: 2500L
+				amount: 3500L
 				currency: "eternalcurrencies:coins"
 				id: "640DF55935494627"
 				type: "eternalcurrencies:currency"
@@ -1702,6 +1663,180 @@
 			title: "&eYard Sale:&r Dimensional Carver"
 			x: 4.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "rats:rattling_gun"
+			id: "5C641A5CF549A58E"
+			rewards: [{
+				id: "77AF18E99E91A900"
+				item: "rats:rattling_gun"
+				type: "item"
+			}]
+			subtitle: "Purchase Rattling Gun"
+			tasks: [{
+				amount: 3500L
+				currency: "eternalcurrencies:coins"
+				id: "3A695963BE00D912"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Rattling Gun"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "cgs:revolver"
+				tag: {
+					Ammo: "cgs:round_revolver"
+					AmmoCount: 6
+					ThrowMode: "ntgl:safe"
+					variant: "default"
+				}
+			}
+			id: "45BB06188AA63B35"
+			rewards: [{
+				id: "4FA0E76FB8767F8A"
+				item: {
+					Count: 1
+					id: "cgs:revolver"
+					tag: {
+						Ammo: "cgs:round_revolver"
+						AmmoCount: 6
+						ThrowMode: "ntgl:safe"
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase Brass Revolver"
+			tasks: [{
+				amount: 1500L
+				currency: "eternalcurrencies:coins"
+				id: "0F6206062600A756"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Brass Revolver"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"45BB06188AA63B35"
+			]
+			description: ["&dRepeatable"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "cgs:round_revolver"
+			id: "0FC70BB8232B65A1"
+			rewards: [{
+				count: 8
+				id: "1D3F486F4FD37A03"
+				item: "cgs:round_revolver"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Revolver Round"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "237440A1ABAA12DC"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Revolver Round"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"76AE8F18AD0E7279"
+			]
+			description: ["&dRepeatable"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "cgs:round_shotgun"
+			id: "7E0ACB8CB00A25E4"
+			rewards: [{
+				count: 4
+				id: "49B8D6624C097A38"
+				item: "cgs:round_shotgun"
+				type: "item"
+			}]
+			subtitle: "Purchase 4x Shotgun Shell"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "2BDBFAF41C9F3224"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Shotgun Shell"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description1}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description2}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description3}"
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description4}"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.description5}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "petcapturetool:capture_tool"
+			id: "334E9812999399F2"
+			rewards: [{
+				id: "16C50CD2253C18F4"
+				item: "petcapturetool:capture_tool"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.subtitle}"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "43418F5EC2A87FB1"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest960586755605174002.title}"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:spyglass"
+			id: "1EDA8609011FAC72"
+			rewards: [{
+				id: "1E5CAFB5D0513455"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			subtitle: "Purchase a Spyglass"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "029100C95086BA03"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Spyglass"
+			x: 8.0d
+			y: 12.0d
 		}
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"
