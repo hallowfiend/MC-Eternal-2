@@ -1,8 +1,9 @@
 StartupEvents.registry("block", (event) => {
     event.create("ancient_portal_stone") 
         .material("stone") 
-        .hardness(1.0) 
-        .resistance(1.0)
+        .hardness(30.0) 
+        .resistance(10.0)
+        .tagBlock('minecraft:mineable/pickaxe') 
         .requiresTool(true) 
 
 
