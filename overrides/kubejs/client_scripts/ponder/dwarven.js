@@ -1,7 +1,7 @@
 Ponder.registry(event => {
 
     event.create([
-        "minecraft:raw_gold_block",
+        "kubejs:ancient_portal_stone",
         "quark:diamond_heart"
     ])
     .scene(
@@ -24,7 +24,7 @@ Ponder.registry(event => {
 
             scene.text(
                 50,
-                "First, build a portal frame using Raw Gold Blocks."
+                "First, build a portal frame using Ancient Dwarven Portal Blocks."
             ).attachKeyFrame()
 
             scene.idle(20)
@@ -64,7 +64,7 @@ Ponder.registry(event => {
 
             scene.text(
                 60,
-                "The portal is now active and ready to enter. Come prepared! Something must have made the dwarves disappear.."
+                "The portal is now active and ready to enter. Come prepared! Something nefarious must have made thes ancient dwarves disappear.."
             ).attachKeyFrame()
 
             scene.idle(80)
