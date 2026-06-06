@@ -61,14 +61,14 @@
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "eternal:the_great_below"
+        "value": "mce:dwarven_depths"
       }
     ],
     [
       {
         "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "byg:guiana_shield"
+        "value": "mce:ancient_overworld"
       }
     ],
     [
