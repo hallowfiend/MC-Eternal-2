@@ -9,7 +9,7 @@
     "speedmultiply": 1.1,
     "armorchest": ["immersive_armors:wither_chestplate"],
     "armorlegs": ["immersive_armors:wither_leggings"],
-    "helditem": ["irons_spellbooks:magehunter", "species:spectralibur", "goety:death_scythe", "goety:dark_scythe", "goety:dark_sword", "goety:fell_blade", "goety:philosophers_mace", "goety:bonehead_hammer"],
+    "helditem": ["irons_spellbooks:magehunter", "species:spectralibur", "illager_additions:katana", "alexscaves:desolate_dagger", "illager_additions:master_katana", "goety:death_scythe", "goety:dark_scythe", "goety:dark_sword", "goety:fell_blade", "goety:philosophers_mace", "goety:bonehead_hammer"],
     "armorboots": ["immersive_armors:wither_boots"]
   },
    {
@@ -27,6 +27,188 @@
     "helditem": ["iceandfire:dragonbone_sword_fire"],
     "armorboots": ["iceandfire:armor_gray_boots"]
   },
+   {
+    "mob": ["specialmobs:madscientistzombie"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 2,
+    "damagemultiply": 8.6,
+    "speedmultiply": 1.6,
+    "armorchest": ["immersive_armors:steampunk_chestplate"],
+    "armorlegs": ["immersive_armors:steampunk_leggings"],
+    "armorhelmet": ["immersive_armors:steampunk_helmet"],
+    "helditem": ["cataclysm:meat_shredder"],
+    "armorboots": ["immersive_armors:steampunk_boots"]
+  },
+ {
+    "mob": ["specialmobs:abyssaldrowned", "specialmobs:giantdrowned", "specialmobs:frozendrowned"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 1.2,
+    "armorhelmet": ["iceandfire:tide_purple_helmet"],
+    "armorchest": ["iceandfire:tide_purple_chestplate"],
+    "armorlegs": ["iceandfire:tide_purple_leggings"],
+    "helditem": ["iceandfire:tide_trident", "cataclysm:coral_bardiche", "cataclysm:coral_spear", "cataclysm:athame"],
+    "armorboots": ["iceandfire:tide_purple_boots"]
+  },
+  {
+    "mob": ["specialmobs:weatheredskeleton"],
+    "when": "onjoin",
+ "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 1.2,
+    "armorhelmet": ["cataclysm:bone_reptile_helmet"],
+    "armorchest": ["cataclysm:bone_reptile_chestplate"],
+    "helditem": ["cataclysm:khopesh", "cataclysm:ancient_spear"]
+ 
+  },
+ {
+    "mob": ["specialmobs:fishingzombie", "specialmobs:fishingdrowned", "specialmobs:fishingzombifiedpiglin"],
+    "when": "onjoin",
+   "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 0.8,
+    "armorhelmet": ["rats:fisherman_hat"],
+    "helditem": ["minecraft:fishing_rod"]
+  },
+ {
+    "mob": ["specialmobs:frozenzombie"],
+    "when": "onjoin",
+ "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 0.8,
+    "armorchest": ["iceandfire:frost_troll_leather_chestplate"],
+    "armorlegs": ["iceandfire:frost_troll_leather_leggings"],
+    "armorboots": ["iceandfire:frost_troll_leather_boots"],
+    "armorhelmet": ["iceandfire:frost_troll_leather_helmet"],
+    "helditem": ["iceandfire:dread_knight_sword", "immersive_weathering:ice_sickle"]
+  },
+ {
+    "mob": "minecraft:warden",
+    "when": "finalize",
+    "healthmultiply": 5.0,
+    "damagemultiply": 2.5,
+    "speedmultiply": 1.0
+  },
+   {
+    "mob": ["specialmobs:pirateskeleton"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 5,
+    "damagemultiply": 3.6,
+    "speedmultiply": 0.8,
+    "armorchest": ["minecolonies:pirate_chest"],
+    "armorlegs": ["minecolonies:pirate_leggins"],
+    "armorhelmet": ["rats:pirat_hat"],
+    "helditem": ["minecolonies:iron_scimitar", "minecraft:bow"],
+    "armorboots": ["minecolonies:pirate_shoes"]
+  },
+  {
+    "mob": ["specialmobs:plaguedrowned","specialmobs:plaguezombie", "specialmobs:plaguezombifiedpiglin"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 5,
+    "damagemultiply": 2.6,
+    "speedmultiply": 0.8,
+    "armorchest": ["irons_spellbooks:plagued_chestplate"],
+    "armorlegs": ["irons_spellbooks:plagued_leggings"],
+    "armorhelmet": ["irons_spellbooks:plagued_helmet"],
+    "helditem": ["rats:plague_scythe"],
+    "armorboots": ["irons_spellbooks:plagued_boots"]
+  },
+   {
+    "mod": "cloudstorage",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 1.5,
+    "damagemultiply": 2.0,
+    "speedmultiply": 1.1
+  },
+  {
+    "mod": "illager_additions",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 2.6,
+    "damagemultiply": 3.0,
+    "speedmultiply": 1.1
+  },
+  {
+    "mob": "alexsmobs:elephant",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 2.8,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.0
+  },
+  
+  {
+    "mob": ["specialmobs:knightskeleton","specialmobs:knightdrowned"],
+    "when": "onjoin",
+  "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 1.2,
+    "armorhelmet": ["iceandfire:armor_silver_metal_helmet"],
+    "armorchest": ["iceandfire:armor_silver_metal_chestplate"],
+    "armorlegs": ["iceandfire:armor_silver_metal_leggings"],
+    "helditem": ["iceandfire:dread_knight_sword", "illager_additions:katana", "illager_additions:spear", "cataclysm:black_steel_axe", "iceandfire:ghost_sword", "iceandfire:dragonbone_sword_fire"],
+    "armorboots": ["iceandfire:armor_silver_metal_boots"]
+  },
+   {
+    "mob": ["specialmobs:brutezombie","specialmobs:bruteskeleton", "specialmobs:brutewitherskeleton", "specialmobs:brutezombifiedpiglin", "specialmobs:brutedrowned"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 5,
+    "damagemultiply": 6.6,
+    "speedmultiply": 0.8,
+    "armorchest": ["immersive_armors:heavy_chestplate"],
+    "armorlegs": ["immersive_armors:heavy_leggings"],
+    "armorhelmet": ["immersive_armors:heavy_helmet"],
+    "helditem": ["goety:bonehead_hammer", "goety:great_hammer"],
+    "armorboots": ["immersive_armors:heavy_boots"]
+  },
+ 
+  {
+    "mob": ["specialmobs:giantzombie","specialmobs:giantskeleton", "specialmobs:giantskeleton"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 8.6,
+    "speedmultiply": 0.8,
+    "armorchest": ["immersive_armors:warrior_chestplate"],
+    "armorlegs": ["immersive_armors:warrior_leggings"],
+    "armorhelmet": ["immersive_armors:warrior_helmet"],
+    "helditem": ["iceandfire:troll_weapon_trunk", "iceandfire:troll_weapon_column_forest", "iceandfire:troll_weapon_axe", "iceandfire:troll_weapon_column"],
+    "armorboots": ["immersive_armors:warrior_boots"]
+  },
+ 
+   {
+    "mob": ["specialmobs:poisonskeleton"],
+    "when": "onjoin",
+ "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 4,
+    "speedmultiply": 1.0,
+  "armorhelmet": ["quark:forgotten_hat"],
+    "helditem": ["minecraft:bow", "mowziesmobs:naga_fang_dagger"]
+  },
+ 
    {
     "mob":"vampirism:vampire_baron",
     "when": "onjoin",
@@ -154,6 +336,22 @@
     "armorhelmet": ["immersive_armors:wither_helmet"],
     "helditem": ["irons_spellbooks:keeper_flamberge"],
     "armorboots": ["immersive_armors:wither_boots"]
+  },
+  {
+    "mob": "minecraft:iron_golem",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 2.5,
+    "damagemultiply": 1.5,
+    "speedmultiply": 1.1
+  },
+ {
+    "mob": "artifacts:mimic",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 2.5,
+    "damagemultiply": 5.5,
+    "speedmultiply": 1.5
   },
   {
     "mob":"specialmobs:firespider",
