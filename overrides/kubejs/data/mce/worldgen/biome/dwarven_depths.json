@@ -60,7 +60,6 @@
             "minecraft:ore_iron_small",
         "thermal:silver_ore",
         "thermal:lead_ore",
-       "irons_spellbooks:deepslate_mithril_ore",
             "minecraft:ore_gold_lower",
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
@@ -101,18 +100,6 @@
     }],
         "misc": [],
         "monster": [
-            {
-                "type": "illager_additions:beamloger",
-                "maxCount": 1,
-                "minCount": 1,
-                "weight": 20
-            },
-             {
-                "type": "illager_additions:shogun",
-                "maxCount": 1,
-                "minCount": 1,
-                "weight": 20
-            },
             {
                 "type": "iceandfire:troll",
                 "maxCount": 2,
