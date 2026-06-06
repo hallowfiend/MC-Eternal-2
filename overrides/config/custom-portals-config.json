@@ -55,7 +55,7 @@
     },
       {
       "isFlat": true,
-      "frameBlock": "minecraft:raw_gold_block",
+      "frameBlock": "kubejs:ancient_portal_stone",
       "isFluidIgniter": false,
       "itemIgniter": "quark:diamond_heart",
       "dimension": "mce:dwarven_depths",
