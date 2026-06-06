@@ -772,7 +772,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest7324273562586749414.subtitle}"
 			tasks: [{
-				amount: 350L
+				amount: 100L
 				currency: "eternalcurrencies:coins"
 				id: "376BA5950114D0F5"
 				type: "eternalcurrencies:currency"
@@ -1377,25 +1377,41 @@
 			y: 12.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&3<wave>All hail the Magic Conch!"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description7}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "gonefishing:mysterious_clam"
+			icon: {
+				Count: 1
+				id: "alexscaves:magic_conch"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "64A2F7FE285D7D24"
 			rewards: [{
-				id: "3A214CD53E53F60E"
-				item: "gonefishing:mysterious_clam"
+				id: "5889891DEA8DD5F0"
+				item: {
+					Count: 1
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			subtitle: "Purchase a Mysterious Clam"
+			subtitle: "Purchase a Magic Conch"
 			tasks: [{
-				amount: 800L
+				amount: 3000L
 				currency: "eternalcurrencies:coins"
 				id: "5373BE04DAD7309A"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Mysterious Clam"
+			title: "&eYard Sale:&r Magic Conch"
 			x: 10.0d
 			y: 10.0d
 		}
@@ -1498,22 +1514,33 @@
 			dependencies: ["13049AEB2F8829E1"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "rats:cheese"
+			icon: {
+				Count: 1
+				id: "alexsmobs:squid_grapple"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0FFA5A220162A749"
 			rewards: [{
-				count: 10
-				id: "6682882747109E1D"
-				item: "rats:cheese"
+				id: "040F0F08053CC44B"
+				item: {
+					Count: 1
+					id: "alexsmobs:squid_grapple"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			subtitle: "Purchase Cheese"
+			subtitle: "Purchase Grappling Squok"
 			tasks: [{
-				amount: 50L
+				amount: 1200L
 				currency: "eternalcurrencies:coins"
 				id: "05AFBC5C39AD4FBB"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Cheese"
+			title: "&eYard Sale:&r Grappling Squok"
 			x: 6.0d
 			y: 8.0d
 		}
@@ -1570,31 +1597,47 @@
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
-				id: "alexsmobs:dimensional_carver"
+				id: "relics:magic_mirror"
 				tag: {
-					Damage: 0
+					abilities: {
+						teleport: {
+							points: 0
+							stats: {
+								cooldown: 66.52711d
+								distance: 941.19752d
+							}
+						}
+					}
 				}
 			}
 			id: "2ABA52C2E7B0CEF8"
 			rewards: [{
-				id: "39FC0AD586F95840"
+				id: "3EC036C22CAD0D3F"
 				item: {
 					Count: 1
-					id: "alexsmobs:dimensional_carver"
+					id: "relics:magic_mirror"
 					tag: {
-						Damage: 0
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 66.52711d
+									distance: 941.19752d
+								}
+							}
+						}
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "Purchase Dimensional Carver"
+			subtitle: "Purchase Magic Mirror"
 			tasks: [{
 				amount: 2500L
 				currency: "eternalcurrencies:coins"
 				id: "0DE4D40860669FD1"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Dimensional Carver"
+			title: "&eYard Sale:&r Magic Mirror"
 			x: 4.0d
 			y: 8.0d
 		}
@@ -1848,6 +1891,94 @@
 			title: "&eYard Sale:&r Ender Lens"
 			x: 3.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&7Just when you thought a vegetable couldn't possibly dial your phone number... &osuddenly onion rings!"
+				"{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:onion_ring"
+			id: "165489BAAD22C600"
+			rewards: [{
+				id: "40E6A46976C38DE9"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			subtitle: "Purchase a Onion Ring"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "6D4010A12513E5AE"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Onion Ring"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&7Maybe consulting a Doctor isn't such a bad idea..."
+				"{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ramcompat:tendon_lump"
+				tag: {
+					abilities: {
+						tendon: {
+							points: 0
+							stats: {
+								cooldown: 7.8559d
+								damage: 4.93086d
+								distance: 3.96478d
+							}
+							temp: {
+								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+			id: "2F2FB91A687244CC"
+			rewards: [{
+				id: "0B856110A3486E13"
+				item: {
+					Count: 1
+					id: "ramcompat:tendon_lump"
+					tag: {
+						abilities: {
+							tendon: {
+								points: 0
+								stats: {
+									cooldown: 7.8559d
+									damage: 4.93086d
+									distance: 3.96478d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase a Tendon Lump"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "7F9CBF5BF05CC316"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Tendon Lump"
+			x: 12.0d
+			y: 10.0d
 		}
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"
