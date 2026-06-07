@@ -439,7 +439,21 @@
   },
  
 
+ {
+  "mod": "untitledduckmod",
+  "when": "finalize",
+  "random": 0.333,
+  "result": "allow",
+  "healthmultiply": 3.0,
+  "damagemultiply": 2.0,
+  "speedmultiply": 1.1
+},
 
+ {
+    "mod":"untitledduckmod",
+    "result":"deny",
+    "when": "finalize"
+  },
 
 
    {
