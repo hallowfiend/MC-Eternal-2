@@ -568,6 +568,42 @@
     "lavafishing:lava_walker,999999,1"
   ]
   },
+  {
+    "mob": "alexscaves:boundroid",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Dwarven Boundroid",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 2.0,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.1,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "creeperoverhaul:dripstone_creeper",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient Dripstone Creeper",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 3.0,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.1
+  },
+    {
+    "mob": "species:ghoul",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Long Lost Gollum",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 3.0,
+    "damagemultiply": 6.0,
+    "speedmultiply": 1.1,
+        "potion": [
+    "cataclysm:monstrous,999999,2"
+  ]
+  },
     {
     "mob": "alexsmobs:underminer",
     "dimension": "mce:dwarven_depths",
