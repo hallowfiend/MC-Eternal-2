@@ -131,8 +131,8 @@
       "maxCount": 3
     },
     {
-      "type": "creeperoverhaul:cave_creeper",
-      "weight": 160,
+      "type": "creeperoverhaul:dripstone_creeper",
+      "weight": 100,
       "minCount": 1,
       "maxCount": 1
     },
