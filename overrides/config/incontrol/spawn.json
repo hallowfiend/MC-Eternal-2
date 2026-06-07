@@ -587,21 +587,22 @@
     "customname": "§4Ancient Dripstone Creeper",
     "result": "true",
     "when": "onjoin",
-        "healthmultiply": 3.0,
+        "healthmultiply": 5.0,
     "damagemultiply": 3.5,
     "speedmultiply": 1.1
   },
     {
     "mob": "species:ghoul",
     "dimension": "mce:dwarven_depths",
-    "customname": "§4Long Lost Gollum",
+    "customname": "§4Cave Gollum",
     "result": "true",
     "when": "onjoin",
-        "healthmultiply": 3.0,
+        "healthmultiply": 2.5,
     "damagemultiply": 6.0,
     "speedmultiply": 1.1,
         "potion": [
-    "cataclysm:monstrous,999999,2"
+    "cataclysm:monstrous,999999,4",
+    "goety:flammable,999999,7"
   ]
   },
     {
