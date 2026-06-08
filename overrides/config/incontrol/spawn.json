@@ -1,5 +1,20 @@
 [
- 
+  {
+  "mob": "gtbcs_geomancy_plus:geo_grandmaster",
+  "when": "finalize",
+  "random": 0.333,
+  "result": "allow",
+  "healthmultiply": 1.0,
+  "damagemultiply": 1.0,
+  "speedmultiply": 1.0
+},
+
+ {
+    "mob":"gtbcs_geomancy_plus:geo_grandmaster",
+    "result":"deny",
+    "when": "finalize"
+  },
+
   {
     "mob":"vampirism:advanced_vampire",
     "when": "onjoin",
