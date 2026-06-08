@@ -3852,6 +3852,53 @@
 			x: 6.5028504880213305d
 			y: -0.92d
 		}
+		{
+			id: "684E11E5F4FB5079"
+			rewards: [{
+				id: "7860385DC04F2013"
+				item: {
+					Count: 1
+					id: "species:spectralibur"
+					tag: {
+						Damage: 0
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:summon_swords"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Upgrade Spectralibur"
+			tasks: [
+				{
+					consume_items: true
+					id: "36A59AEA62FF2047"
+					item: {
+						Count: 1
+						id: "species:spectralibur"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2B76F9411F519CF5"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+			]
+			title: "&3Spectralibur Upgrade"
+			x: -2.0d
+			y: -2.0d
+		}
 	]
 	title: "{ftbquests.chapter.llegendary_artifacts.title}"
 }
