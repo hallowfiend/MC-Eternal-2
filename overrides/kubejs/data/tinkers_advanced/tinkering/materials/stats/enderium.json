@@ -4,7 +4,7 @@
     "tconstruct:grip": {
       "accuracy": 0.1,
       "durability": 0.2,
-      "melee_damage": 3.25
+      "melee_damage": 3.0
     },
     "tconstruct:handle": {
       "durability": 0.15,
@@ -29,25 +29,25 @@
       "armor": 2.0,
       "durability": 884,
       "knockback_resistance": 0.05,
-      "toughness": 4.0
+      "toughness": 2.0
     },
     "tconstruct:plating_chestplate": {
       "armor": 6.0,
       "durability": 1088,
       "knockback_resistance": 0.05,
-      "toughness": 4.0
+      "toughness": 2.0
     },
     "tconstruct:plating_helmet": {
       "armor": 2.0,
       "durability": 748,
       "knockback_resistance": 0.05,
-      "toughness": 4.0
+      "toughness": 2.0
     },
     "tconstruct:plating_leggings": {
       "armor": 5.0,
       "durability": 1020,
       "knockback_resistance": 0.05,
-      "toughness": 4.0
+      "toughness": 2.0
     },
     "tconstruct:plating_shield": {
       "durability": 1224,
@@ -55,8 +55,8 @@
       "toughness": 4.0
     },
     "tinkers_advanced:flux_core": {
-      "capacity": 5.4,
-      "generate": 4.6
+      "capacity": 2.4,
+      "generate": 2.6
     }
   }
 }
