@@ -528,13 +528,13 @@
 			y: -2.0204081632653086d
 		}
 		{
-			dependency: "2193B157D17E53C0"
+			dependency: "39C7248750512A5B"
 			height: 0.8d
 			image: "minecraft:block/cave_vines"
 			rotation: 90.0d
 			width: 0.8d
-			x: 11.102040816326536d
-			y: 0.38775510204082053d
+			x: 10.894345238095234d
+			y: 0.3346938775510182d
 		}
 		{
 			dependency: "28EA646E95041E52"
@@ -546,7 +546,7 @@
 			y: 0.36734693877551194d
 		}
 		{
-			dependency: "6CC1049FCC2A076C"
+			dependency: "28EA646E95041E52"
 			height: 0.8d
 			image: "minecraft:textures/block/weeping_vines_plant.png"
 			rotation: 90.0d
@@ -609,7 +609,7 @@
 			y: -0.23384353741495545d
 		}
 		{
-			dependency: "30C3D95400D49AE4"
+			dependency: "388820C218B2F935"
 			height: 0.8d
 			image: "minecraft:textures/block/weeping_vines_plant.png"
 			rotation: 50.0d
@@ -1533,7 +1533,7 @@
 			y: 1.9969387755102161d
 		}
 		{
-			dependencies: ["2193B157D17E53C0"]
+			dependencies: ["39C7248750512A5B"]
 			description: [
 				"{ftbquests.chapter.introduction.quest2948279332176666194.description1}"
 				""
@@ -2460,6 +2460,7 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "588D0B37BFB8A848"
+			optional: true
 			rewards: [
 				{
 					id: "284A053BC52A5F04"
@@ -4684,6 +4685,7 @@
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "2193B157D17E53C0"
+			optional: true
 			rewards: [
 				{
 					id: "13EF737C1B25D225"
@@ -5461,6 +5463,7 @@
 				""
 				"{ftbquests.chapter.introduction.quest7836549910972991340.description5}"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:obsidian"
 			id: "6CC1049FCC2A076C"
 			rewards: [
@@ -5617,6 +5620,7 @@
 				""
 				"{ftbquests.chapter.introduction.quest1037143949142687665.description5}"
 			]
+			hide_until_deps_complete: true
 			icon: "kubejs:nether_item"
 			id: "0E64ACED3D987FB1"
 			rewards: [
