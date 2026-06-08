@@ -1,5 +1,5 @@
   {
-  "entity": "illageandspillage:absorber",
+  "entity": "alexsmobs:underminer",
   "name": "§eHoneydew the Dwarf",
   "visualscale": 0.4,
   "protect_treasure": true,
@@ -9,7 +9,7 @@
     "cataclysm:monstrous": 2
   },
   "attributes": {
-    "generic.max_health": 30,
+    "generic.max_health": 300,
     "generic.follow_range": 50,
     "generic.knockback_resistance": 10,
     "generic.movement_speed": 0.4
@@ -19,7 +19,7 @@
     "dropgear": 6
   },
   "gear": {
-   "mainhand": "{id: \"kubejs:jaffa_cake"
+   "mainhand": "{id: \"kubejs:mcejaffa"
   },
   
   "ai-goals": {
