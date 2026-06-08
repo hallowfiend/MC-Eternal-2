@@ -1,0 +1,59 @@
+LootJS.modifiers((event) => {
+    [
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/abandoned_mineshaft",
+        "minecraft:chests/stronghold_corridor"
+    ].forEach(table => {
+        event
+            .addLootTableModifier(table)
+            .randomChance(0.50)
+            .addLoot(
+                Item.of(
+                    'eternalcurrencies:currency_item',
+                    '{currencies:[{amount:10L,currency:"eternalcurrencies:coins"}]}'
+                )
+            );
+    });
+
+    [
+        "minecraft:chests/nether_bridge",
+        "minecraft:chests/bastion_treasure",
+        "minecraft:chests/bastion_other",
+        "minecraft:chests/bastion_hoglin_stable",
+        "minecraft:chests/bastion_bridge"
+    ].forEach(table => {
+        event
+            .addLootTableModifier(table)
+            .randomChance(0.60)
+            .addLoot(
+                Item.of(
+                    'eternalcurrencies:currency_item',
+                    '{currencies:[{amount:10L,currency:"eternalcurrencies:coins"}]}'
+                )
+            );
+        event
+            .addLootTableModifier(table)
+            .randomChance(0.20)
+            .addLoot(
+                Item.of(
+                    'ftbquests:lootcrate',
+                    '{HideFlags:33,display:{Name:\'{"translate":"item.mce2.quest_loot","color":"yellow","italic":false}\'},type:"quest_loot"}'
+                )
+            );
+    });
+    [
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/abandoned_mineshaft",
+        "minecraft:chests/stronghold_corridor"
+    ].forEach(table => {
+        event
+            .addLootTableModifier(table)
+            .randomChance(0.20)
+            .addLoot(
+                Item.of(
+                    'ftbquests:lootcrate',
+                    '{HideFlags:33,display:{Name:\'{"translate":"item.mce2.quest_loot","color":"yellow","italic":false}\'},type:"quest_loot"}'
+                )
+            );
+    });
+});
