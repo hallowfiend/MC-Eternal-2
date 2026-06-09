@@ -26,6 +26,18 @@
     "cataclysm:monstrous,999999,5"
   ]
   },
+   {
+    "mob": "alexsmobs:void_worm",
+    "when": "onjoin",
+    "result": "allow",
+    "customname": "§dEternal Void Worm",
+    "healthmultiply": 7.0,
+    "damagemultiply": 8.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "cataclysm:monstrous,999999,3"
+  ]
+  },
   {
     "mob":"vampirism:advanced_vampire",
     "when": "onjoin",
