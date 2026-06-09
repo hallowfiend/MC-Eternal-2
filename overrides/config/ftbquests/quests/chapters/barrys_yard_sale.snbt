@@ -1984,7 +1984,7 @@
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"&6Hint:&r Effective at killing targets with high health regeneration by obliterating them. May destry drops in the process."
+				"&6Hint:&r Effective at killing targets with high health regeneration by obliterating them. May destroy drops in the process."
 				""
 				"&7\"And Saint Attila raised the hand grenade up on high, saying, 'O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits.\""
 			]
