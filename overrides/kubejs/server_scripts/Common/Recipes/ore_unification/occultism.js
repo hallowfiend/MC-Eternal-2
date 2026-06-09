@@ -12,12 +12,28 @@ createModule("occultism")
         event.remove({id: /occultism:crushing\/.*_dust_from_gem/})
 
         crushMaterialToDust = (output, input, oreName, sourceType) => {
-            occultismCrushing(event, output, input, 100, true)
+            sourceType = sourceType || oreName
+            occultismCrushing(event, output, input, 200, true)
                 .id(`mce2:unification/occultism/crushing/${oreName}_dust_from_${sourceType}`)
         }
 
-        crushMaterialToDust(Item.of(global.preferredOreProducts.coal.dust), Item.of("minecraft:coal"), "coal", "coal")
-        crushMaterialToDust(Item.of(global.preferredOreProducts.obsidian.dust), Item.of("minecraft:obsidian"), "obsidian", "obsidian")
+        crushMaterialToDust(Item.of(global.preferredOreProducts.coal.dust), Item.of("minecraft:coal"), "coal")
+        
+        occultismCrushing(event, Item.of(global.preferredOreProducts.obsidian.dust), Ingredient.of("#forge:obsidian"), 200)
+            .id("mce2:unification/occultism/crushing/obsidian_dust")
+
+        event.remove({id: "occultism:crushing/blaze_powder_from_rod"})
+        event.remove({id: "occultism:crushing/end_stone_dust"})
+        event.remove({id: "occultism:crushing/datura"})
+
+        //fixing broken stuff
+        // something is making occultism's query of the output tags fire too early and break everything. it would probably have been more severe if the unification stuff was not already in place.
+        occultismCrushing(event, Item.of("occultism:crushed_end_stone"), Ingredient.of("#forge:end_stones"), 200)
+            .id("mce2:unification/occultism/crushing/end_stone_dust_static")
+        occultismCrushing(event, Item.of("minecraft:blaze_powder"), Ingredient.of("#forge:rods/blaze"), 200)
+            .id("mce2:unification/occultism/crushing/blaze_powder_static")
+        occultismCrushing(event, Item.of("occultism:datura_seeds", 2), Item.of("occultism:datura"), 200)
+            .id("mce2:unification/occultism/crushing/demons_dream_seeds_static")
     }
 
 modules.occultism.main = (event, matId, material) => {
