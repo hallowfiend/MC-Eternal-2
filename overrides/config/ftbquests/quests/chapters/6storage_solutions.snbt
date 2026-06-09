@@ -947,6 +947,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["127BD669F19CC02C"]
 			description: [
 				"{ftbquests.chapter.6storage_solutions.ae2_presses.description1}"
 				""
@@ -978,6 +979,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["127BD669F19CC02C"]
 			description: [
 				"{ftbquests.chapter.6storage_solutions.create_storage.description1}"
 				""
