@@ -7,7 +7,7 @@
     "rate": 4,
     "maxAmmo": 4,
     "equipTime": 15,
-    "reloadTime": 70,
+    "reloadTime": 150,
     "recoilAngle": -0.1,
     "alwaysSpread": true,
     "enchantable": false,
