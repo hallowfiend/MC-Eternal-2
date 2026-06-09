@@ -14,13 +14,13 @@
 [growth]
 	#The percent increase in health multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	healthGrowth = 2.8
+	healthGrowth = 1.5
 	#The healthGrowth operation. Effect how health growth calculate (More info you can find here: https://minecraft.fandom.com/wiki/Attribute#Modifiers)
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	maxHealthModifierOperation = "MULTIPLY_TOTAL"
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 1.0
+	attackGrowth = 1.5
 	#The attackGrowth operation. Effect how attack growth calculate
 	#Allowed Values: ADDITION, MULTIPLY_BASE, MULTIPLY_TOTAL
 	attackModifierOperation = "MULTIPLY_TOTAL"
