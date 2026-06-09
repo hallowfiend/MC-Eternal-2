@@ -1,7 +1,8 @@
 ItemEvents.tooltip(event => {
 	event.add('quark:diamond_heart', 'Can be used to activate a portal to The Dwarven Depths')
 	event.add('kubejs:ancient_portal_stone', 'Can be used to build a portal frame to The Dwarven Depths')
-	event.add('kubejs:artifact_runestone_dark_inscribed_large', '§7§oThis strange object was protected by the Eternal Ender Dragon for thousands of years. It would seem that Barry wants it.. But who knows what for...')
+	event.add('kubejs:artifact_runestone_dark_inscribed_large', '§7§oThis strange object was protected by the Ender Dragon for thousands of years. It would seem that Barry wants it.. But who knows what for...')
+	event.add('kubejs:artifact_runestone_dark_inscribed_large', '§eRight-Click to fly like the dragon once did.')
 	event.add('kubejs:crimson', 'While in Curio Slot, applies Crimson Mosquito Repellent effect, which makes them avoid you.')
 	event.add('kubejs:crimson', '§7§oThe entire universe is simply a crimson forest filled with mosquitoes -CaptainSparklez')
 event.add('artifacts:everlasting_beef', '§7§oDo not feed this to a Sack of Sating in your base. You have been warned!')
