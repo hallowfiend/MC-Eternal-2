@@ -18,7 +18,7 @@ StartupEvents.registry("item", event => {
     .fireResistant(true)
     .rarity('UNCOMMON');
   
-  event.create('artifact_runestone_dark_inscribed_large').displayName('§eAncient Eternal Tablet').glow(true);
+  event.create('artifact_runestone_dark_inscribed_large').displayName('§eAncient Dragonstone').glow(true);
 
   event.create('ingot_thousand_metals').glow(false);
 
