@@ -6,16 +6,6 @@
 		{
 			item: {
 				Count: 1
-				id: "mce2lib:amethyst_helmet"
-				tag: {
-					Damage: 0
-					Unbreakable: 1b
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "relics:space_dissector"
 				tag: {
 					abilities: {
@@ -51,6 +41,67 @@
 							}
 							temp: {
 								ticking: 1b
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:shadow_glaive"
+				tag: {
+					abilities: {
+						glaive: {
+							points: 0
+							stats: {
+								bounces: 4.62864d
+								damage: 4.84726d
+								radius: 4.69827d
+								recharge: 13.34895d
+							}
+						}
+						saw: {
+							points: 0
+							stats: {
+								damage: 0.96736d
+								speed: 16.25476d
+							}
+						}
+					}
+					charges: 8
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "relics:rage_glove"
+				tag: {
+					abilities: {
+						phlebotomy: {
+							points: 0
+							stats: {
+								attack_speed: 0.00777d
+								heal: 1.1E-4d
+								movement_speed: 0.02366d
+							}
+						}
+						rage: {
+							points: 0
+							stats: {
+								dealt_damage: 0.03109d
+								duration: 2.29177d
+								incoming_damage: 0.0364d
+							}
+						}
+						spurt: {
+							points: 0
+							stats: {
+								cooldown: 16.64131d
+								damage: 0.14459d
+								distance: 3.51992d
 							}
 						}
 					}
