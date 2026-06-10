@@ -34,6 +34,17 @@
         "tinkers_advanced:resonance_crystal",
         "tinkers_advanced:voltaic_crystal",
         "tinkers_advanced:disintegrate_crystal",
-        "tinkers_advanced:alloy_atomic"
+        "tinkers_advanced:alloy_atomic",
+        "tcompat:black_steel",
+        "tcompat:calorite",
+        "tcompat:desh",
+        "tcompat:ostrum",
+        "tcompat:lacrima",
+        "tcompat:fire_dragonsteel",
+        "tcompat:ice_dragonsteel",
+        "tcompat:lightning_dragonsteel",
+        "tcompat:ancient_metal",
+        "tcompat:witherite",
+        "constructs_casting:pyrium"
     ]
 }
