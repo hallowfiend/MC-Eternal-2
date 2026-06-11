@@ -2070,31 +2070,46 @@
 			y: 8.0d
 		}
 		{
+			can_repeat: true
 			dependencies: [
 				"13049AEB2F8829E1"
 				"0D88B45349B3E660"
 			]
-			description: [
-				"Protects Paragliders from burning in The Nether!"
-				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
-			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "vc_gliders:nether_upgrade"
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
 			id: "2AE765A52A06EFE2"
 			rewards: [{
-				id: "64236F3D4256D68B"
-				item: "vc_gliders:nether_upgrade"
+				id: "57DDC27C3E07B552"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
 				type: "item"
 			}]
-			subtitle: "Purchase a Nether Paraglider Upgrade"
+			subtitle: "Purchase Enchanted Book Mending"
 			tasks: [{
 				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "6F5B7CEDF4AE269B"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Nether Paraglider Upgrade"
+			title: "&eYard Sale:&r Enchanted Book"
 			x: 12.0d
 			y: 8.0d
 		}
