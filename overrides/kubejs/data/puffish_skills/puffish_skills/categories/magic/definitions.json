@@ -282,7 +282,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "kubejs:pocket_watch"
+				"item": "minecraft:clock"
 			}
 		},
 		"frame": {
