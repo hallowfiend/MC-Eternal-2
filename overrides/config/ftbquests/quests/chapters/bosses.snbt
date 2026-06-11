@@ -198,7 +198,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "3F78AAB633882353"
 					ignore_reward_blocking: true
@@ -284,7 +284,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "02568A8EB45BCAB9"
 					ignore_reward_blocking: true
@@ -366,7 +366,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "367A5C9BE68A8748"
 					ignore_reward_blocking: true
@@ -459,7 +459,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "44EEC80D10DB2FA7"
 					ignore_reward_blocking: true
@@ -560,7 +560,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "0A2228EC66381FDF"
 					ignore_reward_blocking: true
@@ -638,7 +638,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "1FAD598C93411507"
 					ignore_reward_blocking: true
@@ -696,7 +696,7 @@
 					type: "command"
 				}
 				{
-					amount: 8500L
+					amount: 8100L
 					currency: "eternalcurrencies:coins"
 					id: "1536238B30EE4C6D"
 					ignore_reward_blocking: true
@@ -828,7 +828,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "41A885CF6C1762A8"
 					ignore_reward_blocking: true
@@ -919,7 +919,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "0B7C0EB41AFE1977"
 					ignore_reward_blocking: true
@@ -996,7 +996,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "7D2E0B66316BED4F"
 					ignore_reward_blocking: true
@@ -1078,7 +1078,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "38279D8A49BE2C1C"
 					ignore_reward_blocking: true
@@ -1147,7 +1147,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "152FEBD788213CC9"
 					ignore_reward_blocking: true
@@ -1246,7 +1246,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "4E866C947DAE887B"
 					ignore_reward_blocking: true
@@ -1306,7 +1306,7 @@
 					type: "random"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "080AD8D8677D71A0"
 					ignore_reward_blocking: true
@@ -1369,7 +1369,7 @@
 					type: "custom"
 				}
 				{
-					command: "/effect give {p} mowziesmobs:sunblock 500"
+					command: "/effect give {p} mowziesmobs:sunblock 100"
 					icon: {
 						Count: 1b
 						ForgeCaps: {
@@ -1412,7 +1412,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "556B067806B0FAA9"
 					ignore_reward_blocking: true
@@ -1540,7 +1540,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "10B1EE68CA75D65B"
 					ignore_reward_blocking: true
@@ -1605,7 +1605,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "0708DF78672531A1"
 					ignore_reward_blocking: true
@@ -1670,7 +1670,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "6F4914129DDDF69C"
 					ignore_reward_blocking: true
@@ -1735,7 +1735,7 @@
 					type: "command"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "5B5AF20B08783D7D"
 					ignore_reward_blocking: true
