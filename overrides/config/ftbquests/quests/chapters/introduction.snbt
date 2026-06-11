@@ -3,7 +3,7 @@
 	default_quest_shape: "square"
 	filename: "introduction"
 	group: "12BCDDCCCA65FD77"
-	icon: "kubejs:clipboard"
+	icon: "create:clipboard"
 	id: "1D23FD307B88FD43"
 	images: [
 		{
@@ -2125,7 +2125,7 @@
 					type: "item"
 				}
 				{
-					amount: 1500L
+					amount: 500L
 					currency: "eternalcurrencies:coins"
 					id: "0EFED7E1278F0DF3"
 					ignore_reward_blocking: true
@@ -2826,7 +2826,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "57D2D8AE4B62A208"
 					ignore_reward_blocking: true
@@ -4095,7 +4095,7 @@
 					type: "item"
 				}
 				{
-					amount: 70L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "5CA3E50329F8E6F9"
 					ignore_reward_blocking: true
@@ -4120,7 +4120,7 @@
 			hide_until_deps_visible: true
 			id: "6D2BFE6457434310"
 			rewards: [{
-				amount: 40L
+				amount: 20L
 				currency: "eternalcurrencies:coins"
 				id: "031824C7AFC2276E"
 				ignore_reward_blocking: true
@@ -5570,7 +5570,7 @@
 					type: "item"
 				}
 				{
-					amount: 250L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "06A13E219A715E47"
 					ignore_reward_blocking: true
@@ -5628,7 +5628,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 250L
 					currency: "eternalcurrencies:coins"
 					id: "03F8CB0896E45C4C"
 					ignore_reward_blocking: true
@@ -7076,7 +7076,7 @@
 			id: "5D3ED598E0188760"
 			rewards: [
 				{
-					amount: 75L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "6423B2EC392DC0BC"
 					ignore_reward_blocking: true
