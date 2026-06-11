@@ -255,6 +255,17 @@ ItemEvents.tooltip(event => {
 			components.addAll(lootCrateComponents);
 	})
 
+	event.addAdvanced("kubejs:loot_bag", (stack, isAdv, components) => {
+		if(stack.nbt?.loottable != undefined) {
+			if(stack.nbt.show_name) {
+				let key = "loot_table."+ stack.nbt.loottable +".name"
+				components.add(Text.translate(key).color("#FFAA00"))
+			}
+			if(isAdv)
+				components.add(Text.translate("tooltip.mce2.kubejs.loot_bag.table", stack.nbt.loottable).color("#4F4F5C"))
+		}
+	})
+
 	event.add("quark:gold_bars", Text.translate("block.tconstruct.gold_bars.tooltip").color("gray"))
 	
 })

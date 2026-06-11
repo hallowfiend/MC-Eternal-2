@@ -98,7 +98,8 @@ StartupEvents.registry("item", event => {
       food.saturation(0.5)
       food.effect('alexscaves:sugar_rush', 150, 0, 1.0)
     })
-  
+
+
+  event.create("loot_bag")
+    .fireResistant(true)
 })
-
-

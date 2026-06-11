@@ -30,6 +30,7 @@
     "item.kubejs.portable_wormhole_generator": "§dPortable Wormhole Generator",
     "item.kubejs.portable_wormhole_generator_inert": "§eInert Portable Wormhole Generator",
     "item.kubejs.artifact_runestone_dark_inscribed_large": "§eAncient Dragonstone",
+    "item.kubejs.loot_bag": "Loot Bag",
     "block.kubejs.ancient_portal_stone": "Ancient Dwarven Portal Block",
     "block.kubejs.reactor_tnt": "Reactor TNT",
     "block.kubejs.ultimate_cheese": "Ultimate Cheese",
@@ -191,6 +192,7 @@
     "tooltip.mce2.alexscaves.sack_of_sating_explode": "§7§oDo not feed this to a Sack of Sating in your base. You have been warned!",
     "tooltip.mce2.kubejs.artifact_dragon_tablet.1": "§7§oThis strange object was protected by the Ender Dragon for thousands of years. It would seem that Barry wants it.. But who knows what for...",
     "tooltip.mce2.kubejs.artifact_dragon_tablet.2": "§eRight-Click to fly like the dragon once did.",
+    "tooltip.mce2.kubejs.loot_bag.table": "Loot Table: %s",
 
     "message.mce2.bodyguard_arrived": "Your personal bodyguard has arrived!",
     "message.mce2.soul_stone_peer": "You peer into the Soul Stone and see a vision of The Great Beyond... Eternal darkness... Countless souls singing and dancing... Countless screaming and writhing.. It seems some take to death better than others..",
