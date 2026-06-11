@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "barrys_yard_sale"
 	group: "12BCDDCCCA65FD77"
-	icon: "rats:rat_fez"
+	icon: "artifacts:helium_flamingo"
 	id: "1F7C2620408EB5A8"
 	images: [
 		{
@@ -341,7 +341,7 @@
 			y: 7.427380952380936d
 		}
 		{
-			dependency: "13049AEB2F8829E1"
+			dependency: "0D88B45349B3E660"
 			height: 0.5d
 			image: "iceandfire:textures/tinkers/battlesign/mod_flame.png"
 			rotation: 0.0d
@@ -517,8 +517,21 @@
 			icon: "rats:trash_can"
 			id: "13049AEB2F8829E1"
 			rewards: [{
-				id: "4D51F27A637F7E3A"
-				item: "rats:rat_burger"
+				id: "0A0AFF685DD9728A"
+				item: {
+					Count: 1
+					id: "rats:rat_fez"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
+						}
+					}
+				}
 				type: "item"
 			}]
 			size: 3.0d
@@ -533,38 +546,28 @@
 			y: 3.0357142857143202d
 		}
 		{
-			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.description1}"]
+			description: [
+				"Can store 1x non boss entities."
+				"{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "ftbquests:lootcrate"
-				tag: {
-					type: "curious_box"
-				}
-			}
+			icon: "enderio:empty_soul_vial"
 			id: "03DA3D57743E6D7D"
 			rewards: [{
-				id: "296E7ED46A5B1314"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "curious_box"
-					}
-				}
+				id: "5EBF4160B5C10026"
+				item: "enderio:empty_soul_vial"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.subtitle}"
+			subtitle: "Purchase Soul Vial"
 			tasks: [{
-				amount: 400L
+				amount: 1200L
 				currency: "eternalcurrencies:coins"
 				id: "33EFA8A71793A0E6"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest277601772858404221.title}"
+			title: "&eYard Sale:&r Soul Vial"
 			x: 1.0d
 			y: 8.0d
 		}
@@ -836,51 +839,54 @@
 			y: 12.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
+			description: [
+				"\"Whoa! is that a grilled cheese deluxe from Cheezer's?\""
+				"\"Yes it is.\""
+				"\"How did you manage this?\""
+				"\"I bought it... with &omoney.&r\""
+				"\"Nice!\""
+			]
+			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
-				id: "cgs:shotgun"
+				id: "brewinandchewin:ham_and_cheese_sandwich"
 				tag: {
-					Ammo: "cgs:round_shotgun"
-					AmmoCount: 2
-					FireMode: "ntgl:semi"
-					ThrowMode: "ntgl:safe"
 					display: {
-						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+						Lore: ["{\"text\":\"Give me a Grilled Cheese Deluxe and make it snappy, 'cause we're astronauts and we gotta get back up in space. Know what I'm sayin'?\",\"color\":\"gray\",\"italic\":true}"]
+						Name: "{\"text\":\"Grilled Cheese Deluxe\",\"color\":\"yellow\",\"italic\":false}"
 					}
-					variant: "default"
 				}
 			}
 			id: "76AE8F18AD0E7279"
 			rewards: [{
-				id: "2F7B5099818D6B27"
+				count: 3
+				id: "3864E37CAE719B5C"
 				item: {
 					Count: 1
-					id: "cgs:shotgun"
+					id: "brewinandchewin:ham_and_cheese_sandwich"
 					tag: {
-						Ammo: "cgs:round_shotgun"
-						AmmoCount: 2
-						FireMode: "ntgl:semi"
 						display: {
-							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+							Lore: ["{\"text\":\"Give me a Grilled Cheese Deluxe and make it snappy, 'cause we're astronauts and we gotta get back up in space. Know what I'm sayin'?\",\"color\":\"gray\",\"italic\":true}"]
+							Name: "{\"text\":\"Grilled Cheese Deluxe\",\"color\":\"yellow\",\"italic\":false}"
 						}
-						variant: "default"
 					}
 				}
+				team_reward: false
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.subtitle}"
+			subtitle: "Purchase a Grilled Cheese Delux"
 			tasks: [{
-				amount: 3500L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "7C01FD149595D34D"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.title}"
-			x: 8.0d
+			title: "&eYard Sale:&r Grilled Cheese Delux"
+			x: 7.0d
 			y: 10.0d
 		}
 		{
@@ -915,8 +921,8 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.title}"
-			x: 7.0d
-			y: 8.0d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
@@ -938,7 +944,7 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "&eYard Sale:&r Cloud in a Bottle"
-			x: 7.0d
+			x: 5.0d
 			y: 10.0d
 		}
 		{
@@ -1019,48 +1025,22 @@
 			description: ["{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "rats:rat_fez"
-				tag: {
-					Enchantments: [{
-						id: "minecraft:unbreaking"
-						lvl: 2s
-					}]
-					RepairCost: 1
-					display: {
-						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
-					}
-				}
-			}
+			icon: "artifacts:pickaxe_heater"
 			id: "0315618E959F4C6D"
 			rewards: [{
-				id: "563B996F4115403A"
-				item: {
-					Count: 1
-					id: "rats:rat_fez"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:unbreaking"
-							lvl: 2s
-						}]
-						RepairCost: 1
-						display: {
-							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.2\"}"
-						}
-					}
-				}
+				id: "5B636509EECD59E0"
+				item: "artifacts:pickaxe_heater"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.subtitle}"
+			subtitle: "Purchase Pickaxe Heater"
 			tasks: [{
-				amount: 80L
+				amount: 400L
 				currency: "eternalcurrencies:coins"
-				id: "0A15BC4964BCA57A"
+				id: "168BB3FADE55193D"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.title}"
-			x: 1.0d
+			title: "&eYard Sale:&r Pickaxe Heater"
+			x: 6.0d
 			y: 10.0d
 		}
 		{
@@ -1254,8 +1234,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.barrys_yard_sale.quest7606498130980492879.title}"
-			x: 6.0d
-			y: 10.0d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
@@ -1545,7 +1525,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["13049AEB2F8829E1"]
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
 			description: ["{ftbquests.chapter.barrys_yard_sale.quest8575270570254559522.description7}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1558,14 +1541,14 @@
 			}]
 			subtitle: "Purchase Wind Generator"
 			tasks: [{
-				amount: 3500L
+				amount: 1800L
 				currency: "eternalcurrencies:coins"
 				id: "640DF55935494627"
 				type: "eternalcurrencies:currency"
 			}]
 			title: "&eYard Sale:&r Wind Generator"
-			x: 5.0d
-			y: 10.0d
+			x: 7.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1593,6 +1576,7 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
+			description: ["Functions as a teleport home. Can be upgraded to teleport across vast distances."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -1632,7 +1616,7 @@
 			}]
 			subtitle: "Purchase Magic Mirror"
 			tasks: [{
-				amount: 2500L
+				amount: 1500L
 				currency: "eternalcurrencies:coins"
 				id: "0DE4D40860669FD1"
 				type: "eternalcurrencies:currency"
@@ -1817,7 +1801,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["13049AEB2F8829E1"]
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
 			description: ["This item only exists because of the misery experienced by CaptainSparklez and X33n while exploring the Crimson Forest..."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1830,7 +1817,7 @@
 			}]
 			subtitle: "Purchase a Can of Mosquito Repellent"
 			tasks: [{
-				amount: 500L
+				amount: 300L
 				currency: "eternalcurrencies:coins"
 				id: "7AD127757CF025A7"
 				type: "eternalcurrencies:currency"
@@ -1872,6 +1859,7 @@
 				"1EDA8609011FAC72"
 			]
 			description: ["{ftbquests.chapter.barrys_yard_sale.quest2124841416895114040.description1}"]
+			disable_toast: true
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "uniqueaccessories:ender_lens"
@@ -1879,6 +1867,7 @@
 			rewards: [{
 				id: "383BB8AE75F47AB0"
 				item: "uniqueaccessories:ender_lens"
+				team_reward: true
 				type: "item"
 			}]
 			subtitle: "Purchase a Ender Lens"
@@ -1971,7 +1960,7 @@
 			}]
 			subtitle: "Purchase a Tendon Lump"
 			tasks: [{
-				amount: 800L
+				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "7F9CBF5BF05CC316"
 				type: "eternalcurrencies:currency"
@@ -2007,6 +1996,185 @@
 			}]
 			title: "&eYard Sale:&r Royal Bomb"
 			x: 12.0d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&7The Pet Protection Program"
+				"Combine with a Pet Collar Tag in an Anvil and give to a pet of your choice."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "domesticationinnovation:total_recall"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "4EF3FBAA1DC0C775"
+			rewards: [{
+				id: "5214F45179EAB489"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "domesticationinnovation:total_recall"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Purchase a Total Recall Enchanted Book"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "60478E73D26DA71E"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Enchanted Book"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "bosses_of_mass_destruction:levitation_block"
+			id: "06A82AA644B0E424"
+			rewards: [{
+				id: "383E48390B5D7CB4"
+				item: "bosses_of_mass_destruction:levitation_block"
+				type: "item"
+			}]
+			subtitle: "Purchase Table of Elevation"
+			tasks: [{
+				amount: 3500L
+				currency: "eternalcurrencies:coins"
+				id: "57A1ECC39F8DB7B1"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Table of Elevation"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: [
+				"Protects Paragliders from burning in The Nether!"
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "vc_gliders:nether_upgrade"
+			id: "2AE765A52A06EFE2"
+			rewards: [{
+				id: "64236F3D4256D68B"
+				item: "vc_gliders:nether_upgrade"
+				type: "item"
+			}]
+			subtitle: "Purchase a Nether Paraglider Upgrade"
+			tasks: [{
+				amount: 500L
+				currency: "eternalcurrencies:coins"
+				id: "6F5B7CEDF4AE269B"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Nether Paraglider Upgrade"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "artifacts:obsidian_skull"
+			id: "3F859593DDDD5E05"
+			rewards: [{
+				id: "51C9D1AEAF7A7559"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			subtitle: "Purchase Obsidian Skull"
+			tasks: [{
+				amount: 800L
+				currency: "eternalcurrencies:coins"
+				id: "0A41746EDF914B55"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Obsidian Skull"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"13049AEB2F8829E1"
+				"0D88B45349B3E660"
+			]
+			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "cgs:shotgun"
+				tag: {
+					Ammo: {
+						"ntgl:primary": "cgs:round_shotgun"
+					}
+					AmmoCount: 2
+					FireMode: "ntgl:semi"
+					ThrowMode: "ntgl:safe"
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+					}
+					variant: "default"
+				}
+			}
+			id: "42D43F3DA5D1E624"
+			rewards: [{
+				id: "174761EC1CAF124F"
+				item: {
+					Count: 1
+					id: "cgs:shotgun"
+					tag: {
+						Ammo: "cgs:round_shotgun"
+						AmmoCount: 2
+						FireMode: "ntgl:semi"
+						display: {
+							Name: "{\"translate\":\"name.mce2.barrys_yard_sale.1\"}"
+						}
+						variant: "default"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.subtitle}"
+			tasks: [{
+				amount: 3500L
+				currency: "eternalcurrencies:coins"
+				id: "5FAC040CFD8019B5"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.title}"
+			x: 11.0d
 			y: 12.0d
 		}
 	]
