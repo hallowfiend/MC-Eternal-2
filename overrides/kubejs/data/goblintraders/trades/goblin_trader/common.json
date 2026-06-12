@@ -24,7 +24,7 @@
   "offer_item": {
     "count": 1,
     "item": "eternalcurrencies:currency_item",
-    "nbt": "{currencies:[{amount:150L,currency:\"eternalcurrencies:coins\"}]}"
+    "nbt": "{currencies:[{amount:200L,currency:\"eternalcurrencies:coins\"}]}"
   },
   "payment_item": {
     "count": 1,
