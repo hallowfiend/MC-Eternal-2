@@ -8,7 +8,39 @@
   "damagemultiply": 1.0,
   "speedmultiply": 1.0
 },
-
+   {
+    "mob": "mowziesmobs:frostmaw",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.2,
+        "potion": [
+    "cataclysm:monstrous,999999,3"
+  ]
+  },
+  {
+    "mob": "masquerader_mod:masquerader",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.0,
+    "damagemultiply": 1.5,
+    "speedmultiply": 1.1,
+        "potion": [
+    "cataclysm:monstrous,999999,3"
+  ]
+  },
+   {
+    "mob": "mowziesmobs:umvuthi",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+        "potion": [
+    "cataclysm:monstrous,999999,3"
+  ]
+  },
  {
     "mob":"gtbcs_geomancy_plus:geo_grandmaster",
     "result":"deny",
@@ -110,7 +142,7 @@
     "when": "onjoin",
     "customname": "§dEnvoy of The End",
     "gamestage":"master",
-     "random": 0.01,
+     "random": 0.05,
     "result":"default",
     "healthmultiply": 10.6,
     "damagemultiply": 3,
@@ -126,7 +158,7 @@
     "when": "onjoin",
     "customname": "§bIce Dragonlord",
     "gamestage":"master",
-     "random": 0.01,
+     "random": 0.05,
     "result":"default",
     "healthmultiply": 10.6,
     "damagemultiply": 4,
@@ -142,7 +174,7 @@
     "when": "onjoin",
     "customname": "§4Fire Dragonlord",
     "gamestage":"master",
-     "random": 0.01,
+     "random": 0.05,
     "result":"default",
     "healthmultiply": 10.0,
     "damagemultiply": 4,
@@ -158,7 +190,7 @@
     "when": "onjoin",
     "customname": "§dLightning Dragonlord",
     "gamestage":"master",
-     "random": 0.01,
+     "random": 0.05,
     "result":"default",
     "healthmultiply": 10.0,
     "damagemultiply": 4,
@@ -174,7 +206,7 @@
     "when": "onjoin",
     "customname": "§6Undead Ratlord",
     "gamestage":"expert",
-     "random": 0.01,
+     "random": 0.05,
     "result":"default",
     "healthmultiply": 7.0,
     "damagemultiply": 3,
