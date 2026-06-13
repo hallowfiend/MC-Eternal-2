@@ -5,7 +5,7 @@
   "random": 0.333,
   "result": "allow",
   "healthmultiply": 1.0,
-  "damagemultiply": 1.0,
+  "damagemultiply": 3.0,
   "speedmultiply": 1.0
 },
    {
@@ -385,7 +385,7 @@
 "gamestage":"expert",
     "result":"default",
     "healthmultiply": 5,
-    "damagemultiply": 4.6,
+    "damagemultiply": 7.6,
     "speedmultiply": 0.8,
     "armorchest": ["immersive_armors:heavy_chestplate"],
     "armorlegs": ["immersive_armors:heavy_leggings"],
