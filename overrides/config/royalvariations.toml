@@ -15,7 +15,7 @@
 	[Spawning."Royal Skeleton"]
 		#Spawn Weight for Royal Skeleton, set to 0 to disable spawn, Default: 9
 		#Range: > 0
-		royalSkeletonSpawnWeight = 4
+		royalSkeletonSpawnWeight = 3
 		#Spawn minimum group count for Royal Skeleton, Default: 1
 		#Range: > 1
 		royalSkeletonSpawnMinCount = 1
@@ -26,7 +26,7 @@
 	[Spawning."Royal Creeper"]
 		#Spawn Weight for Royal Creeper, set to 0 to disable spawn, Default: 9
 		#Range: > 0
-		royalCreeperSpawnWeight = 3
+		royalCreeperSpawnWeight = 2
 		#Spawn minimum group count for Royal Creeper, Default: 1
 		#Range: > 1
 		royalCreeperSpawnMinCount = 1
@@ -37,7 +37,7 @@
 	[Spawning."Royal Enderman"]
 		#Spawn Weight for Royal Enderman, set to 0 to disable spawn, Default: 5
 		#Range: > 0
-		royalEndermanSpawnWeight = 2
+		royalEndermanSpawnWeight = 1
 		#Spawn minimum group count for Royal Enderman, Default: 1
 		#Range: > 1
 		royalEndermanSpawnMinCount = 1
