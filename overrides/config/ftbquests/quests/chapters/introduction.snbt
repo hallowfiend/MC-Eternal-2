@@ -5741,7 +5741,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "1830DEB84AF3A07C"
 					ignore_reward_blocking: true
@@ -6539,7 +6539,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "46E79168B84A68BC"
 					ignore_reward_blocking: true
