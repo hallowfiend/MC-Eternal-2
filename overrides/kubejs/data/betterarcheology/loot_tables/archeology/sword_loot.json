@@ -1,0 +1,536 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "illager_additions:master_katana",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 3,
+									"max": 4
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Masamune",
+								"color": "light_purple"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "The name \"Masamune\" has become a symbol of excellence in swordmaking",
+									"color": "gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "royalvariations:royal_staff",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Staff of the Fallen Kingdom",
+								"color": "gold"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It once belonged to a cheerful king who lost his people to an undead ambush and was eventually overpowered by their relentless attacks...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 8,
+								"minecraft:smite": {
+									"type": "minecraft:uniform",
+									"min": 4,
+									"max": 6
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "rats:ratlantis_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Ceremonial Rat Blade",
+								"color": "gold"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It once belonged to the glorious rat empire and was used ceremoniously to crown new rat royalty for many years...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 8,
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								}
+							}
+						}
+					]
+				},
+					{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "irons_spellbooks:twilight_gale",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Titanstrike",
+								"color": "light_purple"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Lightning flows through the wielder of this ancient and dangerous artifact...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:knockback": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								},
+								"minecraft:looting": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 2
+								},
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 8
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "irons_spellbooks:boreal_blade",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Frostmourne",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "There must always be a Lich King...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:knockback": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								},
+								"minecraft:looting": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 2
+								},
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 6
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "irons_spellbooks:magehunter",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Magehunter",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It has been used by skilled Magehunters of the past",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:looting": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "goety:great_hammer",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:knockback": 3
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Bruiser's Bane",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It delivers punishing blows",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "iceandfire:copper_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": 3
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Copper Sword",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It is oddly sharp for such an old sword..",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "iceandfire:silver_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:smite": 4
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Silver Sword",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Once used by ancient people to ward off the undead that plagued their villages..",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "majruszsdifficulty:wither_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 3
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Wither Sword",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Once used by an invading Nether army in one of their many attempts at world domination.",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "goety:dark_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"vampirism:vampireslayer": 4
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Nightbane",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Once used by ancient vampire hunters to slay the evil bloodsucking demons that plagued their villages..",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "gonefishing:sunken_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:mending": 1
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Pickaxe",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Once used by ancient villagers to carve out the world and build underground mineshafts..",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+					{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "iceandfire:dragonbone_sword_fire",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:fire_aspect": 1
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Sword of The Hero",
+								"color": "gold"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "A legendary blade given to a hero for the brave act of defending their village from harm...",
+									"color": "gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "irons_spellbooks:legionnaire_flamberge",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "ᒷリᓵ⍑ᔑリℸ ̣ ᒷ↸ 𝙹∷╎⊣╎リᓭ",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Legends say it was one of the first weapons to ever be enchanted",
+									"color": "white"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sweeping": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 5
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "amethyst_tools:amethyst_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 3,
+								"minecraft:mending": 1,
+								"minecraft:fire_aspect": 2
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Blazesaber",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Crafted from burning hot Blazerods",
+									"color": "white"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
