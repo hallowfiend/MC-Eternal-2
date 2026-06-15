@@ -13,6 +13,30 @@ LootJS.modifiers((event) => {
                     '{currencies:[{amount:25L,currency:"eternalcurrencies:coins"}]}'
                 )
             );
+
+        event
+            .addLootTableModifier(table)
+            .randomChance(0.40)
+            .addLoot(
+                Item.of(
+                    'ftbquests:lootcrate',
+                    '{HideFlags:33,display:{Name:\'{"translate":"item.mce2.quest_loot","color":"yellow","italic":false}\'},type:"quest_loot"}'
+                )
+            );
+
+        event
+            .addLootTableModifier(table)
+            .randomChance(0.20)
+            .addWeightedLoot(
+                [
+                    Item.of('iceandfire:dragonscales_green').withChance(1),
+                    Item.of('iceandfire:dragonscales_red').withChance(1),
+                    Item.of('iceandfire:dragonscales_blue').withChance(1),
+                    Item.of('iceandfire:dragonscales_white').withChance(1),
+                    Item.of('iceandfire:dragonscales_electric').withChance(1),
+                    Item.of('iceandfire:dragonscales_amythest').withChance(1)
+                ]
+            );
     });
 
     [
@@ -24,13 +48,14 @@ LootJS.modifiers((event) => {
     ].forEach(table => {
         event
             .addLootTableModifier(table)
-            .randomChance(0.90)
+            .randomChance(0.40)
             .addLoot(
                 Item.of(
                     'eternalcurrencies:currency_item',
                     '{currencies:[{amount:50L,currency:"eternalcurrencies:coins"}]}'
                 )
             );
+
         event
             .addLootTableModifier(table)
             .randomChance(0.60)
@@ -40,20 +65,45 @@ LootJS.modifiers((event) => {
                     '{HideFlags:33,display:{Name:\'{"translate":"item.mce2.quest_loot","color":"yellow","italic":false}\'},type:"quest_loot"}'
                 )
             );
+
+        event
+            .addLootTableModifier(table)
+            .randomChance(0.30)
+            .addWeightedLoot(
+                [
+                    Item.of('iceandfire:dragonscales_green').withChance(1),
+                    Item.of('iceandfire:dragonscales_red').withChance(1),
+                    Item.of('iceandfire:dragonscales_blue').withChance(1),
+                    Item.of('iceandfire:dragonscales_white').withChance(1),
+                    Item.of('iceandfire:dragonscales_electric').withChance(1),
+                    Item.of('iceandfire:dragonscales_amythest').withChance(1)
+                ]
+            );
     });
+
     [
-        "minecraft:chests/simple_dungeon",
-        "minecraft:chests/abandoned_mineshaft",
-        "minecraft:chests/stronghold_corridor"
+        "iceandfire:chest/fire_dragon_female_cave",
+        "iceandfire:chest/fire_dragon_male_cave",
+        "iceandfire:chest/fire_dragon_roost",
+        "iceandfire:chest/ice_dragon_female_cave",
+        "iceandfire:chest/ice_dragon_male_cave",
+        "iceandfire:chest/ice_dragon_roost",
+        "iceandfire:chest/lightning_dragon_female_cave",
+        "iceandfire:chest/lightning_dragon_male_cave",
+        "iceandfire:chest/lightning_dragon_roost"
     ].forEach(table => {
         event
             .addLootTableModifier(table)
-            .randomChance(0.40)
-            .addLoot(
-                Item.of(
-                    'ftbquests:lootcrate',
-                    '{HideFlags:33,display:{Name:\'{"translate":"item.mce2.quest_loot","color":"yellow","italic":false}\'},type:"quest_loot"}'
-                )
+            .randomChance(0.90)
+            .addWeightedLoot(
+                [
+                    Item.of('iceandfire:dragonscales_green').withChance(2),
+                    Item.of('iceandfire:dragonscales_red').withChance(2),
+                    Item.of('iceandfire:dragonscales_blue').withChance(2),
+                    Item.of('iceandfire:dragonscales_white').withChance(2),
+                    Item.of('iceandfire:dragonscales_electric').withChance(2),
+                    Item.of('iceandfire:dragonscales_amythest').withChance(2)
+                ]
             );
     });
 });
