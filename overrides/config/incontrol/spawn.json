@@ -10,6 +10,18 @@
     "when": "onjoin"
   },
     {
+  "mob": "mowziesmobs:grottol",
+  "when": "onjoin",
+"minheight": "50",
+  "result": "deny"
+},
+{
+  "mob": "species:limpet",
+  "when": "onjoin",
+"minheight": "50",
+  "result": "deny"
+},
+    {
   "mod": "untitledduckmod",
   "dimension": "minecraft:overworld",
   "when": "onjoin",
