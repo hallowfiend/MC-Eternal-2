@@ -9,6 +9,15 @@
     "result":"allow",
     "when": "onjoin"
   },
+    {
+  "mod": "untitledduckmod",
+  "dimension": "minecraft:overworld",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 10
+  },
+  "result": "deny"
+},
   {
   "mob": "gtbcs_geomancy_plus:geo_grandmaster",
   "when": "finalize",
