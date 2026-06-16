@@ -18,7 +18,7 @@
 			}
 		]
 	},
-	"mining_speed+2%": {
+	"mining_speed+3%": {
 		"title": "+2% Mining Speed",
 		"icon": {
 			"type": "effect",
