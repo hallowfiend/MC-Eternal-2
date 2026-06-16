@@ -1,7 +1,62 @@
 LootJS.modifiers((event) => {
+
+[
+    "supplementaries:blocks/urn_loot/uncommon"
+].forEach(table => {
+    event
+        .addLootTableModifier(table)
+        .randomChance(0.75)
+        .addWeightedLoot([
+            Item.of('eternalcurrencies:currency_item', '{currencies:[{amount:25L,currency:"eternalcurrencies:coins"}]}').withChance(1),
+            Item.of('eternalcurrencies:currency_item', '{currencies:[{amount:30L,currency:"eternalcurrencies:coins"}]}').withChance(1)
+        ]);
+});
+
+[
+    "supplementaries:blocks/urn_loot/uncommon"
+].forEach(table => {
+    event
+        .addLootTableModifier(table)
+        .randomChance(0.75)
+        .addWeightedLoot([
+            Item.of('eternalcurrencies:currency_item', '{currencies:[{amount:25L,currency:"eternalcurrencies:coins"}]}').withChance(1),
+            Item.of('eternalcurrencies:currency_item', '{currencies:[{amount:30L,currency:"eternalcurrencies:coins"}]}').withChance(1)
+        ]);
+});
+
+[
+    "supplementaries:blocks/urn_loot/rare"
+].forEach(table => {
+    event
+        .addLootTableModifier(table)
+        .randomChance(0.20)
+        .addWeightedLoot([
+            Item.of('eternalcurrencies:currency_item', '{currencies:[{amount:50L,currency:"eternalcurrencies:coins"}]}').withChance(1)
+        ]);
+});
+
+[
+    "supplementaries:blocks/urn_loot/epic"
+].forEach(table => {
+    event
+        .addLootTableModifier(table)
+        .randomChance(0.10)
+        .addWeightedLoot([
+            Item.of('eternalcurrencies:currency_item', '{currencies:[{amount:100L,currency:"eternalcurrencies:coins"}]}').withChance(1)
+        ]);
+});
+
+
     [
         "minecraft:chests/simple_dungeon",
         "minecraft:chests/abandoned_mineshaft",
+    "dungeoncrawl:chests/stage_1",
+    "dungeoncrawl:chests/stage_2",
+    "dungeoncrawl:chests/stage_3",
+    "dungeoncrawl:chests/stage_4",
+    "dungeoncrawl:chests/stage_5",
+    "dungeoncrawl:chests/treasure",
+    "dungeoncrawl:chests/secret_room",
         "minecraft:chests/stronghold_corridor"
     ].forEach(table => {
         event
@@ -103,6 +158,7 @@ LootJS.modifiers((event) => {
     [
         "iceandfire:chest/fire_dragon_female_cave",
         "iceandfire:chest/fire_dragon_male_cave",
+    "dungeoncrawl:chests/stage_5",
         "iceandfire:chest/fire_dragon_roost",
         "iceandfire:chest/ice_dragon_female_cave",
         "iceandfire:chest/ice_dragon_male_cave",
@@ -120,12 +176,12 @@ LootJS.modifiers((event) => {
                     'eternalcurrencies:currency_item',
                     '{currencies:[{amount:50L,currency:"eternalcurrencies:coins"}]}'
                 ),
-                    Item.of('iceandfire:dragonscales_green').withChance(2),
-                    Item.of('iceandfire:dragonscales_red').withChance(2),
-                    Item.of('iceandfire:dragonscales_blue').withChance(2),
-                    Item.of('iceandfire:dragonscales_white').withChance(2),
-                    Item.of('iceandfire:dragonscales_electric').withChance(2),
-                    Item.of('iceandfire:dragonscales_amythest').withChance(2)
+                    Item.of('iceandfire:dragonscales_green').withChance(1),
+                    Item.of('iceandfire:dragonscales_red').withChance(1),
+                    Item.of('iceandfire:dragonscales_blue').withChance(1),
+                    Item.of('iceandfire:dragonscales_white').withChance(1),
+                    Item.of('iceandfire:dragonscales_electric').withChance(1),
+                    Item.of('iceandfire:dragonscales_amythest').withChance(1)
                 ]
             );
     });
