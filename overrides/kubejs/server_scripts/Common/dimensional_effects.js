@@ -26,7 +26,7 @@ addDimensionalEffect("thegreatbelow:thegreatbelow", "xaeroworldmap:no_world_map"
 
 //dwarven depths
 addDimensionalEffect("mce:dwarven_depths", "goety:burn_hex", 0, 225, false)
-addDimensionalEffect("mce:dwarven_depths", "goety:nyctophobia", 1, 225, false)
+addDimensionalEffect("mce:dwarven_depths", "goety:nyctophobia", 3, 225, false)
 
 ServerEvents.tick(event => {
     //console.log(dimEffectTickCounter, dimEffectUpdateDelay)
