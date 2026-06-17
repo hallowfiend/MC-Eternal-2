@@ -14,7 +14,7 @@
       "mining_speed": -0.4
     },
     "tconstruct:head": {
-      "durability": 2200,
+      "durability": 3200,
       "melee_attack": 4.2,
       "mining_speed": 3.5,
       "mining_tier": "minecraft:netherite"
@@ -30,7 +30,7 @@
       "armor": 5.0,
       "durability": 1200,
       "knockback_resistance": 0.15,
-      "toughness": 4.0
+      "toughness": 3.0
     },
     "tconstruct:plating_chestplate": {
       "armor": 10.0,
@@ -39,7 +39,7 @@
       "toughness": 5.0
     },
     "tconstruct:plating_helmet": {
-      "armor": 5.0,
+      "armor": 6.0,
       "durability": 1100,
       "knockback_resistance": 0.15,
       "toughness": 4.0
