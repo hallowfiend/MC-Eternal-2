@@ -2,11 +2,11 @@ abilitiesData:
     abilities:
         vanish:
             # Highest level to which the ability can be upgraded
-            maxLevel: 10
+            maxLevel: 3
             # Relic level at which the ability becomes unlocked
             requiredLevel: 0
             # Number of leveling points needed to increase the ability level
-            requiredPoints: 2
+            requiredPoints: 5
             stats:
                 light:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created
