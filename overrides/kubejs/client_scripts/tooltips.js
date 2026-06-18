@@ -127,6 +127,10 @@ ItemEvents.tooltip(event => {
 
 	event.add('mekanism:osmium_ore', Text.translate("tooltip.mce2.greatbelow.exclusive_ore").color('#FFFFFF')); 
 	event.add('mekanism:deepslate_osmium_ore', Text.translate("tooltip.mce2.greatbelow.exclusive_ore").color('#FFFFFF')); 
+	event.add('irons_spellbooks:deepslate_mithril_ore', Text.translate("tooltip.mce2.dwarvendepths.exclusive_ore").color('#FFFFFF')); 
+	event.add('irons_spellbooks:mithril_ore', Text.translate("tooltip.mce2.dwarvendepths.exclusive_ore").color('#FFFFFF')); 
+	event.add('irons_spellbooks:mithril_ingot', Text.translate("tooltip.mce2.dwarvendepths.exclusive_ore").color('#FFFFFF')); 
+	event.add('irons_spellbooks:mithril_scrap', Text.translate("tooltip.mce2.dwarvendepths.exclusive_ore").color('#FFFFFF')); 
 	event.add('mekanism:uranium_ore', Text.translate("tooltip.mce2.greatbelow.exclusive_ore").color('#FFFFFF')); 
 	event.add('mekanism:deepslate_uranium_ore', Text.translate("tooltip.mce2.greatbelow.exclusive_ore").color('#FFFFFF')); 
 	event.add('mekanism:fluorite_ore', Text.translate("tooltip.mce2.greatbelow.exclusive_ore").color('#FFFFFF')); 
