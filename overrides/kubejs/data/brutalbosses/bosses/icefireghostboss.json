@@ -10,7 +10,7 @@
     "minecraft:fire_resistance": 1
   },
   "attributes": {
-    "generic.max_health": 70,
+    "generic.max_health": 150,
     "generic.follow_range": 80,
     "generic.knockback_resistance": 1
   },
@@ -24,7 +24,7 @@
   },
   "ai-goals": {
     "brutalbosses:shootfireballs": {
-      "projectile_count": 3,
+      "projectile_count": 5,
       "projectile_interval": 60,
       "projectile_aoe": true,
       "projectile_distance": 25
