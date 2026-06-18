@@ -28,16 +28,16 @@
 
     "tconstruct:maille": {},
     "tconstruct:plating_helmet": {
-      "armor": 2.8,
+      "armor": 3.8,
       "durability": 300,
       "knockback_resistance": 0.055,
       "toughness": 1.5
     },
     "tconstruct:plating_chestplate": {
-      "armor": 7.0,
+      "armor": 8.0,
       "durability": 400,
       "knockback_resistance": 0.055,
-      "toughness": 1.5
+      "toughness": 2.5
     },
     "tconstruct:plating_leggings": {
       "armor": 5.0,
