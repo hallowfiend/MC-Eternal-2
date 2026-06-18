@@ -23,6 +23,6 @@
     "amount": 90,
     "fluid": "tinkers_advanced:molten_blizz_enderium"
   },
-  "temperature": 8000,
+  "temperature": 4000,
   "time": 84
 }
