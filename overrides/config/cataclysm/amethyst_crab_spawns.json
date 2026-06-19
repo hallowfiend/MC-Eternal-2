@@ -5,6 +5,11 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "minecraft:lush_caves"
+      },
+       {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomeswevegone:forgotten_forest"
       }
     ]
   ]
