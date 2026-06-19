@@ -1,6 +1,9 @@
 StartupEvents.registry("item", event => {
 
-  event.create('regret_scroll').glow(true);
+  event.create('regret_scroll')
+    .glow(true)
+    .displayName('§eScroll of Regret')
+  
   event.create('crimson').glow(true);
   event.create('unsigned_contract').glow(false);
 
