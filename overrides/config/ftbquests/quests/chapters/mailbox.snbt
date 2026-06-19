@@ -765,7 +765,6 @@
 			y: 4.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["0901DBD03773B644"]
 			description: [
 				"{ftbquests.chapter.introduction.quest6920559528164792937.description1}"
