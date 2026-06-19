@@ -5715,13 +5715,15 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0E64ACED3D987FB1"]
+			dependencies: [
+				"0E64ACED3D987FB1"
+				"0D88B45349B3E660"
+			]
 			description: [
 				"{ftbquests.chapter.introduction.quest7111342608113461204.description1}"
 				""
 				"{ftbquests.chapter.introduction.quest7111342608113461204.description2}"
 				""
-				"{ftbquests.chapter.introduction.quest7111342608113461204.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -5741,7 +5743,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 500L
 					currency: "eternalcurrencies:coins"
 					id: "1830DEB84AF3A07C"
 					ignore_reward_blocking: true
@@ -6512,13 +6514,12 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0E64ACED3D987FB1"]
+			dependencies: ["0D88B45349B3E660"]
 			description: [
 				"{ftbquests.chapter.introduction.quest6201283025930451408.description1}"
 				""
 				"{ftbquests.chapter.introduction.quest6201283025930451408.description2}"
 				""
-				"{ftbquests.chapter.introduction.quest6201283025930451408.description3}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -6539,7 +6540,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 500L
 					currency: "eternalcurrencies:coins"
 					id: "46E79168B84A68BC"
 					ignore_reward_blocking: true
