@@ -68,6 +68,15 @@
 			x: 5.0d
 			y: 4.0d
 		}
+		{
+			dependency: "1B5CD795ACD7D0E5"
+			height: 1.0d
+			image: "constructs_casting:block/mithril_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -93,7 +102,7 @@
 					type: "item"
 				}
 				{
-					amount: 50L
+					amount: 25L
 					currency: "eternalcurrencies:coins"
 					id: "1AD33577E76AA501"
 					ignore_reward_blocking: true
@@ -125,7 +134,7 @@
 					type: "item"
 				}
 				{
-					amount: 150L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "74854F92028659FF"
 					ignore_reward_blocking: true
@@ -197,7 +206,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "216CAE9C787D3398"
 					ignore_reward_blocking: true
@@ -675,7 +684,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "134190DC291A8002"
 					ignore_reward_blocking: true
@@ -732,7 +741,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "15A0AABCCFCCDF97"
 					ignore_reward_blocking: true
@@ -1293,6 +1302,81 @@
 			}]
 			title: "&eI am a Dwarf!"
 			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F16592E377C17AE"]
+			description: [
+				"This strange ore seems to be harder than even Diamond! In addition, you can feel a strong magical presence just by being nearby."
+				""
+				"It would appear we need a Netherite Pickaxe to harvest it though! &oI have a feeling&r it has the potencial to make some very strong armor and magical weapons!"
+				""
+				"&6Hint:&r Mithril only generates in The Dwarven Depths and needs at least mining level Netherite. "
+			]
+			id: "0CB492E8A8951DB3"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "16E939B9730588D6"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			secret: true
+			subtitle: "Find Mithril Ore"
+			tasks: [{
+				icon: "irons_spellbooks:deepslate_mithril_ore"
+				id: "26B4ED81446554D0"
+				observe_type: 0
+				timer: 100L
+				title: "Strange Discovery"
+				to_observe: "irons_spellbooks:deepslate_mithril_ore"
+				type: "observation"
+			}]
+			title: "&bA Strange Discovery"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CB492E8A8951DB3"]
+			description: [
+				"Mithril is a rare, silver-like metal that is both lighter than silk and stronger than steel. It can be used to forge unique weapons and powerful armor!"
+				""
+				"&7\"Mithril! All folk desired it. It could be beaten like copper, and polished like glass; and the Dwarves could make of it a metal, light and yet harder than tempered steel. Its beauty was like to that of common silver, but the beauty of Mithril did not tarnish or grow dim.\""
+			]
+			id: "1B5CD795ACD7D0E5"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "573FA70294C4A816"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "243445D1FC925502"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			secret: true
+			subtitle: "Stronger Than Steel!"
+			tasks: [{
+				id: "79D6691E382617EC"
+				item: "irons_spellbooks:mithril_scrap"
+				type: "item"
+			}]
+			title: "&bPride of The Dwarves"
+			x: 11.0d
 			y: 4.0d
 		}
 	]
