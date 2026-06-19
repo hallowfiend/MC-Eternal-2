@@ -120,4 +120,9 @@ ServerEvents.recipes(event => {
         I: "iceandfire:dragonsteel_ice_ingot",
         L: "iceandfire:dragonsteel_lightning_ingot"
     }).id("mce2:dreadsteel_ingot")
+
+
+    event.shapeless(Item.of("kubejs:loot_bag", 1, {loottable:"mce:cave_tablet_random",show_name:true}), [
+        "#minecraft:wool", "alexscaves:cave_tablet", "alexscaves:cave_tablet", "alexscaves:cave_tablet", "alexscaves:cave_tablet", "alexscaves:cave_tablet"
+    ]).id("mce2:loot_bag_random_cave_tablet")
 })

@@ -196,6 +196,8 @@
     "tooltip.mce2.kubejs.artifact_dragon_tablet.2": "§eRight-Click to fly like the dragon once did.",
     "tooltip.mce2.kubejs.loot_bag.table": "Loot Table: %s",
 
+    "loot_table.mce:cave_tablet_random.name": "Random Cave Tablet",
+
     "message.mce2.bodyguard_arrived": "Your personal bodyguard has arrived!",
     "message.mce2.soul_stone_peer": "You peer into the Soul Stone and see a vision of The Great Beyond... Eternal darkness... Countless souls singing and dancing... Countless screaming and writhing.. It seems some take to death better than others..",
     "message.mce2.ultimate_cheese_cooldown": "The cheese is still cooling down! (%ss)",
