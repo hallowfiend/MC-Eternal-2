@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:casting_table",
   "cast": {
-    "item": "constructs_casting:mithril_block"
+    "item": "constructs_casting:mithril_ingot"
   },
   "cast_consumed": true,
   "cooling_time": 94,
