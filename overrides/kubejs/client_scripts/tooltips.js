@@ -59,6 +59,8 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:ancient_portal_stone', Text.translate("tooltip.mce2.dwarven_depths_portal_block").color("#FFFFFF"))
 	event.add('kubejs:artifact_runestone_dark_inscribed_large', Text.translate("tooltip.mce2.kubejs.artifact_dragon_tablet.1").color("#FFFFFF"))
 	event.add('kubejs:artifact_runestone_dark_inscribed_large', Text.translate("tooltip.mce2.kubejs.artifact_dragon_tablet.2").color("#FFFFFF"))
+	event.add('kubejs:regret_scroll', Text.translate("tooltip.mce2.kubejs.regret_scroll").color('#FFFFFF')); 
+	event.add('kubejs:regret_scroll', Text.translate("tooltip.mce2.kubejs.regret_scroll1").color('#FFFFFF')); 
 
 	//Soul Stone
 	event.add('kubejs:artifact_endergem', Text.translate("tooltip.mce2.kubejs.artifact_endergem.1").color('#FFFFFF'));
