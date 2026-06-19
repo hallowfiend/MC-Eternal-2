@@ -32,7 +32,7 @@
 	#Whether hoglins have the ability to pass overworld zombification immunity to their offspring. Default: true
 	hoglinOffspringProtection = true
 	#Global multiplier to all players' mana regeneration. Default: 1.0
-	manaRegenMultiplier = 1.0
+	manaRegenMultiplier = 0.5
 	#Whether merging scrolls with ink to upgrade them in the Arcane Anvil is enabled.
 	scrollMerging = true
 	#Whether mana is required in creative mode. Default: false
@@ -94,7 +94,7 @@
 		#Additional Health
 		additionalHealth = 200.0
 		#Additional Melee Attack Damage
-		additionalAttackDamage = 0.0
+		additionalAttackDamage = 10.0
 		#Additional Spell Power (additive percent)
-		additionalSpellPower = 200.0
+		additionalSpellPower = 50.0
 
