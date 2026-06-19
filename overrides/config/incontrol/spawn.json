@@ -33,7 +33,7 @@
   {
   "mob": "gtbcs_geomancy_plus:geo_grandmaster",
   "when": "finalize",
-  "random": 0.333,
+  "random": 0.1,
   "result": "allow",
   "healthmultiply": 1.0,
   "damagemultiply": 3.0,
