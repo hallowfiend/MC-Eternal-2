@@ -5726,6 +5726,7 @@
 				""
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "62B0906CB0B3E7D4"
 			rewards: [
@@ -6514,7 +6515,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["0D88B45349B3E660"]
+			dependencies: [
+				"0D88B45349B3E660"
+				"0E64ACED3D987FB1"
+			]
 			description: [
 				"{ftbquests.chapter.introduction.quest6201283025930451408.description1}"
 				""
@@ -6522,6 +6526,7 @@
 				""
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "iceandfire:dragon_skull_ice"
 			id: "560F620E683E79D0"
