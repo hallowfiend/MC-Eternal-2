@@ -2768,6 +2768,42 @@
 			x: 25.0d
 			y: 2.0d
 		}
+		{
+			dependencies: [
+				"0D88B45349B3E660"
+				"13049AEB2F8829E1"
+			]
+			description: [
+				"Entered Expert Mode before you were fully ready? Miss the good old days when generic monsters didn't have full sets of armor and over 100 health? Consider the &eScroll of Regret!&r"
+				""
+				"Removes Expert Mode and returns you to Normal Mode, until you enter The Nether once more!"
+				""
+				"&dNote:&r This action can only be performed once! "
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:regret_scroll"
+			id: "6CE313CDF58C2A92"
+			optional: true
+			rewards: [{
+				id: "0A3842E489B4D40C"
+				item: "kubejs:regret_scroll"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Purchase a Scroll of Regret"
+			tasks: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "40DDEE0EDD915286"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eRegrets? I've Had a Few"
+			x: -4.0d
+			y: 5.0d
+		}
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"
 }
