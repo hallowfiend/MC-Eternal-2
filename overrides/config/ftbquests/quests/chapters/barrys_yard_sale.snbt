@@ -1891,7 +1891,7 @@
 			can_repeat: true
 			dependencies: [
 				"13049AEB2F8829E1"
-				"76AE8F18AD0E7279"
+				"42D43F3DA5D1E624"
 			]
 			description: ["&dRepeatable"]
 			hide_dependency_lines: true
