@@ -451,7 +451,22 @@
   "armorhelmet": ["quark:forgotten_hat"],
     "helditem": ["minecraft:bow", "mowziesmobs:naga_fang_dagger"]
   },
- 
+   {
+  "mob": "cataclysm:amethyst_crab",
+  "biome": "biomeswevegone:forgotten_forest",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 2
+  },
+  "result": "deny"
+},
+   {
+    "mob": "cataclysm:amethyst_crab",
+    "biome": "biomeswevegone:forgotten_forest",
+    "customname": "§dForgotten Crab",
+    "result": "true",
+    "when": "onjoin"
+  },
    {
     "mob":"vampirism:vampire_baron",
     "when": "onjoin",
