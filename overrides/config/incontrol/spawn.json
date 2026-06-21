@@ -83,7 +83,7 @@
     "result": "allow",
     "customname": "§dEternal Ender Dragon",
     "healthmultiply": 5.0,
-    "damagemultiply": 6.5,
+    "damagemultiply": 14.5,
     "speedmultiply": 1.2,
         "potion": [
     "cataclysm:monstrous,999999,5"
