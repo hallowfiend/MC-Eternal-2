@@ -326,18 +326,6 @@
     "armorhelmet": ["rats:fisherman_hat"],
     "helditem": ["minecraft:fishing_rod"]
   },
-      {
-    "mod": "goety",
-    "dimension": "mce:dwarven_depths",
-    "result": "true",
-    "when": "onjoin",
-        "healthmultiply": 6.0,
-    "damagemultiply": 6.5,
-    "speedmultiply": 1.2,
-        "potion": [
-    "lavafishing:lava_walker,999999,1"
-  ]
-  },
  {
     "mob": ["specialmobs:frozenzombie"],
     "when": "onjoin",
@@ -700,7 +688,7 @@
       "Enchantments": [
         {
           "id": "minecraft:power",
-          "lvl": 3
+          "lvl": 5
         },
           {
           "id": "minecraft:punch",
@@ -1089,6 +1077,18 @@
     "lavafishing:lava_walker,999999,1"
   ]
   },
+    {
+    "mod": "goety",
+    "dimension": "mce:dwarven_depths",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 6.0,
+    "damagemultiply": 9.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
   {
     "mod":"thermal",
     "gamestage":"expert",
@@ -1097,6 +1097,7 @@
     "damagemultiply": 6.5,
     "when": "onjoin"
   },
+
   {
     "mod":"thermal",
     "result":"deny",
