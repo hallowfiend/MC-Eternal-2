@@ -967,7 +967,7 @@
 			}]
 			subtitle: "Purchase Blade Shoes"
 			tasks: [{
-				amount: 300L
+				amount: 250L
 				currency: "eternalcurrencies:coins"
 				id: "5D5494F38BA16309"
 				type: "eternalcurrencies:currency"
@@ -1060,36 +1060,40 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.description1}"]
+			description: [
+				"&6Tip&r: Very useful for combat when you are low on mana! "
+				""
+				"&7&oMonster Energy for wizards."
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
-				id: "amethyst_tools:amethyst_goat_horn"
+				id: "minecraft:potion"
 				tag: {
-					Damage: 0
+					Potion: "irons_spellbooks:instant_mana_four"
 				}
 			}
 			id: "1B07F007D678FF25"
 			rewards: [{
-				id: "085D513390A7E75C"
+				id: "0BE0ECB2D0450D35"
 				item: {
 					Count: 1
-					id: "amethyst_tools:amethyst_goat_horn"
+					id: "minecraft:potion"
 					tag: {
-						Damage: 0
+						Potion: "irons_spellbooks:instant_mana_four"
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.subtitle}"
+			subtitle: "Purchase Potion of Mana IV"
 			tasks: [{
-				amount: 350L
+				amount: 80L
 				currency: "eternalcurrencies:coins"
 				id: "402EEE608482552C"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest1947789280314720037.title}"
+			title: "&eYard Sale: &rPotion of Mana"
 			x: 8.0d
 			y: 10.0d
 		}
@@ -1203,7 +1207,7 @@
 			}]
 			subtitle: "Purchase Pickaxe Heater"
 			tasks: [{
-				amount: 400L
+				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "168BB3FADE55193D"
 				type: "eternalcurrencies:currency"
