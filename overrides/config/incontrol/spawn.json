@@ -643,7 +643,7 @@
       "Enchantments": [
         {
           "id": "minecraft:power",
-          "lvl": 6
+          "lvl": 7
         },
           {
           "id": "minecraft:punch",
@@ -654,7 +654,7 @@
   }
 ],
      "potion": [
-    "cataclysm_spellbooks:sniper,999999,1"
+    "cataclysm_spellbooks:sniper,999999,2"
   ],
     "armorboots": ["illager_additions:samurai_boots"]
   },
