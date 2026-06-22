@@ -332,9 +332,10 @@
  {
     "mob": "minecraft:warden",
     "dimension": "thegreatbelow:thegreatbelow",
+    "customname": "§bAncient Warden",
     "when": "finalize",
     "healthmultiply": 5.0,
-    "damagemultiply": 2.5,
+    "damagemultiply": 3.5,
     "speedmultiply": 1.1
   },
    {
