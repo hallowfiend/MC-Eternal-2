@@ -77,11 +77,6 @@
 			id: "03FCEB26ED8148CF"
 			rewards: [
 				{
-					id: "6C6AA47F1B911A79"
-					table_id: 7907762097638722541L
-					type: "random"
-				}
-				{
 					command: "/titles add {p} titles:end"
 					console: true
 					icon: "titles:title_scroll_rare"
@@ -108,6 +103,13 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "3C9A6D13AB57272C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "pentagon"
@@ -283,22 +285,6 @@
 					id: "6D587B8039B56B56"
 					title: "{ftbquests.chapter.4lthe_end.quest5099887963503203233.reward.7879183338738903894.title}"
 					type: "command"
-				}
-				{
-					id: "73DFD09C4BEF810B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "relics:magic_mirror"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
 				}
 				{
 					command: "/titles add {p} titles:doom"
