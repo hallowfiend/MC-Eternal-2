@@ -326,6 +326,18 @@
     "armorhelmet": ["rats:fisherman_hat"],
     "helditem": ["minecraft:fishing_rod"]
   },
+      {
+    "mod": "goety",
+    "dimension": "mce:dwarven_depths",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 6.0,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
  {
     "mob": ["specialmobs:frozenzombie"],
     "when": "onjoin",
