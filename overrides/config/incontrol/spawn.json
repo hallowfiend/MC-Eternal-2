@@ -882,10 +882,10 @@
     "mod":"mutantmonsters",
     "gamestage":"master",
     "result":"default",
-    "healthmultiply": 5.0,
-    "damagemultiply": 15.5,
+    "healthmultiply": 4.0,
+    "damagemultiply": 5.0,
      "potion": [
-    "royalvariations:knightly_fortitude,999999,3"
+    "royalvariations:knightly_fortitude,999999,2"
   ],
     "when": "onjoin"
   },
