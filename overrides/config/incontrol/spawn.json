@@ -870,12 +870,15 @@
     "speedmultiply": 1.0
   },
   
-  {
+ {
     "mod":"mutantmonsters",
     "gamestage":"master",
     "result":"default",
-    "healthmultiply": 3.0,
-    "damagemultiply": 7.5,
+    "healthmultiply": 5.0,
+    "damagemultiply": 15.5,
+     "potion": [
+    "cataclysm:monstrous,999999,10"
+  ],
     "when": "onjoin"
   },
   {
