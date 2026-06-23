@@ -194,7 +194,7 @@
     "tooltip.mce2.alexscaves.sack_of_sating_explode": "§7§oDo not feed this to a Sack of Sating in your base. You have been warned!",
     "tooltip.mce2.kubejs.artifact_dragon_tablet.1": "§7§oThis strange object was protected by the Ender Dragon for thousands of years. It would seem that Barry wants it.. But who knows what for...",
     "tooltip.mce2.kubejs.artifact_dragon_tablet.2": "§eRight-Click to fly like the dragon once did.",
-    "tooltip.mce2.kubejs.regret_scroll": "§7§oReturns you to Normal Mode from Expert Mode upon Right-Clicking",
+    "tooltip.mce2.kubejs.regret_scroll": "§7Returns you to Normal Mode from Expert Mode upon Right-Clicking",
     "tooltip.mce2.kubejs.regret_scroll1": "§8§oEverybody makes mistakes.. Everybody has those days..",
     "tooltip.mce2.kubejs.loot_bag.table": "Loot Table: %s",
 
