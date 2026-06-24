@@ -1046,6 +1046,7 @@
 			y: 10.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
 				"&6Tip&r: Very useful for combat when you are low on mana! "
