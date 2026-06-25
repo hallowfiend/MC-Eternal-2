@@ -14,7 +14,7 @@ ItemEvents.tooltip(event => {
 	event.add("#alexscaves:explodes_sack_of_sating", Text.translate("tooltip.mce2.alexscaves.sack_of_sating_explode").color("#FFFFFF"))
 
 	event.add('relics:rage_glove', Text.translate("tooltip.mce2.relics.rage_glove").color('#FF073A')); 
-	event.add('botania:laputa_shard', Text.translate("tooltip.mce2.ca").color('#FFFFFF')); 
+	event.add('botania:laputa_shard', Text.translate("tooltip.mce2.botania.laputa_shard").color('#FFFFFF')); 
 
 	event.add('bosses_of_mass_destruction:soul_star', Text.translate("tooltip.mce2.bomd.soul_star.1").color('#FFFFFF'));
 	event.add("bosses_of_mass_destruction:soul_star", Text.translate("tooltip.mce2.bomd.soul_star.2").color("#FFAA00"))
