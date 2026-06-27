@@ -2,11 +2,11 @@ abilitiesData:
     abilities:
         glaive:
             # Highest level to which the ability can be upgraded
-            maxLevel: 20
+            maxLevel: 30
             # Relic level at which the ability becomes unlocked
             requiredLevel: 0
             # Number of leveling points needed to increase the ability level
-            requiredPoints: 5
+            requiredPoints: 10
             stats:
                 damage:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created

@@ -1,17 +1,22 @@
 StartupEvents.registry("item", event => {
-  
 
+  event.create('regret_scroll')
+    .glow(true)
+    .displayName('§eScroll of Regret')
   
+  event.create('crimson').glow(true);
   event.create('unsigned_contract').glow(false);
-  
-  event.create('clipboard').displayName('§eClipboard').glow(false);
 
-  event.create('dwarven_map').glow(true);
+  event.create('dwarven_map')
+    .fireResistant(true)
+    .glow(true);
 
-  event.create('portable_wormhole_generator').displayName('§dPortable Wormhole Generator').glow(true);
-  event.create('portable_wormhole_generator_inert').displayName('§eInert Portable Wormhole Generator').glow(false);
+  event.create('portable_wormhole_generator').glow(true);
+  event.create('portable_wormhole_generator_inert').glow(false);
 
-  event.create('magic_map').glow(true);
+  event.create('magic_map')
+    .fireResistant(true)
+    .glow(true);
 
   event.create('contract').glow(true)
     .maxStackSize(1)
@@ -19,19 +24,19 @@ StartupEvents.registry("item", event => {
     .fireResistant(true)
     .rarity('UNCOMMON');
   
-  event.create('artifact_runestone_dark_inscribed_large').displayName('§ePortal Keystone').glow(false);
+  event.create('artifact_runestone_dark_inscribed_large')
+    .fireResistant(true)
+    .glow(true);
 
   event.create('ingot_thousand_metals').glow(false);
 
   event.create('artifact_endergem').glow(false);
   
   event.create('travel_ticket').glow(true);
-  
-  event.create('vegan_leather').displayName('§7Ethically™ Sourced Leather').glow(false);
 
   event.create('scorched_letter').glow(true);
 
-   event.create('scorched_letter1').glow(true);
+  event.create('scorched_letter1').glow(true);
 
   event.create('mossy_letter').glow(true);
 
@@ -40,20 +45,6 @@ StartupEvents.registry("item", event => {
   event.create('elegant_letter').glow(true);
 
   event.create('eternal_engine').glow(true);
-  
-  event.create('pocket_watch').displayName('§bIncorporeal Pocketwatch').glow(true);
-  
-  event.create('tc_kill').displayName('§5Symbiosis Circuit').glow(true);
-  
-  event.create('artifact_star_animated').displayName('§ePlayer Soul').glow(false);
-
-  event.create('morbo_orb').displayName('§dMorbos Whimsical Orb of Morphing').glow(true);
-  
-  event.create('morbo_half_2').displayName('§dOrb of Morphing Piece').glow(false);
-  
-  event.create('morbo_half').displayName('§Orb of Morphing Piece').glow(false);
-
-  event.create('jaffa_cake').displayName('§eJaffa Cake');
   
   event.create('loyalty_card_generic').glow(false);
   
@@ -71,6 +62,7 @@ StartupEvents.registry("item", event => {
 
   //Complex Items
   event.create('nether_item')
+    .fireResistant(true)
     .glow(true);
 
   event.create('s_soup')
@@ -110,7 +102,8 @@ StartupEvents.registry("item", event => {
       food.saturation(0.5)
       food.effect('alexscaves:sugar_rush', 150, 0, 1.0)
     })
-  
+
+
+  event.create("loot_bag")
+    .fireResistant(true)
 })
-
-

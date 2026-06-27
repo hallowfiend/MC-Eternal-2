@@ -27,9 +27,9 @@
   #   "minecraft:generic.movement_speed * 0.6" ]
   #    Range for Values: Any Value
   general.attributes = [
-    "minecraft:generic.max_health + 20.0",
+       "minecraft:generic.max_health + 350.0",
     "minecraft:generic.armor + 10.0",
-    "minecraft:generic.attack_damage + 4.0",
+    "minecraft:generic.attack_damage + 40.0",
     "minecraft:generic.movement_speed * 0.6"
   ]
 
@@ -85,7 +85,7 @@
     general.special_data.ranged_attack.charge_time = 20
     # The total delay (in ticks) king ghasts wait between each ranged attack. (20 ticks = 1 second)
     # <Integer> Range: ≥ 0, Default: 60
-    general.special_data.ranged_attack.refire_time = 60
+    general.special_data.ranged_attack.refire_time = 10
     # The maximum distance (in blocks) at which king ghasts can use their ranged attacks. 0 disables ranged attacks.
     # <Number> Range: ≥ 0.0, Default: 64.0
     general.special_data.ranged_attack.max_range = 64.0

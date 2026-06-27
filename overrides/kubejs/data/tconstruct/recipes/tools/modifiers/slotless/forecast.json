@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+    {
+      "ingredient": [
+        {
+          "item": "rats:psionic_rat_brain"
+        }
+      ]
+    }
+  ],
+  "level": 1,
+  "result": "tconstruct:forecast",
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  }
+}

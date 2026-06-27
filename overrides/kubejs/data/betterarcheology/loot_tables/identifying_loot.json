@@ -1,0 +1,1022 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "betterarcheology:penetrating_strike": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "enchantment.betterarcheology.penetrating_strike.desc",
+                  "color": "dark_gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.betterarcheology.identified_artifact"
+              }
+            }
+          ]
+        },
+        {
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:aqua_dashers"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:feral_claws"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:feral_claws"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "alexsmobs:squid_grapple"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "alexsmobs:warped_mixture"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "bosses_of_mass_destruction:obsidian_heart"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "cataclysm:burning_ashes"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:soul_gem"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:devils_eyeball"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:rusty_guillotine_blade"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:large_paddle"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:fossil_shark_tooth"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:amplifier_stone"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:ninjutsu_manual"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:rocket_shoes"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "irons_spellbooks:netherite_spell_book"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:ancient_chisel"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "irons_spellbooks:ruined_book"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:anglers_hat"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "majruszsaccessories:ancient_scarab"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "species:ancient_pinecone"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "cataclysm:ancient_spear"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "netherexp:ancient_skeleton_skull_candle"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:snorkel"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:villager_hat"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:superstitious_hat"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:cowboy_hat"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:shock_pendant"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:flame_pendant"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:cross_necklace"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:panic_necklace"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:thorn_pendant"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:charm_of_sinking"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:obsidian_skull"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:crystal_heart"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:universal_attractor"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:vampiric_glove"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:night_vision_goggles"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:running_shoes"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:pickaxe_heater"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:pocket_piston"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:fire_gauntlet"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:power_glove"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "enchlibathome:ender_library"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "endrem:old_eye"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:snowshoes"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:golden_hook"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:helium_flamingo"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:rooted_boots"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:cloud_in_a_bottle"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:chorus_totem"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:onion_ring"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:royal_honeycomb"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:golden_egg_charm"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:shiny_stone"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:ender_lens"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:ancient_chisel"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:championship_belt"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:small_propulsion_device"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:power_crystal"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:accessory_box"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:rocket_shoes"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "uniqueaccessories:cursed_doll_head"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "relics:enders_hand"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "relics:leather_belt"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "relics:jellyfish_necklace"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "relics:chorus_inhibitor"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "relics:blazing_flask"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "relics:holy_locket"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "relics:magma_walker"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "minecraft:enchanted_book",
+  "functions": [
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:mending": 1
+      }
+    }
+  ]
+},
+{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "illager_additions:master_katana",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 3,
+									"max": 4
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Masamune",
+								"color": "light_purple"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "The name \"Masamune\" has become a symbol of excellence in swordmaking",
+									"color": "gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "royalvariations:royal_staff",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Staff of the Fallen Kingdom",
+								"color": "gold"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It once belonged to a cheerful king who lost his people to an undead ambush and was eventually overpowered by their relentless attacks...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 8,
+								"minecraft:smite": {
+									"type": "minecraft:uniform",
+									"min": 4,
+									"max": 6
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "rats:ratlantis_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Ceremonial Rat Blade",
+								"color": "gold"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It once belonged to the glorious rat empire and was used ceremoniously to crown new rat royalty for many years...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 8,
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								}
+							}
+						}
+					]
+				},
+					{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "irons_spellbooks:twilight_gale",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Titanstrike",
+								"color": "light_purple"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Lightning flows through the wielder of this ancient and dangerous artifact...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:knockback": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								},
+								"minecraft:looting": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 2
+								},
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 8
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "irons_spellbooks:boreal_blade",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Frostmourne",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "There must always be a Lich King...",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:knockback": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								},
+								"minecraft:looting": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 2
+								},
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 6
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "irons_spellbooks:magehunter",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Magehunter",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It has been used by skilled Magehunters of the past",
+									"color": "gray"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:looting": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "goety:great_hammer",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:knockback": 3
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Bruiser's Bane",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It delivers punishing blows",
+									"color": "white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "iceandfire:copper_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": 3
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Copper Sword",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "It is oddly sharp for such an old sword..",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "iceandfire:silver_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:smite": 4
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Silver Sword",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Once used by ancient people to ward off the undead that plagued their villages..",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "majruszsdifficulty:wither_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 3
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Wither Sword",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Once used by an invading Nether army in one of their many attempts at world domination.",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "goety:dark_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"vampirism:vampireslayer": 4
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Nightbane",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Once used by ancient vampire hunters to slay the evil bloodsucking demons that plagued their villages..",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "gonefishing:sunken_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:mending": 1
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Ancient Pickaxe",
+								"color": "gray"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Once used by ancient villagers to carve out the world and build underground mineshafts..",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				},
+					{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "iceandfire:dragonbone_sword_fire",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:fire_aspect": 1
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "Sword of The Hero",
+								"color": "gold"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "A legendary blade given to a hero for the brave act of defending their village from harm...",
+									"color": "gray"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "irons_spellbooks:legionnaire_flamberge",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"text": "ᒷリᓵ⍑ᔑリℸ ̣ ᒷ↸ 𝙹∷╎⊣╎リᓭ",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Legends say it was one of the first weapons to ever be enchanted",
+									"color": "white"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sweeping": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 3
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 5
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "amethyst_tools:amethyst_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 3,
+								"minecraft:mending": 1,
+								"minecraft:fire_aspect": 2
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Blazesaber",
+								"color": "aqua"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "Crafted from burning hot Blazerods",
+									"color": "grey"
+								}
+							]
+						}
+					]
+				},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "relics:magic_mirror"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "royalvariations:royal_bow"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "royalvariations:royal_bomb"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "royalvariations:royal_telelocator"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "cgs:flintlock_chambers"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "alexscaves:nuclear_bomb"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:antidote_vessel"
+},
+{
+  "type": "minecraft:item",
+  "weight": 1,
+  "name": "artifacts:everlasting_beef"
+},
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "betterarcheology:soaring_winds": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "enchantment.betterarcheology.soaring_winds.desc",
+                  "color": "dark_gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.betterarcheology.identified_artifact"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "betterarcheology:tunneling": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "enchantment.betterarcheology.tunneling.desc",
+                  "color": "dark_gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.betterarcheology.identified_artifact"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

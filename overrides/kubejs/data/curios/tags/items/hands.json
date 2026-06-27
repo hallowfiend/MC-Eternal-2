@@ -1,0 +1,22 @@
+{
+  "replace": true,
+  "values": [
+    "relics:enders_hand",
+    "relics:wool_mitten",
+    "cataclysm:blazing_grips",
+    "royalvariations:spectral_gauntlet",
+    "cataclysm:chitin_claw",
+    "goety:thrash_glove",
+    "goety:grave_glove",
+    "occultism:storage_remote",
+    "artifacts:feral_claws",
+    "artifacts:power_glove",
+    "artifacts:digging_claws",
+    "artifacts:pickaxe_heater",
+    "artifacts:onion_ring",
+    "artifacts:golden_hook",
+    "artifacts:vampiric_glove",
+    "artifacts:pocket_piston",
+    "artifacts:fire_gauntlet"
+  ]
+}

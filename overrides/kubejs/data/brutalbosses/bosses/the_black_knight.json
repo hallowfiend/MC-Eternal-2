@@ -6,7 +6,7 @@
   "experience": 900,
   "droppeditemamount": 3,
   "effects": {
-    "ob_core:massacre": 1
+    "minecraft:strength": 3
   },
   "attributes": {
     "generic.max_health": 350,

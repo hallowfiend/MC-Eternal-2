@@ -479,9 +479,10 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "4F5EE0EB2149A569"
-					item: "artifacts:panic_necklace"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "591D4EDA1C8AE342"
+					table_id: 58638758524816517L
+					type: "choice"
 				}
 			]
 			shape: "pentagon"
@@ -548,8 +549,8 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "4725AF9A0E8EC9FB"
-					item: "artifacts:kitty_slippers"
+					id: "78DA180885229195"
+					item: "artifacts:running_shoes"
 					type: "item"
 				}
 			]
@@ -761,6 +762,60 @@
 			}]
 			title: "{ftbquests.chapter.mailbox.quest3977241130592833083.title}"
 			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0901DBD03773B644"]
+			description: [
+				"{ftbquests.chapter.introduction.quest6920559528164792937.description1}"
+				"{ftbquests.chapter.introduction.quest6920559528164792937.description2}"
+				"{ftbquests.chapter.introduction.quest6920559528164792937.image0}"
+				"{ftbquests.chapter.introduction.quest6920559528164792937.description3}"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "kubejs:mossy_letter"
+			id: "600AC43963351A69"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					icon: "create:orange_toolbox"
+					id: "569400F41840FC63"
+					table_id: 6664182306022005570L
+					title: "{ftbquests.chapter.introduction.quest6920559528164792937.reward.6238612432193911907.title}"
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "quark:crate"
+					id: "3D111F6602DA6524"
+					table_id: 7614141430405098414L
+					title: "{ftbquests.chapter.introduction.quest6920559528164792937.reward.4400332833912677668.title}"
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/execute at {p} run playsound minecraft:entity.experience_orb.pickup player {p} ~ ~ ~ 180 0.1 0.5"
+					icon: "mekanism:cardboard_box"
+					id: "697FDD5060CAD73D"
+					title: "{ftbquests.chapter.introduction.quest6920559528164792937.reward.7602038033315714877.title}"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.introduction.quest6920559528164792937.subtitle}"
+			tasks: [{
+				disable_toast: true
+				elapsedTime: 10800L
+				icon: "minecolonies:blockpostbox"
+				id: "1831ED5B284573D5"
+				title: "{ftbquests.chapter.introduction.quest6920559528164792937.task.6777702279473437231.title}"
+				type: "questsadditions:time"
+			}]
+			title: "{ftbquests.chapter.introduction.quest6920559528164792937.title}"
+			x: 4.0d
 			y: 4.0d
 		}
 	]

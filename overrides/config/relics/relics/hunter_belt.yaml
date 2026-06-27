@@ -28,11 +28,11 @@ abilitiesData:
                     upgradeOperation: ADD
         training:
             # Highest level to which the ability can be upgraded
-            maxLevel: 10
+            maxLevel: 15
             # Relic level at which the ability becomes unlocked
             requiredLevel: 0
             # Number of leveling points needed to increase the ability level
-            requiredPoints: 1
+            requiredPoints: 5
             stats:
                 damage:
                     # Maximum base value of the stat. A random value within this range is assigned when the relic is first created

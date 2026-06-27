@@ -8,7 +8,7 @@
   ],
   "key": {
     "o": {
-      "item": "mekanism:refined_obsidian"
+      "item": "mekanism:ingot_refined_obsidian"
     },
     "f": {
       "item": "fluxnetworks:flux_dust"
@@ -19,6 +19,6 @@
   },
   "result": {
     "item": "fluxnetworks:flux_core",
-    "count": 4
+    "count": 64
   }
 }

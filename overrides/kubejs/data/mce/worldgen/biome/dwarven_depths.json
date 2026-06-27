@@ -31,7 +31,7 @@
             "options": {
                 "type": "minecraft:ash"
             },
-            "probability": 0.02
+            "probability": 0.03
         }
     },
     "features": [
@@ -41,18 +41,25 @@
             "minecraft:large_dripstone",
             "minecraft:dripstone_cluster",
             "minecraft:pointed_dripstone",
-            "minecraft:glow_lichen"
+            "minecraft:glow_lichen",
+            "alexscaves:ambersol"
         ],
         [
             "minecraft:amethyst_geode"
         ],
+         [
+      "alexscaves:amber_monolith",
+      "alexscaves:volcano_boulder",
+      "alexscaves:tesla_bulb"
+    ],
         [
-            "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_upper",
             "minecraft:ore_coal_lower",
             "minecraft:ore_iron_upper",
             "minecraft:ore_iron_middle",
             "minecraft:ore_iron_small",
-            "minecraft:ore_gold",
+        "thermal:silver_ore",
+        "thermal:lead_ore",
             "minecraft:ore_gold_lower",
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
@@ -60,6 +67,7 @@
             "minecraft:ore_diamond_large",
             "minecraft:ore_diamond_buried",
             "minecraft:ore_lapis",
+            "minecraft:ore_emerald",
             "minecraft:ore_lapis_buried",
             "minecraft:ore_copper"
         ],
@@ -73,39 +81,117 @@
     "spawners": {
         "ambient": [],
         "axolotls": [],
-        "creature": [],
+        "creature": [ {
+      "type": "species:ghoul",
+      "weight": 150,
+      "minCount": 1,
+      "maxCount": 3
+    },
+ {
+      "type": "alexscaves:corrodent",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 3
+    },  {
+      "type": "goety:volcano",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 1
+    }],
         "misc": [],
         "monster": [
             {
-                "type": "alexsmobs:farseer",
+                "type": "iceandfire:troll",
                 "maxCount": 2,
                 "minCount": 1,
                 "weight": 100
             },
+          {
+      "type": "alexsmobs:rocky_roller",
+      "weight": 80,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "species:ghoul",
+      "weight": 150,
+      "minCount": 1,
+      "maxCount": 2
+    },
             {
-                "type": "alexsmobs:skreecher",
-                "maxCount": 1,
-                "minCount": 1,
-                "weight": 100
-            },
+      "type": "mowziesmobs:bluff",
+      "weight": 250,
+      "minCount": 1,
+      "maxCount": 3
+    },
+              {
+      "type": "thermal:basalz",
+      "weight": 250,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "creeperoverhaul:dripstone_creeper",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 1
+    },
+
+    {
+      "type": "alexscaves:corrodent",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "alexscaves:forsaken",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "alexscaves:boundroid",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 2
+    },
             {
-                "type": "alexscaves:rocky_roller",
-                "maxCount": 2,
-                "minCount": 1,
-                "weight": 30
-            },
-            {
-                "type": "alexscaves:underminer",
-                "maxCount": 2,
-                "minCount": 1,
-                "weight": 30
-            },
-            {
-                "type": "alexsmobs:soul_vulture",
-                "maxCount": 4,
-                "minCount": 2,
-                "weight": 250
-            }
+      "type": "species:cliff_hanger",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    },
+             {
+      "type": "species:quake",
+      "weight": 20,
+      "minCount": 1,
+      "maxCount": 1
+    },
+        
+             {
+      "type": "goety:brood_mother",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "alexsmobs:underminer",
+      "weight": 70,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "species:bewereager",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "alexscaves:vesper",
+      "weight": 100,
+      "minCount": 1,
+      "maxCount": 3
+    }
         ],
         "underground_water_creature": [],
         "water_ambient": [],

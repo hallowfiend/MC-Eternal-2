@@ -8,7 +8,7 @@
     "oneHanded": true,
     "fullCharge": true,
     "equipTime": 0,
-    "reloadTime": 65,
+    "reloadTime": 60,
     "reloadAmount": 1,
     "recoilAngle": -7.0,
     "recoilAdsReduction": 0.15,

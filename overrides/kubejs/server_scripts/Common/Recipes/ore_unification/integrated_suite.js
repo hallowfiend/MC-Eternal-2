@@ -11,6 +11,7 @@ const moduleSqueezingExcluded = [
 // this shit is *too* good.
 modules.integrateddynamics.init = (event) => {
     event.remove({id: /integrateddynamics:mechanical_squeezer\/ore\/raw_.*/})
+    event.remove({id: /integrateddynamics:squeezer\/ore\/raw_.*/})
     event.remove({id: /integrateddynamics:.*squeezer\/ore\/gem_emerald/})
 
     //Copper yields a lot more usually
@@ -36,5 +37,8 @@ modules.integrateddynamics.main = (event, matId, material) => {
     if(material.raw_material && material.type.hasOre) {
         mechanicalSqueezing(event, [IDStack(material.raw_material, 2), IDStack(material.raw_material, 2, 0.5)], {"tag": `forge:ores/${matId}`}, 40)
             .id(`mce2:unification/mechanical_squeezer/ore/raw_${matId}`)
+
+        squeezing(event, [IDStack(material.raw_material, 2), IDStack(material.raw_material, 1, 0.75)], {"tag": `forge:ores/${matId}`})
+            .id(`mce2:unification/squeezer/ore/raw_${matId}`)
     }
 }

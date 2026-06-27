@@ -13,27 +13,25 @@
         "count": 1
       },
       "price_multiplier": 0.0,
-      "max_trades": 5,
+      "max_trades": 10,
       "experience": 4
     },
-     {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "ftbquests:lootcrate",
-	"nbt": "{type:\"curious_box\"}",
-        "count": 1
-      },
-      "payment_item": {
-        "item": "kubejs:loyalty_card_curio",
-	      
-        "count": 1
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 2,
-      "experience": 4
-    },
-   
-
+    
+{
+  "type": "goblintraders:basic",
+  "experience": 6,
+  "max_trades": 10,
+  "offer_item": {
+    "count": 1,
+    "item": "eternalcurrencies:currency_item",
+    "nbt": "{currencies:[{amount:200L,currency:\"eternalcurrencies:coins\"}]}"
+  },
+  "payment_item": {
+    "count": 1,
+    "item": "kubejs:loyalty_card_generic"
+  },
+  "price_multiplier": 0.5
+},
 
      {
   "type": "goblintraders:basic",
@@ -51,13 +49,14 @@
   "price_multiplier": 0.5
 },
 
-	  {
+
+	    {
   "type": "goblintraders:basic",
   "experience": 6,
   "max_trades": 1,
   "offer_item": {
     "count": 1,
-    "item": "uniqueaccessories:accessory_box"
+    "item": "quark:diamond_heart"
   },
   "payment_item": {
     "count": 15,

@@ -89,7 +89,9 @@ global.preferredOreProducts = {
         raw_material: "minecraft:raw_iron",
         raw_block: "minecraft:raw_iron_block",
         crushed_raw: "create:crushed_raw_iron",
-        byproduct: byproductOf("minecraft:redstone", 0.75)
+        byproduct: byproductOf("minecraft:redstone", 0.75),
+        ore: "minecraft:iron_ore",
+        deep_ore: "minecraft:deepslate_iron_ore"
     },
     gold: {
         type: global.types.ORE_METAL,
@@ -105,7 +107,9 @@ global.preferredOreProducts = {
         raw_material: "minecraft:raw_gold",
         raw_block: "minecraft:raw_gold_block",
         crushed_raw: "create:crushed_raw_gold",
-        byproduct: byproductOf("minecraft:quartz", 0.5)
+        byproduct: byproductOf("minecraft:quartz", 0.5),
+        ore: "minecraft:gold_ore",
+        deep_ore: "minecraft:deepslate_gold_ore"
     },
     copper: {
         type: global.types.ORE_METAL,
@@ -121,7 +125,9 @@ global.preferredOreProducts = {
         raw_material: "minecraft:raw_copper",
         raw_block: "minecraft:raw_copper_block",
         crushed_raw: "create:crushed_raw_copper",
-        byproduct: byproductOf("minecraft:clay_ball", 0.5)
+        byproduct: byproductOf("minecraft:clay_ball", 0.5),
+        ore: "minecraft:copper_ore",
+        deep_ore: "minecraft:deepslate_copper_ore"
     },
     tin: {
         type: global.types.ORE_METAL,
@@ -137,7 +143,9 @@ global.preferredOreProducts = {
         raw_material: "thermal:raw_tin",
         raw_block: "thermal:raw_tin_block",
         crushed_raw: "create:crushed_raw_tin",
-        byproduct: byproductOf("thermal:apatite_dust", 0.12)
+        byproduct: byproductOf("thermal:apatite_dust", 0.12),
+        ore: "thermal:tin_ore",
+        deep_ore: "thermal:deepslate_tin_ore"
     },
     silver: {
         type: global.types.ORE_METAL,
@@ -153,7 +161,9 @@ global.preferredOreProducts = {
         raw_material: "thermal:raw_silver",
         raw_block: "thermal:raw_silver_block",
         crushed_raw: "create:crushed_raw_silver",
-        byproduct: byproductOf("thermal:lead_dust", 0.1)
+        byproduct: byproductOf("thermal:lead_dust", 0.1),
+        ore: "thermal:silver_ore",
+        deep_ore: "thermal:deepslate_silver_ore"
     },
     lead: {
         type: global.types.ORE_METAL,
@@ -169,7 +179,9 @@ global.preferredOreProducts = {
         raw_material: "thermal:raw_lead",
         raw_block: "thermal:raw_lead_block",
         crushed_raw: "create:crushed_raw_lead",
-        byproduct: byproductOf("thermal:silver_dust", 0.1)
+        byproduct: byproductOf("thermal:silver_dust", 0.1),
+        ore: "thermal:lead_ore",
+        deep_ore: "thermal:deepslate_lead_ore"
     },
     nickel: {
         type: global.types.ORE_METAL,
@@ -184,7 +196,9 @@ global.preferredOreProducts = {
         molten: "tconstruct:molten_nickel",
         raw_material: "thermal:raw_nickel",
         raw_block: "thermal:raw_nickel_block",
-        crushed_raw: "create:crushed_raw_nickel"
+        crushed_raw: "create:crushed_raw_nickel",
+        ore: "thermal:nickel_ore",
+        deep_ore: "thermal:deepslate_nickel_ore"
     },
     osmium: {
         type: global.types.ORE_METAL,
@@ -198,7 +212,9 @@ global.preferredOreProducts = {
         raw_material: "mekanism:raw_osmium",
         raw_block: "mekanism:block_raw_osmium",
         crushed_raw: "create:crushed_raw_osmium",
-        byproduct: byproductOf("thermal:diamond_dust", 0.05)
+        byproduct: byproductOf("thermal:diamond_dust", 0.05),
+        ore: "mekanism:osmium_ore",
+        deep_ore: "mekanism:deepslate_osmium_ore"
     },
     uranium: {
         type: global.types.ORE_METAL,
@@ -212,7 +228,9 @@ global.preferredOreProducts = {
         raw_material: "mekanism:raw_uranium",
         raw_block: "mekanism:block_raw_uranium",
         crushed_raw: "create:crushed_raw_uranium",
-        byproduct: byproductOf("thermal:sulfur_dust", 0.5)
+        byproduct: byproductOf("thermal:sulfur_dust", 0.5),
+        ore: "mekanism:uranium_ore",
+        deep_ore: "mekanism:deepslate_uranium_ore"
     },
     zinc: {
         type: global.types.ORE_METAL,
@@ -226,7 +244,9 @@ global.preferredOreProducts = {
         raw_material: "create:raw_zinc",
         raw_block: "create:raw_zinc_block",
         crushed_raw: "create:crushed_raw_zinc",
-        byproduct: byproductOf("minecraft:gunpowder", 0.25)
+        byproduct: byproductOf("minecraft:gunpowder", 0.25),
+        ore: "create:zinc_ore",
+        deep_ore: "create:deepslate_zinc_ore"
     },
     cobalt: {
         type: global.types.ORE_METAL,
@@ -239,7 +259,8 @@ global.preferredOreProducts = {
         molten: "tconstruct:molten_cobalt",
         raw_material: "tconstruct:raw_cobalt",
         raw_block: "tconstruct:raw_cobalt_block",
-        crushed_raw: "kubejs:crushed_raw_cobalt"
+        crushed_raw: "kubejs:crushed_raw_cobalt",
+        ore: "tconstruct:cobalt_ore"
     },
     iesnium: {
         type: global.types.ORE_METAL,
@@ -250,7 +271,8 @@ global.preferredOreProducts = {
         raw_material: "occultism:raw_iesnium",
         raw_block: "occultism:raw_iesnium_block",
         crushed_raw: "kubejs:crushed_raw_iesnium",
-        byproduct: byproductOf("create:powdered_obsidian", 0.20)
+        byproduct: byproductOf("create:powdered_obsidian", 0.20),
+        ore: "occultism:iesnium_ore"
     },
     desh: {
         type: global.types.ORE_METAL,
@@ -415,7 +437,9 @@ global.preferredOreProducts = {
         block_density: 9,
         gem: "minecraft:lapis_lazuli",
         block: "minecraft:lapis_block",
-        dust: "thermal:lapis_dust"
+        dust: "thermal:lapis_dust",
+        ore: "minecraft:lapis_ore",
+        deep_ore: "minecraft:deepslate_lapis_ore"
     },
     diamond: {
         type: global.types.ORE_GEM,
@@ -423,7 +447,9 @@ global.preferredOreProducts = {
         gem: "minecraft:diamond",
         block: "minecraft:diamond_block",
         dust: "thermal:diamond_dust",
-        molten: "tconstruct:molten_diamond"
+        molten: "tconstruct:molten_diamond",
+        ore: "minecraft:diamond_ore",
+        deep_ore: "minecraft:deepslate_diamond_ore"
     },
     emerald: {
         type: global.types.ORE_GEM,
@@ -431,7 +457,9 @@ global.preferredOreProducts = {
         gem: "minecraft:emerald",
         block: "minecraft:emerald_block",
         dust: "thermal:emerald_dust",
-        molten: "tconstruct:molten_emerald"
+        molten: "tconstruct:molten_emerald",
+        ore: "minecraft:emerald_ore",
+        deep_ore: "minecraft:deepslate_emerald_ore"
     },
     quartz: {
         type: global.types.ORE_GEM,
@@ -439,59 +467,76 @@ global.preferredOreProducts = {
         gem: "minecraft:quartz",
         block: "minecraft:quartz_block",
         dust: "thermal:quartz_dust",
-        molten: "tconstruct:molten_quartz"
+        molten: "tconstruct:molten_quartz",
+        ore: "minecraft:quartz_ore"
     },
     fluorite: {
         type: global.types.ORE_GEM,
         block_density: 9,
         gem: "mekanism:fluorite",
         block: "mekanism:block_fluorite",
-        dust: "mekanism:dust_fluorite"
+        dust: "mekanism:dust_fluorite",
+        ore: "mekanism:fluorite_ore",
+        deep_ore: "mekanism:deepslate_fluorite_ore"
     },
     ruby: {
         type: global.types.ORE_GEM,
         block_density: 9,
         gem: "thermal:ruby",
         block: "thermal:ruby_block",
-        dust: "thermal:ruby_dust"
+        dust: "thermal:ruby_dust",
+        ore: "thermal:ruby_ore",
+        deep_ore: "thermal:deepslate_ruby_ore"
     },
     sapphire: {
         type: global.types.ORE_GEM,
         block_density: 9,
         gem: "thermal:sapphire",
         block: "thermal:sapphire_block",
-        dust: "thermal:sapphire_dust"
+        dust: "thermal:sapphire_dust",
+        ore: "thermal:sapphire_ore",
+        deep_ore: "thermal:deepslate_sapphire_ore"
     },
     apatite: {
         type: global.types.ORE_GEM,
         block_density: 9,
         gem: "thermal:apatite",
         dust: "thermal:apatite_dust",
-        block: "thermal:apatite_block"
+        block: "thermal:apatite_block",
+        ore: "thermal:apatite_ore",
+        deep_ore: "thermal:deepslate_apatite_ore"
     },
     cinnabar: {
         type: global.types.ORE_GEM,
         block_density: 9,
         gem: "thermal:cinnabar",
         block: "thermal:cinnabar_block",
+        ore: "thermal:cinnabar_ore",
+        deep_ore: "thermal:deepslate_cinnabar_ore"
     },
     sulfur: {
         type: global.types.ORE_GEM,
         block_density: 9,
         gem: "thermal:sulfur",
         block: "thermal:sulfur_block",
-        dust: "thermal:sulfur_dust"
+        dust: "thermal:sulfur_dust",
+        ore: "thermal:sulfur_ore",
+        deep_ore: "thermal:deepslate_sulfur_ore"
     },
     niter: {
         type: global.types.ORE_GEM,
         block_density: 9,
         gem: "thermal:niter",
         block: "thermal:niter_block",
-        dust: "thermal:niter_dust"
+        dust: "thermal:niter_dust",
+        ore: "thermal:niter_ore",
+        deep_ore: "thermal:deepslate_niter_ore"
     },
     jade: {
         type: global.types.ORE_GEM,
-        gem: "goety:jade"
+        gem: "goety:jade",
+        block: "goety:jade_block",
+        ore: "goety:jade_ore"
     },
 
 
@@ -520,6 +565,7 @@ global.preferredOreProducts = {
     source_gem: {
         type: global.types.GEM,
         block_density: 4,
+        gem: "ars_nouveau:source_gem",
         block: "ars_nouveau:source_gem_block"
     },
 
@@ -530,13 +576,17 @@ global.preferredOreProducts = {
         block_density: 9,
         main: "minecraft:coal",
         block: "minecraft:coal_block",
-        dust: "enderio:powdered_coal"
+        dust: "enderio:powdered_coal",
+        ore: "minecraft:coal_ore",
+        deep_ore: "minecraft:deepslate_coal_ore"
     },
     redstone: {
         type: global.types.OTHER,
         block_density: 9,
         block: "minecraft:redstone_block",
         dust: "minecraft:redstone",
+        ore: "minecraft:redstone_ore",
+        deep_ore: "minecraft:deepslate_redstone_ore"
     },
     wood: {
         type: global.types.OTHER,

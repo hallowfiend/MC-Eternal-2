@@ -60,10 +60,10 @@
 	#Range: 0 ~ 100
 	"Black Death Max Plague Clouds" = 4
 	#If true, Black Death will respawn Plague Beasts when it has less than the max defined Plague Beasts at its command.
-	"Black Death Constantly Spawns Plague Beasts" = false
+	"Black Death Constantly Spawns Plague Beasts" = true
 	#Defines the amount of Plague Beasts Black Death can have at its command at a time.
 	#Range: 0 ~ 100
-	"Black Death Plague Beasts" = 3
+	"Black Death Plague Beasts" = 4
 
 ["Rat King"]
 	#If true, the Rat King will reabsorb rats that circle around it if it doesnt have an active target.

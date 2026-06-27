@@ -22,7 +22,7 @@
 	lordPrefixInChat = true
 	#Changes if entities are recognized as hostile by other mods. See https://github.com/TeamLapen/Vampirism/issues/199. Smart falls back to Never on servers 
 	#Allowed Values: ALWAYS_IMOB, NEVER_IMOB, SMART
-	entitiesIMob = "SMART"
+	entitiesIMob = "NEVER_IMOB"
 	#If enabled, creatures are infected with Sanguinare Vampirism first instead of immediately being converted to a vampire when their blood is sucked dry
 	infectCreaturesSanguinare = false
 	#Prevent players from enabling the rendering of debug bounding boxes. This can allow them to see certain entities they are not supposed to see (e.g. disguised hunter

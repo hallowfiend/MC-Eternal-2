@@ -1,0 +1,30 @@
+{
+  "type": "lychee:block_interacting",
+  "item_in": {
+    "item": "hexcasting:jeweler_hammer"
+  },
+  "block_in": {
+    "blocks": [
+      "minecraft:raw_gold_block"
+    ]
+  },
+  "post": [
+    {
+      "type": "damage_item",
+      "damage": 100
+    },
+    {
+      "type": "place",
+      "block": {
+        "blocks": [
+          "kubejs:ancient_portal_stone"
+        ]
+      }
+    },
+    {
+      "type": "execute",
+      "command": "execute at @p run playsound minecraft:block.anvil.use master @p ~ ~ ~ 1.0 1.0",
+      "hide": true
+    }
+  ]
+}

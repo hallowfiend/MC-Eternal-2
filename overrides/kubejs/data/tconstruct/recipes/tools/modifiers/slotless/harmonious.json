@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": true,
+  "inputs": [
+   
+     {
+      "item": "thegreatbelow:murmur_crystal"
+    },
+      {
+      "tag": "minecraft:music_discs"
+    },
+    {
+      "item": "thegreatbelow:murmur_crystal"
+    }
+  ],
+  "level": 1,
+  "result": "tconstruct:harmonious",
+  "tools": {
+    "tag": "tconstruct:modifiable/bonus_slots"
+  }
+}

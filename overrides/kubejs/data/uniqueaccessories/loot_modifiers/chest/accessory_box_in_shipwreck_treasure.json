@@ -1,0 +1,13 @@
+{
+  "type": "uniqueaccessories:add_item",
+  "conditions": [
+    { "condition": "forge:loot_table_id", "loot_table_id": "minecraft:chests/shipwreck_treasure" },
+    {
+      "condition": "uniqueaccessories:config_random_chance",
+      "key": "accessory_box.shipwreck_treasure",
+      "default": 0.2
+    }
+  ],
+  "item": "uniqueaccessories:accessory_box",
+  "count": 1
+}

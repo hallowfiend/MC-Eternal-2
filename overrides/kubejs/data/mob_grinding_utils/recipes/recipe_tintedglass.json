@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:obsidian"
+    },
+    "G": {
+      "tag": "forge:glass"
+    }
+  },
+  "pattern": [
+    "CGC",
+    "GCG",
+    "CGC"
+  ],
+  "result": {
+    "count": 4,
+    "item": "mob_grinding_utils:tinted_glass"
+  },
+  "show_notification": true
+}

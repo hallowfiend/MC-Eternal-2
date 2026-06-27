@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "alexscaves:cave_tablet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CaveBiome:\"alexscaves:abyssal_chasm\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "alexscaves:cave_tablet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CaveBiome:\"alexscaves:candy_cavity\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "alexscaves:cave_tablet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CaveBiome:\"alexscaves:forlorn_hollows\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "alexscaves:cave_tablet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CaveBiome:\"alexscaves:magnetic_caves\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "alexscaves:cave_tablet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CaveBiome:\"alexscaves:primordial_caves\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "alexscaves:cave_tablet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CaveBiome:\"alexscaves:toxic_caves\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

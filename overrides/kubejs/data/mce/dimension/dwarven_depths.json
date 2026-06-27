@@ -1,24 +1,75 @@
 {
   "type": "mce:dwarven_depths",
   "generator": {
-      "type": "minecraft:noise",
-      "biome_source": {
-          "biomes": [
-              {
-                  "biome": "mce:dwarven_depths",
-                  "parameters": {
-                      "continentalness": 0,
-                      "depth": 0,
-                      "erosion": 0,
-                      "humidity": -0.5,
-                      "offset": 0,
-                      "temperature": 0,
-                      "weirdness": 0.7
-                  }
-              }
-          ],
-          "type": "minecraft:multi_noise"
-      },
-      "settings": "mce:dwarven_depths"
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "mce:dwarven_depths",
+          "parameters": {
+            "temperature": 0.0,
+            "humidity": 0.0,
+            "continentalness": 0.0,
+            "erosion": 0.0,
+            "depth": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+  "biome": "mce:dwarven_depths",
+  "parameters": {
+    "temperature": 0.2,
+    "humidity": 0.1,
+    "continentalness": 0.1,
+    "erosion": 0.1,
+    "depth": 0.0,
+    "weirdness": 0.1,
+    "offset": 0.0
+  }
+},
+        {
+          "biome": "mce:dwarven_depths",
+          "parameters": {
+            "temperature": -0.2,
+            "humidity": -0.2,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "depth": 0.0,
+            "weirdness": -0.1,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "alexscaves:magnetic_caves",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": 0.4,
+            "continentalness": 0.3,
+            "erosion": 0.2,
+            "depth": 0.0,
+            "weirdness": 0.5,
+            "offset": 0.0
+          }
+        },
+     
+        
+        {
+          "biome": "alexscaves:forlorn_hollows",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.95,
+            "continentalness": 0.5,
+            "erosion": 0.5,
+            "depth": 0.0,
+            "weirdness": -0.4,
+            "offset": 0.0
+          }
+        }
+    
+      ]
+    },
+    "settings": "mce:dwarven_depths"
   }
 }

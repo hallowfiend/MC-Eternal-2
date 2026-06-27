@@ -1,6 +1,6 @@
 
 const bodyGuardItemMap = {
-    'kubejs:scorched_letter': [{ id: 'goety_spillage:zombie_absorber', weight: 1 }],
+    'kubejs:scorched_letter': [{ id: 'goety_cataclysm:cindaria_servant', weight: 1 }],
     "kubejs:mossy_letter": [{ id: 'goety_cataclysm:coralssus', weight: 1 }],
     "kubejs:elegant_letter": [{ id: 'goety_cataclysm:kobolediator', weight: 1 }],
     "kubejs:scorched_letter1": [

@@ -25,7 +25,7 @@
 		]
 	},
 	"root_resistance+1%": {
-		"title": "Tank: +25% Resistance",
+		"title": "Tank: +15% Resistance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -43,7 +43,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:player.resistance",
-					"value": 0.25,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			}
@@ -176,7 +176,7 @@
 		]
 	},
 	"attack_speed+5%": {
-		"title": "+5% Attack Speed",
+		"title": "+2% Attack Speed",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -188,7 +188,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_speed",
-					"value": 0.05,
+					"value": 0.02,
 					"operation": "multiply_base"
 				}
 			}

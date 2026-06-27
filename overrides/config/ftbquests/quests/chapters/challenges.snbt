@@ -2103,7 +2103,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:trashman"
+					command: "/titles add {p} titles:trashperson"
 					console: true
 					icon: "titles:title_scroll_rare"
 					id: "4878192B49691F91"

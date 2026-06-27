@@ -1,20 +1,19 @@
 StartupEvents.registry("block", (event) => {
     event.create("ancient_portal_stone") 
         .material("stone") 
-        .hardness(55.0) 
-        .unbreakable()
-        .resistance(50.0) // Set resistance (to explosions, etc)
-        .requiresTool(true) // Requires a tool or it won't drop (see tags below)
+        .hardness(30.0) 
+        .resistance(10.0)
+        .tagBlock('minecraft:mineable/pickaxe') 
+        .requiresTool(true) 
 
 
-    event.create('reactor_tnt', 'basic') // <- must be 'machine' to use a block entity
+    event.create('reactor_tnt', 'basic') 
         .material('explosive')
         .hardness(0.0)
         .requiresTool(false)
         .renderType('solid')
         .rightClick(event => {
             const {level: level, player: player, level: world, block: block, hand: hand} = event
-            //console.log(level.isClientSide(), hand !== "main_hand", !player.getItemInHand(hand).isEmpty())
             if (level.isClientSide() || hand !== 'main_hand' || !player.getItemInHand(hand).isEmpty()) return
 
                 
@@ -41,7 +40,6 @@ StartupEvents.registry("block", (event) => {
         .rightClick(event => {
             const { player, block, level, hand } = event
             if (level.isClientSide()) return
-            //if (block.id != 'kubejs:ultimate_cheese') return
 
             
             if (hand.name() !== 'MAIN_HAND') return

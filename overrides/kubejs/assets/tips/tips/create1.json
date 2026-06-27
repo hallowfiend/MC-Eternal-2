@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "Small Water Wheels produce 256 Stress Units"
+    "translate": "tips.mce2.create1"
   }
 }

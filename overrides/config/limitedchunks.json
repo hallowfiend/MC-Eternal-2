@@ -1,7 +1,7 @@
 {
   "chunkunloadnoplayer": {
     "desc:": "How many minutes chunkloaded chunks stay active after player logging out. default:10, min 0, max 2000",
-    "chunkunloadnoplayer": 10
+    "chunkunloadnoplayer": 120
   },
   "debugLog": {
     "desc:": "Print log messages for which chunk tickets are unloaded where. Default: false",

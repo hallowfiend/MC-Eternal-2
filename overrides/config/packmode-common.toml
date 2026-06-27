@@ -1,0 +1,5 @@
+#The current Pack Mode
+"Pack Mode" = "Default"
+#All valid Pack Modes
+"Valid PackModes" = ["Calm", "Default", "Chaos"]
+

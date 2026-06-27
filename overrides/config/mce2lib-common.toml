@@ -1,0 +1,4 @@
+#Dimensions where Dragon structures are allowed to spawn.
+#Biome restrictions still apply, this just allows filtering them out of specific dimensions wholly.
+allowedDragonDimensions = ["mce:ancient_overworld", "mce:dwarven_depths"]
+

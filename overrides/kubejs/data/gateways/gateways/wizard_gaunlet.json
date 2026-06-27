@@ -61,7 +61,7 @@
 			{
 				"attribute": "generic.max_health",
 				"operation": "MULTIPLY_TOTAL",
-				"value": 0.10
+				"value": 0.50
 			}
 		],
 		"rewards": [{
@@ -109,7 +109,7 @@
 			{
 				"attribute": "generic.max_health",
 				"operation": "MULTIPLY_TOTAL",
-				"value": 0.20
+				"value": 0.70
 			}
 		],
 		"rewards": [{
@@ -151,13 +151,23 @@
 					}]
 				},
 				"count": 1
-			}                
+			},
+			 {
+                    "entity": "irons_spellbooks:ice_spider",
+                     "desc": "Pet Spider",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Ymir\",\"color\":\"gold\"}",
+                        "IsImmuneToZombification": true
+                    },
+                    "count": 1
+                }
 		],
 		"modifiers": [
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.30
+                    "value": 0.90
                 },
                 {
                     "attribute": "generic.movement_speed",
@@ -210,7 +220,7 @@
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.40
+                    "value": 0.90
                 },
                 {
                     "attribute": "generic.movement_speed",
@@ -220,7 +230,7 @@
                  {
                     "attribute": "attributeslib:fire_damage",
                     "operation": "ADDITION",
-                    "value": 7
+                    "value": 14
                 }
 		],
 		"rewards": [{
@@ -268,17 +278,17 @@
                      "desc": "Security!!",
                     "nbt": {
                         "CustomNameVisible": 1,
-                        "CustomName": "{\"text\":\"Royal Security Guard\",\"color\":\"gold\"}",
+                        "CustomName": "{\"text\":\"Royal Guard\",\"color\":\"gold\"}",
                         "IsImmuneToZombification": true
                     },
-                    "count": 2
+                    "count": 3
                 }
 		],
 		"modifiers": [
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.50
+                    "value": 0.90
                 },
                 {
                     "attribute": "generic.movement_speed",
@@ -317,7 +327,7 @@
 		"type": "gateways:stack",
 		"stack": {
 			"item": "irons_spellbooks:blank_rune",
-			"count": 2
+			"count": 5
 		}
 	},
 	{
@@ -333,8 +343,8 @@
 	},
 	{
 		"type": "gateways:mob_effect",
-		"effect": "mining_fatigue",
-		"duration": 15,
+		"effect": "irons_spellbooks:rend",
+		"duration": 60,
 		"amplifier": 4
 	},
 	{

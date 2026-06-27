@@ -1,0 +1,26 @@
+{
+  "default": [
+    {
+      "level": 1,
+      "name": "constructs_casting:combustive"
+    },
+     {
+      "level": 1,
+      "name": "tinkers_advanced:flame_adaptive"
+    }
+  ],
+  "perStat": {
+    "constructs_casting:adornment": [
+      {
+        "level": 1,
+        "name": "constructs_casting:fire_specialization"
+      }
+    ],
+    "tconstruct:armor": [
+      {
+        "level": 1,
+        "name": "constructs_casting:heatshield"
+      }
+    ]
+  }
+}

@@ -126,7 +126,7 @@
 	Lavabombradius = 2
 	#Amethyst Cluster's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Amethyst Cluster Damage" = 12.0
+	"Amethyst Cluster Damage" = 15.0
 	#Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Sandstorm Damage" = 5.0
@@ -138,7 +138,7 @@
 	"Phantom Arrow Damage" = 50.0
 	#Phantom Halberd's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Phantom Halberd Damage" = 35.0
+	"Phantom Halberd Damage" = 65.0
 	#Cursed Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Cursed Sandstorm Damage" = 6.0
@@ -147,15 +147,15 @@
 	"Flame Jet Damage" = 50.0
 	#Flare Bomb's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Flare Bomb Damage" = 7.0
+	"Flare Bomb Damage" = 60.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 4.0
+	EnderGuardianHealthMultiplier = 6.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 3.5
+	EnderGuardianDamageMultiplier = 7.5
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 52.0
@@ -207,10 +207,10 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 2.0
+	MonstrosityHealthMultiplier = 3.0
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 7.6
+	MonstrosityDamageMultiplier = 8.6
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 0.0
@@ -248,15 +248,15 @@
 	"Endergolem's prevent attacks from far away Range" = 6.0
 	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemHealthMultiplier = 1.5
+	GolemHealthMultiplier = 7.5
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamageMultiplier = 2.5
+	GolemDamageMultiplier = 8.5
 
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 2.5
+	IgnisHealthMultiplier = 4.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 4.6
@@ -309,10 +309,10 @@
 	HarbingerHealingMultiplier = 0.0
 	#Harbinger's Wither Missile's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Harbinger's WitherMissiledamage" = 25.0
+	"Harbinger's WitherMissiledamage" = 55.0
 	#Harbinger's laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Harbinger's laser damage" = 15.0
+	"Harbinger's laser damage" = 25.0
 	#Harbinger's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"The Harbinger's prevent attacks from far away Range" = 35.0
@@ -331,10 +331,10 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 3.5
+	LeviathanHealthMultiplier = 4.5
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 2.5
+	LeviathanDamageMultiplier = 4.5
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
@@ -355,7 +355,7 @@
 	"Leviathan's Tentacle Hp Damage" = 0.03
 	#Leviathan's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageCap = 20.0
+	LeviathanDamageCap = 50.0
 	#Leviathan's block breaking ignore the MobGriefing
 	LeviathanBlockBreaking = true
 	#Leviathan Immune Out of Water
@@ -394,12 +394,12 @@
 	AmethystCrabEarthQuakeDamage = 10.0
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 6.5
+	AmethystCrabDamageMultiplier = 1.5
 
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 3.9
+	AncientRemnantHealthMultiplier = 4.5
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 5.0
@@ -448,10 +448,10 @@
 [Wadjet]
 	#Wadjet's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	WadjetHealthMultiplier = 1.0
+	WadjetHealthMultiplier = 3.0
 	#Wadjet's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	WadjetDamageMultiplier = 1.0
+	WadjetDamageMultiplier = 4.0
 
 [Aptrgangr]
 	#Aptrgangr's Health Multiplier
@@ -467,7 +467,7 @@
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 2.8
+	MaledictusHealthMultiplier = 6.5
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MaledictusDamageMultiplier = 6.9
@@ -482,7 +482,7 @@
 	"Maledictus' Phantom Halberd Damage'" = 50.0
 	#Maledictus's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageCap = 25.0
+	MaledictusDamageCap = 50.0
 	#Maledictus's melee Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Maledictus's melee Hp Damage" = 0.09
@@ -594,7 +594,7 @@
 [Scylla]
 	#Scylla's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 2.5
+	ScyllaHealthMultiplier = 4.0
 	#Scylla's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	ScyllaDamageMultiplier = 4.0

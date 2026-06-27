@@ -1,0 +1,43 @@
+{
+	"weight": 0,
+	"quality": 0,
+	"mainhands": [{
+			"weight": 1,
+			"stack": {
+				"item": "irons_spellbooks:pyrium_staff"
+			},
+            "drop_chance": 0
+		}
+	],
+
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm_spellbooks:ignis_boots"
+		},
+        "drop_chance": 0
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm_spellbooks:ignis_leggings"
+		},
+        "drop_chance": 0
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm_spellbooks:ignis_chestplate"
+		},
+        "drop_chance": 0
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "cataclysm_spellbooks:ignis_helmet"
+		},
+        "drop_chance": 0
+	}],
+	"tags": [
+	]
+}

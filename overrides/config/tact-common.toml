@@ -92,13 +92,13 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	# Damage amount for melee attack with Extinction Spear.
 	#
 	#Range: 0.0 ~ 10000.0
-	extinctionSpearMeleeDamage = 18.0
+	extinctionSpearMeleeDamage = 25.0
 	#----------------------------------
 	#
 	# Damage amount for ranged attack with Extinction Spear.
 	#
 	#Range: 0.0 ~ 10000.0
-	extinctionSpearRangedDamage = 45.0
+	extinctionSpearRangedDamage = 75.0
 
 ["Raygun Options"]
 	#----------------------------------
@@ -106,21 +106,21 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	# Rate of damage for Raygun normally.
 	#
 	#Range: 0.0 ~ 1000.0
-	raygunNormalDamage = 2.5
+	raygunNormalDamage = 2.0
 	#----------------------------------
 	#
 	# Rate of damage for Raygun when gamma enchanted.
 	#
 	#Range: 0.0 ~ 1000.0
-	raygunGammaDamage = 3.0
+	raygunGammaDamage = 2.6
 
 ["Mob Attack/Health Options"]
 	#Range: 1.0 ~ 1000000.0
-	atlatitanMaxHealth = 500.0
+	atlatitanMaxHealth = 750.0
 	#Range: 1.0 ~ 1000000.0
-	atlatitanAttackDamage = 25.0
+	atlatitanAttackDamage = 65.0
 	#Range: 0.0 ~ 1000000.0
-	atlatitanArmor = 10.0
+	atlatitanArmor = 15.0
 	#Range: 1.0 ~ 1000000.0
 	boundroidMaxHealth = 80.0
 	#Range: 1.0 ~ 1000000.0
@@ -132,23 +132,23 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	boundroidWrinchArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	brainiacWrinchMaxHealth = 40.0
+	brainiacWrinchMaxHealth = 80.0
 	#Range: 1.0 ~ 1000000.0
 	brainiacAttackDamage = 35.0
 	#Range: 0.0 ~ 1000000.0
 	brainiacArmor = 8.0
 	#Range: 1.0 ~ 1000000.0
-	candicornMaxHealth = 30.0
+	candicornMaxHealth = 50.0
 	#Range: 1.0 ~ 1000000.0
-	candicornAttackDamage = 6.0
+	candicornAttackDamage = 9.0
 	#Range: 1.0 ~ 1000000.0
 	caniacMaxHealth = 38.0
 	#Range: 1.0 ~ 1000000.0
-	caniacAttackDamage = 2.0
+	caniacAttackDamage = 12.0
 	#Range: 1.0 ~ 1000000.0
-	caramelCubeMaxHealth = 4.0
+	caramelCubeMaxHealth = 24.0
 	#Range: 1.0 ~ 1000000.0
-	caramelCubeAttackDamage = 2.0
+	caramelCubeAttackDamage = 6.0
 	#Range: 1.0 ~ 1000000.0
 	corrodentMaxHealth = 16.0
 	#Range: 1.0 ~ 1000000.0
@@ -156,21 +156,21 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	corrodentArmor = 2.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneMaxHealth = 60.0
+	deepOneMaxHealth = 160.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneAttackDamage = 13.0
+	deepOneAttackDamage = 23.0
 	#Range: 0.0 ~ 1000000.0
 	deepOneArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneKnightMaxHealth = 60.0
+	deepOneKnightMaxHealth = 180.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneKnightAttackDamage = 15.0
+	deepOneKnightAttackDamage = 25.0
 	#Range: 0.0 ~ 1000000.0
-	deepOneKnightArmor = 0.0
+	deepOneKnightArmor = 20.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneMageMaxHealth = 80.0
+	deepOneMageMaxHealth = 180.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneMageAttackDamage = 14.0
+	deepOneMageAttackDamage = 34.0
 	#Range: 0.0 ~ 1000000.0
 	deepOneMageArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
@@ -180,15 +180,15 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	ferrouslimeArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	forsakenMaxHealth = 550.0
+	forsakenMaxHealth = 800.0
 	#Range: 1.0 ~ 1000000.0
-	forsakenAttackDamage = 65.0
+	forsakenAttackDamage = 35.0
 	#Range: 1.0 ~ 1000000.0
 	forsakenSonicBoomNormalAttackDamage = 65.0
 	#Range: 1.0 ~ 1000000.0
 	forsakenSonicBoomWeakTaggedAttackDamage = 85.0
 	#Range: 0.0 ~ 1000000.0
-	forsakenArmor = 28.0
+	forsakenArmor = 20.0
 	#Range: 1.0 ~ 1000000.0
 	gammaroachMaxHealth = 14.0
 	#Range: 1.0 ~ 1000000.0
@@ -204,15 +204,15 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	gloomothArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	gossamerWormMaxHealth = 10.0
+	gossamerWormMaxHealth = 35.0
 	#Range: 0.0 ~ 1000000.0
 	gossamerWormArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	grottoceratopsMaxHealth = 50.0
+	grottoceratopsMaxHealth = 150.0
 	#Range: 1.0 ~ 1000000.0
-	grottoceratopsAttackDamage = 10.0
+	grottoceratopsAttackDamage = 45.0
 	#Range: 0.0 ~ 1000000.0
-	grottoceratopsArmor = 8.0
+	grottoceratopsArmor = 12.0
 	#Range: 1.0 ~ 1000000.0
 	gumbeeperMaxHealth = 14.0
 	#Range: 1.0 ~ 1000000.0
@@ -220,13 +220,13 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	gumbeeperArmor = 4.0
 	#Range: 1.0 ~ 1000000.0
-	gummyBearMaxHealth = 36.0
+	gummyBearMaxHealth = 86.0
 	#Range: 1.0 ~ 1000000.0
-	gummyBearAttackDamage = 4.0
+	gummyBearAttackDamage = 35.0
 	#Range: 1.0 ~ 1000000.0
-	gumWormMaxHealth = 150.0
+	gumWormMaxHealth = 650.0
 	#Range: 1.0 ~ 1000000.0
-	gumWormAttackDamage = 10.0
+	gumWormAttackDamage = 28.0
 	#Range: 0.0 ~ 1000000.0
 	gumWormArmor = 9.0
 	#Range: 1.0 ~ 1000000.0
@@ -240,23 +240,23 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	lanternfishArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	licowitchMaxHealth = 140.0
+	licowitchMaxHealth = 600.0
 	#Range: 1.0 ~ 1000000.0
 	licowitchAttackDamage = 30.0
 	#Range: 1.0 ~ 1000000.0
-	luxtructosaurusMaxHealth = 1200.0
+	luxtructosaurusMaxHealth = 1250.0
 	#Range: 1.0 ~ 1000000.0
-	luxtructosaurusAttackDamage = 22.0
+	luxtructosaurusAttackDamage = 54.0
 	#Range: 0.0 ~ 1000000.0
-	luxtructosaurusArmor = 30.0
+	luxtructosaurusArmor = 35.0
 	#Range: 1.0 ~ 1000000.0
-	luxtructosaurusFireBreathAttackDamage = 20.0
+	luxtructosaurusFireBreathAttackDamage = 60.0
 	#Range: 1.0 ~ 1000000.0
-	magnetronMaxHealth = 250.0
+	magnetronMaxHealth = 350.0
 	#Range: 1.0 ~ 1000000.0
 	magnetronAttackDamage = 50.0
 	#Range: 0.0 ~ 1000000.0
-	magnetronArmor = 25.0
+	magnetronArmor = 35.0
 	#Range: 1.0 ~ 1000000.0
 	mineGuardianMaxHealth = 20.0
 	#Range: 1.0 ~ 1000000.0
@@ -264,7 +264,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	mineGuardianArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	notorMaxHealth = 6.0
+	notorMaxHealth = 26.0
 	#Range: 0.0 ~ 1000000.0
 	notorArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
@@ -276,17 +276,17 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	radgillArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	raycatMaxHealth = 50.0
+	raycatMaxHealth = 80.0
 	#Range: 1.0 ~ 1000000.0
 	raycatAttackDamage = 12.0
 	#Range: 0.0 ~ 1000000.0
 	raycatArmor = 8.0
 	#Range: 1.0 ~ 1000000.0
-	relicheirusMaxHealth = 120.0
+	relicheirusMaxHealth = 420.0
 	#Range: 1.0 ~ 1000000.0
-	relicheirusAttackDamage = 12.0
+	relicheirusAttackDamage = 62.0
 	#Range: 0.0 ~ 1000000.0
-	relicheirusArmor = 0.0
+	relicheirusArmor = 20.0
 	#Range: 1.0 ~ 1000000.0
 	seaPigMaxHealth = 8.0
 	#Range: 0.0 ~ 1000000.0
@@ -294,19 +294,19 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 1.0 ~ 1000000.0
 	sweetishFishMaxHealth = 4.0
 	#Range: 1.0 ~ 1000000.0
-	subterranodonMaxHealth = 20.0
+	subterranodonMaxHealth = 90.0
 	#Range: 1.0 ~ 1000000.0
-	subterranodonAttackDamage = 2.0
+	subterranodonAttackDamage = 17.0
 	#Range: 0.0 ~ 1000000.0
 	subterranodonArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	teletorMaxHealth = 18.0
+	teletorMaxHealth = 48.0
 	#Range: 1.0 ~ 1000000.0
-	teletorAttackDamage = 2.0
+	teletorAttackDamage = 12.0
 	#Range: 0.0 ~ 1000000.0
-	teletorArmor = 0.0
+	teletorArmor = 10.0
 	#Range: 1.0 ~ 1000000.0
-	tremorsaurusMaxHealth = 160.0
+	tremorsaurusMaxHealth = 860.0
 	#Range: 1.0 ~ 1000000.0
 	tremorsaurusAttackDamage = 55.0
 	#Range: 0.0 ~ 1000000.0
@@ -354,31 +354,52 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	tripodfishArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	underzealotMaxHealth = 20.0
+	underzealotMaxHealth = 90.0
 	#Range: 1.0 ~ 1000000.0
-	underzealotAttackDamage = 4.0
+	underzealotAttackDamage = 16.0
 	#Range: 0.0 ~ 1000000.0
 	underzealotArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	vallumraptorMaxHealth = 24.0
+	vallumraptorMaxHealth = 44.0
 	#Range: 1.0 ~ 1000000.0
-	vallumraptorAttackDamage = 3.0
+	vallumraptorAttackDamage = 9.0
 	#Range: 0.0 ~ 1000000.0
 	vallumraptorArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	vesperMaxHealth = 16.0
+	vesperMaxHealth = 46.0
 	#Range: 1.0 ~ 1000000.0
-	vesperAttackDamage = 3.0
+	vesperAttackDamage = 16.0
 	#Range: 0.0 ~ 1000000.0
 	vesperArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	watcherMaxHealth = 30.0
+	watcherMaxHealth = 90.0
 	#Range: 1.0 ~ 1000000.0
-	watcherAttackDamage = 4.0
+	watcherAttackDamage = 34.0
 	#Range: 0.0 ~ 1000000.0
 	watcherArmor = 0.0
 
 ["INTERNAL MARKERS (DO NOT EDIT)"]
 	#Range: 1 ~ 1000000
 	configVersion = 1
+
+["Desolate Daggers Options"]
+	#----------------------------------
+	#
+	# Multiplies the delay time for the floating dagger ability on Desolate Daggers.
+	# Doing 0.5 will halve the time for the ability.
+	#
+	#Range: 0.0 ~ 10.0
+	desolateDaggersAbilityDelay = 1.0
+	#----------------------------------
+	#
+	# Base damage for the floating dagger ability on Desolate Daggers.
+	#
+	#Range: 0.0 ~ 1000000.0
+	desolateDaggersAbilityBaseDamage = 3.0
+	#----------------------------------
+	#
+	# Extra damage per Impending Stable enchantment level for the floating dagger ability on Desolate Daggers.
+	#
+	#Range: 0.0 ~ 1000000.0
+	desolateDaggersAbilityImpendingStabDamage = 2.0
 

@@ -10,7 +10,7 @@
 
         # Set to % of damage-reduction from Protection Enchantments that should be ignored.
         # Allowed range: 0.0 ~ 1.0 - Default: 0.33
-        penetratingStrikeProtectionIgnorance = 0.33
+        penetratingStrikeProtectionIgnorance = 0.88
 
     [Artifacts.Tunneling]
         # En-/Disables the effects of the Tunneling enchantment.
@@ -28,7 +28,7 @@
 
         # Set to movement speed multiplier, that should be applied when starting to fly
         # Allowed range: 0.1 ~ 3.0 - Default: 0.5
-        soaringWindsBoost = 0.5
+        soaringWindsBoost = 1.5
 
 [Totems]
     # En-/Disables ALL of the Totems' effects.
@@ -67,7 +67,7 @@
 
         # En-/Disables giving a player an upwards boost when using the Torrent Totem.
         # Allowed values: true, false - Default: false
-        torrentTotemUpwardsBoost = false
+        torrentTotemUpwardsBoost = true
 
     [Totems.Growth]
         # En-/Disables the Growth Totem's effects.

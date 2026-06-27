@@ -1,17 +1,603 @@
 [
+   {
+    "mob":"royalvariations:royal_bomb_projectile",
+    "result":"allow",
+    "when": "onjoin"
+  },
+  {
+    "mob":"royalvariations:royal_bomb",
+    "result":"allow",
+    "when": "onjoin"
+  },
+  {
+    "mob": "mowziesmobs:ferrous_wroughtnaut",
+    "when": "onjoin",
+    "result": "allow",
+        "potion": [
+    "gtbcs_geomancy_plus:aegis,999999,10", "royalvariations:knightly_fortitude,999999,2"
+  ]
+  },
+    {
+    "mob": "irons_spellbooks:archevoker",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 5.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "royalvariations:knightly_fortitude,999999,1"
+  ]
+  },
+    {
+  "mob": "mowziesmobs:grottol",
+  "when": "onjoin",
+"minheight": "50",
+  "result": "deny"
+},
+    {
+  "mob": "species:quake",
+  "when": "onjoin",
+"minheight": "50",
+  "result": "deny"
+},
+{
+  "mob": "species:limpet",
+  "when": "onjoin",
+"minheight": "50",
+  "result": "deny"
+},
+    {
+  "mod": "untitledduckmod",
+  "dimension": "minecraft:overworld",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 8
+  },
+  "result": "deny"
+},
+  {
+  "mob": "gtbcs_geomancy_plus:geo_grandmaster",
+  "when": "finalize",
+  "random": 0.1,
+  "result": "allow",
+  "healthmultiply": 1.0,
+  "damagemultiply": 3.0,
+  "speedmultiply": 1.0
+},
+   {
+    "mob": "mowziesmobs:frostmaw",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 1.0,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.2,
+        "potion": [
+    "royalvariations:knightly_fortitude,999999,2"
+  ]
+  },
+  {
+    "mob": "masquerader_mod:masquerader",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.0,
+    "damagemultiply": 1.5,
+    "speedmultiply": 1.1,
+        "potion": [
+    "royalvariations:knightly_fortitude,999999,2"
+  ]
+  },
+   {
+    "mob": "mowziesmobs:umvuthi",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.0,
+        "potion": [
+    "royalvariations:knightly_fortitude,999999,1"
+  ]
+  },
+ {
+    "mob":"gtbcs_geomancy_plus:geo_grandmaster",
+    "result":"deny",
+    "when": "finalize"
+  },
+{
+    "mob": "minecraft:ender_dragon",
+    "when": "onjoin",
+    "result": "allow",
+    "customname": "§dEternal Ender Dragon",
+    "healthmultiply": 5.0,
+    "damagemultiply": 14.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "royalvariations:knightly_fortitude,999999,2"
+  ]
+  },
+   {
+    "mob": "alexsmobs:void_worm",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 7.0,
+    "damagemultiply": 16.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "royalvariations:knightly_fortitude,999999,3"
+  ]
+  },
+{
+    "mob":"vampirism:advanced_vampire",
+    "when": "onjoin",
+    "result":"default",
+  "random": 0.2,
+    "healthmultiply": 1.7,
+    "damagemultiply": 1.3,
+    "speedmultiply": 1.3,
+    "armorchest": ["immersive_armors:wither_chestplate"],
+    "armorlegs": ["immersive_armors:wither_leggings"],
+    "helditem": ["irons_spellbooks:magehunter", "illager_additions:katana", "cataclysm:athame", "aquamirae:dagger_of_greed", "aquamirae:poisoned_blade", "alexscaves:desolate_dagger", "illager_additions:master_katana", "goety:death_scythe", "goety:dark_scythe", "goety:dark_sword", "goety:fell_blade", "goety:philosophers_mace", "goety:bonehead_hammer"],
+    "armorboots": ["immersive_armors:wither_boots"]
+  },
+  {
+    "mob":"vampirism:advanced_vampire",
+    "result":"deny",
+    "when": "onjoin"
+  },
+   {
+    "mob": "rats:neo_ratlantean",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.0
+  },
+  {
+    "mob": "rats:dutchrat",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.0
+  },
+   {
+    "mob": "rats:black_death",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.0
+  },
+  {
+    "mob": "rats:rat_baron",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.0
+  },
+  {
+    "mob": "rats:ratlantean_automaton",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.0
+  },
+   {
+    "mob": "rats:plague_beast",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 2.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.0
+  },
+   {
+    "mod": "illager_additions",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.0
+  },
+   {
+    "mob":"specialmobs:zombie",
+    "when": "onjoin",
+    "customname": "§dEnvoy of The End",
+    "gamestage":"master",
+     "random": 0.05,
+    "result":"default",
+    "healthmultiply": 10.6,
+    "damagemultiply": 3,
+    "speedmultiply": 1.3,
+    "armorchest": ["dreadsteel:dreadsteel_chestplate"],
+    "armorlegs": ["dreadsteel:dreadsteel_leggings"],
+    "armorhelmet": ["dreadsteel:dreadsteel_helmet"],
+    "helditem": ["dreadsteel:dreadsteel_scythe"],
+    "armorboots": ["dreadsteel:dreadsteel_boots"]
+  },
+  {
+    "mob":"specialmobs:zombie",
+    "when": "onjoin",
+    "customname": "§bIce Dragonlord",
+    "gamestage":"master",
+     "random": 0.05,
+    "result":"default",
+    "healthmultiply": 10.6,
+    "damagemultiply": 4,
+    "speedmultiply": 1.3,
+    "armorchest": ["iceandfire:dragonsteel_ice_chestplate"],
+    "armorlegs": ["iceandfire:dragonsteel_ice_leggings"],
+    "armorhelmet": ["iceandfire:dragonsteel_ice_helmet"],
+    "helditem": ["iceandfire:dragonsteel_ice_sword", "iceandfire:dragonsteel_ice_axe"],
+    "armorboots": ["iceandfire:dragonsteel_ice_boots"]
+  },
+    {
+    "mob":"specialmobs:zombie",
+    "when": "onjoin",
+    "customname": "§4Fire Dragonlord",
+    "gamestage":"master",
+     "random": 0.05,
+    "result":"default",
+    "healthmultiply": 10.0,
+    "damagemultiply": 4,
+    "speedmultiply": 1.3,
+    "armorchest": ["iceandfire:dragonsteel_fire_chestplate"],
+    "armorlegs": ["iceandfire:dragonsteel_fire_leggings"],
+    "armorhelmet": ["iceandfire:dragonsteel_fire_helmet"],
+    "helditem": ["iceandfire:dragonsteel_fire_sword", "iceandfire:dragonsteel_fire_axe"],
+    "armorboots": ["iceandfire:dragonsteel_fire_boots"]
+  },
+  {
+    "mob":"specialmobs:zombie",
+    "when": "onjoin",
+    "customname": "§dLightning Dragonlord",
+    "gamestage":"master",
+     "random": 0.05,
+    "result":"default",
+    "healthmultiply": 10.0,
+    "damagemultiply": 4,
+    "speedmultiply": 1.3,
+    "armorchest": ["iceandfire:dragonsteel_lightning_chestplate"],
+    "armorlegs": ["iceandfire:dragonsteel_lightning_leggings"],
+    "armorhelmet": ["iceandfire:dragonsteel_lightning_helmet"],
+    "helditem": ["iceandfire:dragonsteel_lightning_sword", "iceandfire:dragonsteel_lightning_axe"],
+    "armorboots": ["iceandfire:dragonsteel_lightning_boots"]
+  },
+    {
+    "mob":"specialmobs:zombie",
+    "when": "onjoin",
+    "customname": "§6Undead Ratlord",
+    "gamestage":"expert",
+     "random": 0.05,
+    "result":"default",
+    "healthmultiply": 7.0,
+    "damagemultiply": 3,
+    "speedmultiply": 1.3,
+    "armorchest": ["rats:ratlantis_chestplate"],
+    "armorlegs": ["rats:ratlantis_leggings"],
+    "armorhelmet": ["rats:ratlantis_helmet"],
+    "helditem": ["rats:ratlantis_sword"],
+    "armorboots": ["rats:ratlantis_boots"]
+  },
+   {
+    "mob":"specialmobs:knightwitherskeleton",
+    "when": "onjoin",
+    "customname": "§eUndead Dragon Knight",
+    "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4.0,
+    "damagemultiply": 3,
+    "speedmultiply": 1.3,
+    "armorchest": ["iceandfire:armor_gray_chestplate"],
+    "armorlegs": ["iceandfire:armor_gray_leggings"],
+    "armorhelmet": ["iceandfire:armor_gray_helmet"],
+    "helditem": ["iceandfire:dragonbone_sword_fire", "iceandfire:ghost_sword"],
+    "armorboots": ["iceandfire:armor_gray_boots"]
+  },
+   {
+    "mob": ["specialmobs:madscientistzombie"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 5,
+    "damagemultiply": 6.6,
+    "speedmultiply": 1.6,
+    "armorchest": ["immersive_armors:steampunk_chestplate"],
+    "armorlegs": ["immersive_armors:steampunk_leggings"],
+    "armorhelmet": ["immersive_armors:steampunk_helmet"],
+    "helditem": ["cataclysm:meat_shredder"],
+    "armorboots": ["immersive_armors:steampunk_boots"]
+  },
+ {
+    "mob": ["specialmobs:abyssaldrowned", "specialmobs:giantdrowned", "specialmobs:frozendrowned"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 1.2,
+    "armorhelmet": ["iceandfire:tide_purple_helmet"],
+    "armorchest": ["iceandfire:tide_purple_chestplate"],
+    "armorlegs": ["iceandfire:tide_purple_leggings"],
+    "helditem": ["iceandfire:tide_trident", "cataclysm:coral_bardiche", "cataclysm:coral_spear", "cataclysm:athame"],
+    "armorboots": ["iceandfire:tide_purple_boots"]
+  },
+  {
+    "mob": ["specialmobs:weatheredskeleton"],
+    "when": "onjoin",
+ "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 1.2,
+    "armorhelmet": ["cataclysm:bone_reptile_helmet"],
+    "armorchest": ["cataclysm:bone_reptile_chestplate"],
+    "helditem": ["cataclysm:khopesh", "cataclysm:ancient_spear"]
+ 
+  },
+ {
+    "mob": ["specialmobs:fishingzombie", "specialmobs:fishingdrowned", "specialmobs:fishingzombifiedpiglin"],
+    "when": "onjoin",
+   "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 0.8,
+    "armorhelmet": ["rats:fisherman_hat"],
+    "helditem": ["minecraft:fishing_rod"]
+  },
+ {
+    "mob": ["specialmobs:frozenzombie"],
+    "when": "onjoin",
+ "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 0.8,
+    "armorchest": ["iceandfire:frost_troll_leather_chestplate"],
+    "armorlegs": ["iceandfire:frost_troll_leather_leggings"],
+    "armorboots": ["iceandfire:frost_troll_leather_boots"],
+    "armorhelmet": ["iceandfire:frost_troll_leather_helmet"],
+    "helditem": ["iceandfire:dread_knight_sword", "immersive_weathering:ice_sickle"]
+  },
+ {
+    "mob": "minecraft:warden",
+    "dimension": "thegreatbelow:thegreatbelow",
+    "customname": "§bAncient Warden",
+    "when": "finalize",
+    "healthmultiply": 5.0,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.1
+  },
+   {
+    "mob": "ghastcow:ghast_cow",
+    "when": "finalize",
+    "healthmultiply": 9.0,
+    "damagemultiply": 15.5,
+    "speedmultiply": 1.3
+  },
+  {
+    "mob": "aquamirae:captain_cornelia",
+    "when": "onjoin",
+    "healthmultiply": 3.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2
+  },
+   {
+    "mob": ["specialmobs:pirateskeleton"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 5,
+    "damagemultiply": 3.6,
+    "speedmultiply": 0.8,
+    "armorchest": ["minecolonies:pirate_chest"],
+    "armorlegs": ["minecolonies:pirate_leggins"],
+    "armorhelmet": ["rats:pirat_hat"],
+    "helditem": ["minecolonies:iron_scimitar", "minecraft:bow"],
+    "armorboots": ["minecolonies:pirate_shoes"]
+  },
+  {
+    "mob": ["specialmobs:plaguedrowned","specialmobs:plaguezombie", "specialmobs:plaguezombifiedpiglin"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 5,
+    "damagemultiply": 2.6,
+    "speedmultiply": 0.8,
+    "armorchest": ["irons_spellbooks:plagued_chestplate"],
+    "armorlegs": ["irons_spellbooks:plagued_leggings"],
+    "armorhelmet": ["irons_spellbooks:plagued_helmet"],
+    "helditem": ["rats:plague_scythe"],
+    "armorboots": ["irons_spellbooks:plagued_boots"]
+  },
+   {
+    "mod": "cloudstorage",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 1.5,
+    "damagemultiply": 2.0,
+    "speedmultiply": 1.1
+  },
+  {
+    "mob": "alexsmobs:elephant",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 2.8,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.0
+  },
+  
+  {
+    "mob": ["specialmobs:knightskeleton","specialmobs:knightdrowned"],
+    "when": "onjoin",
+  "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 3,
+    "speedmultiply": 1.2,
+    "armorhelmet": ["iceandfire:armor_silver_metal_helmet"],
+    "armorchest": ["iceandfire:armor_silver_metal_chestplate"],
+    "armorlegs": ["iceandfire:armor_silver_metal_leggings"],
+    "helditem": ["iceandfire:dread_knight_sword", "illager_additions:katana", "illager_additions:spear", "cataclysm:black_steel_axe", "iceandfire:ghost_sword", "iceandfire:dragonbone_sword_fire", "iceandfire:dragonbone_sword_ice"],
+    "armorboots": ["iceandfire:armor_silver_metal_boots"]
+  },
+   {
+    "mob": ["specialmobs:brutezombie","specialmobs:bruteskeleton", "specialmobs:brutewitherskeleton", "specialmobs:brutezombifiedpiglin", "specialmobs:brutedrowned"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 5,
+    "damagemultiply": 7.6,
+    "speedmultiply": 0.8,
+    "armorchest": ["immersive_armors:heavy_chestplate"],
+    "armorlegs": ["immersive_armors:heavy_leggings"],
+    "armorhelmet": ["immersive_armors:heavy_helmet"],
+    "helditem": ["goety:bonehead_hammer", "goety:great_hammer"],
+    "armorboots": ["immersive_armors:heavy_boots"]
+  },
+ 
+  {
+    "mob": ["specialmobs:giantzombie","specialmobs:giantskeleton", "specialmobs:giantskeleton"],
+    "when": "onjoin",
+"gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 4.6,
+    "speedmultiply": 0.8,
+    "armorchest": ["immersive_armors:warrior_chestplate"],
+    "armorlegs": ["immersive_armors:warrior_leggings"],
+    "armorhelmet": ["immersive_armors:warrior_helmet"],
+    "helditem": ["iceandfire:troll_weapon_trunk", "iceandfire:troll_weapon_column_forest", "iceandfire:troll_weapon_axe", "iceandfire:troll_weapon_column"],
+    "armorboots": ["immersive_armors:warrior_boots"]
+  },
+ 
+   {
+    "mob": ["specialmobs:poisonskeleton"],
+    "when": "onjoin",
+ "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 4,
+    "damagemultiply": 4,
+    "speedmultiply": 1.0,
+  "armorhelmet": ["quark:forgotten_hat"],
+    "helditem": ["minecraft:bow", "mowziesmobs:naga_fang_dagger"]
+  },
+   {
+  "mob": "cataclysm:amethyst_crab",
+  "biome": "biomeswevegone:forgotten_forest",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 2
+  },
+  "result": "deny"
+},
+   {
+    "mob": "cataclysm:amethyst_crab",
+    "biome": "biomeswevegone:forgotten_forest",
+    "customname": "§dForgotten Crab",
+    "result": "true",
+    "when": "onjoin"
+  },
+   {
+    "mob":"vampirism:vampire_baron",
+    "when": "onjoin",
+    "result":"default",
+    "healthmultiply": 2.0,
+    "damagemultiply": 2,
+    "speedmultiply": 1.1,
+    "armorchest": ["immersive_armors:wither_chestplate"],
+    "armorlegs": ["immersive_armors:wither_leggings"],
+    "helditem": ["goety:death_scythe", "goety:dark_scythe", "goety:dark_sword"],
+    "armorboots": ["immersive_armors:wither_boots"]
+  },
+     {
+    "mob":"vampirism:vampire",
+    "when": "onjoin",
+    "result":"default",
+    "healthmultiply": 1.3,
+    "damagemultiply": 1.0,
+    "speedmultiply": 1.3,
+    "helditem": ["goety:dark_sword", "goety:dark_axe", "goety:fell_blade"]
+  },
   {
     "mob":"specialmobs:firezombie",
     "when": "onjoin",
     "gamestage":"expert",
     "result":"default",
-    "healthmultiply": 3,
-    "damagemultiply": 3,
+    "healthmultiply": 4,
+    "damagemultiply": 3.5,
     "speedmultiply": 1.3,
     "armorchest": ["immersive_armors:wither_chestplate"],
     "armorlegs": ["immersive_armors:wither_leggings"],
     "armorhelmet": ["lavafishing:promethium_helmet"],
     "helditem": ["irons_spellbooks:keeper_flamberge"],
     "armorboots": ["immersive_armors:wither_boots"]
+  },
+  {
+    "mod": "majruszsdifficulty",
+    "when": "onjoin",
+    "biome": [
+      "alexscaves:abyssal_chasm",
+      "alexscaves:forlorn_hollows",
+      "alexscaves:primordial_caves",
+      "alexscaves:magnetic_caves",
+      "alexscaves:toxic_caves",
+      "alexscaves:candy_cavity"
+    ],
+    "result": "deny"
+  },
+   {
+    "mod": "specialmobs",
+    "when": "onjoin",
+    "biome": [
+      "alexscaves:abyssal_chasm",
+      "alexscaves:forlorn_hollows",
+      "alexscaves:primordial_caves",
+      "alexscaves:magnetic_caves",
+      "alexscaves:toxic_caves",
+      "alexscaves:candy_cavity"
+    ],
+    "result": "deny"
+  },
+   {
+    "mod": "minecraft",
+    "when": "onjoin",
+    "biome": [
+      "alexscaves:abyssal_chasm",
+      "alexscaves:forlorn_hollows",
+      "alexscaves:primordial_caves",
+      "alexscaves:magnetic_caves",
+      "alexscaves:toxic_caves",
+      "alexscaves:candy_cavity"
+    ],
+    "result": "deny"
+  },
+   {
+    "mod": "species",
+    "when": "onjoin",
+    "biome": [
+      "alexscaves:abyssal_chasm",
+      "alexscaves:forlorn_hollows",
+      "alexscaves:primordial_caves",
+      "alexscaves:toxic_caves",
+      "alexscaves:magnetic_caves",
+      "alexscaves:candy_cavity"
+    ],
+    "result": "deny"
+  },
+   {
+    "mod": "quark",
+    "when": "onjoin",
+    "biome": [
+      "alexscaves:abyssal_chasm",
+      "alexscaves:forlorn_hollows",
+      "alexscaves:primordial_caves",
+      "alexscaves:magnetic_caves",
+      "alexscaves:toxic_caves",
+      "alexscaves:candy_cavity"
+    ],
+    "result": "deny"
   },
   {
     "mob":"specialmobs:fireskeleton",
@@ -42,6 +628,22 @@
     "armorboots": ["immersive_armors:wither_boots"]
   },
   {
+    "mob": "minecraft:iron_golem",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 2.5,
+    "damagemultiply": 1.5,
+    "speedmultiply": 1.1
+  },
+ {
+    "mob": "artifacts:mimic",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 2.5,
+    "damagemultiply": 5.5,
+    "speedmultiply": 1.5
+  },
+  {
     "mob":"specialmobs:firespider",
     "when": "onjoin",
     "gamestage":"expert",
@@ -56,7 +658,7 @@
     "armorboots": ["immersive_armors:wither_boots"]
   },
   {
-    "mob": ["specialmobs:sniperskeleton", "specialmobs:sniperwitherskeleton", "specialmobs:gatlingskeleton", "specialmobs:gatlingwitherskeleton"],
+    "mob": ["specialmobs:sniperskeleton", "specialmobs:sniperwitherskeleton"],
     "when": "onjoin",
     "gamestage":"expert",
     "result":"default",
@@ -66,7 +668,59 @@
     "armorchest": ["illager_additions:samurai_chestplate"],
     "armorlegs": ["illager_additions:samurai_leggings"],
     "armorhelmet": ["alexsmobs:frontier_cap"],
-    "helditem": ["minecraft:bow"],
+    "helditem": [
+  {
+    "item": "minecraft:bow",
+    "nbt": {
+      "Enchantments": [
+        {
+          "id": "minecraft:power",
+          "lvl": 7
+        },
+          {
+          "id": "minecraft:punch",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+],
+     "potion": [
+    "cataclysm_spellbooks:sniper,999999,2"
+  ],
+    "armorboots": ["illager_additions:samurai_boots"]
+  },
+    {
+    "mob": ["specialmobs:gatlingskeleton", "specialmobs:gatlingwitherskeleton"],
+    "when": "onjoin",
+    "gamestage":"expert",
+    "result":"default",
+    "healthmultiply": 3,
+    "damagemultiply": 4,
+    "speedmultiply": 1.2,
+    "armorchest": ["illager_additions:samurai_chestplate"],
+    "armorlegs": ["illager_additions:samurai_leggings"],
+    "armorhelmet": ["illager_additions:cowboy_hat"],
+    "helditem": [
+  {
+    "item": "minecraft:bow",
+    "nbt": {
+      "Enchantments": [
+        {
+          "id": "minecraft:power",
+          "lvl": 5
+        },
+          {
+          "id": "minecraft:punch",
+          "lvl": 3
+        }
+      ]
+    }
+  }
+],
+     "potion": [
+    "cataclysm_spellbooks:sniper,999999,1"
+  ],
     "armorboots": ["illager_additions:samurai_boots"]
   },
   {
@@ -74,7 +728,7 @@
     "when": "onjoin",
     "result":"default",
     "healthmultiply": 3,
-    "damagemultiply": 4,
+    "damagemultiply": 6,
     "speedmultiply": 1.0
   },
   {
@@ -93,17 +747,7 @@
     "result":"deny",
     "when": "onjoin"
   },
-  {
-    "mod":"illageandspillage",
-    "gamestage":"expert",
-    "result":"default",
-    "when": "onjoin"
-  },
-  {
-    "mod":"illageandspillage",
-    "result":"deny",
-    "when": "onjoin"
-  },
+ 
   {
     "mod": "alexsmobs",
     "when": "finalize",
@@ -113,16 +757,38 @@
     "speedmultiply": 1.0
   },
   {
+    "mod": "irons_spellbooks:ice_spider",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.0,
+    "damagemultiply": 2.5,
+    "speedmultiply": 1.1
+  },
+  {
     "mod": "ars_nouveau",
     "when": "finalize",
     "result": "allow",
     "healthmultiply": 2.0,
-    "damagemultiply": 2.5,
+    "damagemultiply": 3.0,
     "speedmultiply": 1.0
   },
  
 
+ {
+  "mod": "untitledduckmod",
+  "when": "finalize",
+  "random": 0.1,
+  "result": "allow",
+  "healthmultiply": 3.0,
+  "damagemultiply": 2.0,
+  "speedmultiply": 1.1
+},
 
+ {
+    "mod":"untitledduckmod",
+    "result":"deny",
+    "when": "finalize"
+  },
 
 
    {
@@ -130,8 +796,8 @@
   "when": "finalize",
   "random": 0.333,
   "result": "allow",
-  "healthmultiply": 2.5,
-  "damagemultiply": 2.0,
+  "healthmultiply": 3.0,
+  "damagemultiply": 3.0,
   "speedmultiply": 1.1
 },
 
@@ -146,25 +812,48 @@
     "when": "finalize",
     "result": "allow",
     "healthmultiply": 2.5,
-    "damagemultiply": 2.5,
+    "damagemultiply": 3.0,
+    "speedmultiply": 1.2
+  },
+  {
+    "mod": "netherexp",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 4.5,
     "speedmultiply": 1.2
   },
   {
     "mod": "blighted_beasts", 
     "when": "finalize",
     "result": "allow",
-    "healthmultiply": 2.0,
-    "damagemultiply": 2.8,
+    "healthmultiply": 4.0,
+    "damagemultiply": 4.8,
     "speedmultiply": 1.0
   },
   {
     "mod": "irons_spellbooks",
-    "when": "finalize",
+    "when": "onjoin",
     "result": "allow",
-    "healthmultiply": 2.0,
-    "damagemultiply": 2.8,
+    "healthmultiply": 2.5,
+    "damagemultiply": 3.0,
     "speedmultiply": 1.0
   },
+  {
+    "mod": "royalvariations",
+    "when": "onjoin",
+    "gamestage":"expert",
+    "result": "allow",
+    "healthmultiply": 4.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2
+  },
+   {
+    "mod":"royalvariations",
+    "result":"deny",
+    "when": "onjoin"
+  },
+
   {
     "dimension": "thegreatbelow:thegreatbelow",
     "mod": "alexscaves",
@@ -185,15 +874,19 @@
     "mob": "alexsmobs:laviathan",
     "when": "finalize",
     "healthmultiply": 4.0,
-    "damagemultiply": 4.5,
+    "damagemultiply": 5.0,
     "speedmultiply": 1.0
   },
+  
   {
     "mod":"mutantmonsters",
     "gamestage":"master",
     "result":"default",
-    "healthmultiply": 3.0,
-    "damagemultiply": 7.5,
+    "healthmultiply": 4.0,
+    "damagemultiply": 5.0,
+     "potion": [
+    "royalvariations:knightly_fortitude,999999,2"
+  ],
     "when": "onjoin"
   },
   {
@@ -202,20 +895,86 @@
     "when": "onjoin"
   },
   {
-    "mob": "alexscaves:forsaken",
-    "dimension": "mce:dwarven_depths",
-    "maxcount": {
-      "amount": 1,
-      "perplayer": false,
-      "when": "onjoin"
-    }
+  "mob": "goety:brood_mother",
+  "dimension": "mce:dwarven_depths",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 2
   },
+  "result": "deny"
+},
+  {
+  "mob": "alexscaves:forsaken",
+  "dimension": "mce:dwarven_depths",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 2
+  },
+  "result": "deny"
+},
+
   {
     "mob": "alexscaves:forsaken",
     "dimension": "mce:dwarven_depths",
     "customname": "§4Durin's Bane",
     "result": "true",
-    "when": "onjoin"
+    "when": "onjoin",
+        "healthmultiply": 5.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "alexscaves:boundroid",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Dwarven Boundroid",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 2.0,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.1,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "creeperoverhaul:dripstone_creeper",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient Dripstone Creeper",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 5.0,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.1
+  },
+    {
+    "mob": "species:ghoul",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Cave Gollum",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 2.5,
+    "damagemultiply": 6.0,
+    "speedmultiply": 1.1,
+        "potion": [
+    "royalvariations:knightly_fortitude,999999,1",
+    "goety:flammable,999999,7"
+  ]
+  },
+    {
+    "mob": "alexsmobs:underminer",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Wandering Soul",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 2.0,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
   },
   {
     "mob": "thermal:basalz",
@@ -225,29 +984,145 @@
     "when": "onjoin",
     "healthmultiply": 5.0,
     "damagemultiply": 7.5,
-    "speedmultiply": 1.5
+    "speedmultiply": 1.2
+  },
+  {
+    "mob": "alexscaves:vesper",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient Bat",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 5.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "alexscaves:corrodent",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Dwarven Cave Rat",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 5.0,
+    "damagemultiply": 4.0,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "illager_additions:beamloger",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient Cultist",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 5.0,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "illager_additions:shogun",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Lost Shogun",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 6.0,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+   {
+    "mob": "alexsmobs:rocky_roller",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient Rocky Roller",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 2.5,
+    "damagemultiply": 5.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "species:quake",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Dwarven Automaton",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 1.5,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+  {
+    "mob": "species:cliff_hanger",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient CLiff Hanger",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 1.0,
+    "damagemultiply": 2.5,
+    "speedmultiply": 1.2
+  },
+   {
+    "mob": "iceandfire:troll",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Ancient Cave Troll",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 3.5,
+    "damagemultiply": 5.5,
+    "speedmultiply": 1.1,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+    {
+    "mob": "goety:brood_mother",
+    "dimension": "mce:dwarven_depths",
+    "customname": "§4Shelob",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 13.0,
+    "damagemultiply": 8.5,
+    "speedmultiply": 1.1,
+      "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
+  },
+    {
+    "mod": "goety",
+    "dimension": "mce:dwarven_depths",
+    "result": "true",
+    "when": "onjoin",
+        "healthmultiply": 6.0,
+    "damagemultiply": 9.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "lavafishing:lava_walker,999999,1"
+  ]
   },
   {
     "mod":"thermal",
     "gamestage":"expert",
     "result":"default",
-    "healthmultiply": 3.5,
+    "healthmultiply": 4.0,
     "damagemultiply": 6.5,
     "when": "onjoin"
   },
+
   {
     "mod":"thermal",
-    "result":"deny",
-    "when": "onjoin"
-  },
-  {
-    "mob":"rootoffear:wilted",
-    "gamestage":"the_desecrator",
-    "result":"default",
-    "when": "onjoin"
-  },
-  {
-    "mob":"rootoffear:wilted",
     "result":"deny",
     "when": "onjoin"
   }

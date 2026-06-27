@@ -5,7 +5,7 @@
     "fireMode": ["ntg:semi", "ntgl:multi"],
     "gripType": "ntgl:one_handed",
     "maxAmmo": 2,
-    "damage": 50.0,
+    "damage": 35.0,
     "equipTime": 0,
     "autoReload": false,
     "reloadTime": 40,
@@ -14,8 +14,11 @@
     "recoilAdsReduction": 0.15,
     "alwaysSpread": true,
     "enchantable": false,
+    "oneHanded": true,
     "ammo": [
       "cgs:round_shotgun",
+      "cgs:round_shotgun_flechette",
+      "cgs:round_shotgun_flechette_steel",
       "cgs:round_shotgun_incendiary",
       "cgs:round_shotgun_blank"
     ]
@@ -37,7 +40,7 @@
         "type": "ntgl:buckshot"
       },
       "projectile": {
-        "damage": 60.0,
+        "damage": 20.0,
         "size": 0.2,
         "speed": 20.0,
         "life": 40,
@@ -46,18 +49,47 @@
         "damageReduceOverLife": true
       }
     },
+    "cgs:round_shotgun_flechette": {
+      "ammo": {
+        "type": "cgs:nail"
+      },
+      "projectile": {
+        "damage": 25.0,
+        "size": 0.2,
+        "speed": 20.0,
+        "life": 40,
+        "spread": 15.0,
+        "projectileAmount": 6,
+        "damageReduceOverLife": true
+      }
+    },
+    "cgs:round_shotgun_flechette_steel": {
+      "ammo": {
+        "type": "cgs:nail_steel"
+      },
+      "projectile": {
+        "damage": 30.0,
+        "size": 0.2,
+        "speed": 20.0,
+        "life": 40,
+        "spread": 15.0,
+        "projectileAmount": 6,
+        "damageReduceOverLife": true,
+        "pierceLevel": 1
+      }
+    },
     "cgs:round_shotgun_incendiary": {
       "ammo": {
         "type": "ntgl:dragon_breath"
       },
       "projectile": {
         "projectile": "cgs:incendiary",
-        "damage": 65.0,
+        "damage": 20.0,
         "size": 0.2,
         "speed": 8.0,
         "life": 40,
         "spread": 15.0,
-        "burnSeconds": 4,
+        "burnSeconds": 5,
         "projectileAmount": 12,
         "damageReduceOverLife": true
       }

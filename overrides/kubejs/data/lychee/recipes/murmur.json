@@ -1,0 +1,35 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "blighted_beasts:sculk_pearl"
+    },
+    "block_in": {
+    "blocks": ["minecraft:amethyst_block"]
+    },
+    "post": [
+  
+        {
+            "type": "place",
+            "contextual": [
+              {
+                "type": "chance",
+                "chance": 100
+              }
+            ],
+            "block": {
+              "blocks": [
+                "thegreatbelow:murmur_crystal"
+              ]
+            }
+          },
+
+{
+"type": "execute",
+"command": "execute at @p run playsound vampirism:block.boiling master @p ~ ~ ~ 1.0 1.0",
+"hide": true
+
+}
+
+
+    ]
+}

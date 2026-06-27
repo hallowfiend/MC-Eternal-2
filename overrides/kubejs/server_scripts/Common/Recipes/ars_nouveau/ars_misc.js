@@ -57,4 +57,11 @@ ServerEvents.recipes(event => {
     ],
     energy: 4000
   })
+     event.recipes.create.mixing(Fluid.of("enderio:xp_juice", 60), Item.of("ars_nouveau:experience_gem")).id("mce2:mixing/gem_juicing")
+mechanicalSqueezing(event, [], Item.of("ars_nouveau:experience_gem"), 40, Fluid.of("enderio:xp_juice", 60)).id("mce2:mechanical_squeezing/xp_extraction")
+  
+  
+  event.recipes.create.mixing(Fluid.of("enderio:xp_juice", 240), Item.of("ars_nouveau:greater_experience_gem")).id("mce2:mixing/big_gem_juicing")
+mechanicalSqueezing(event, [], Item.of("ars_nouveau:greater_experience_gem"), 40, Fluid.of("enderio:xp_juice", 240)).id("mce2:mechanical_squeezing/big_xp_extraction")
+  
 })

@@ -1,15 +1,15 @@
   {
-  "entity": "illageandspillage:absorber",
+  "entity": "minecraft:vindicator",
   "name": "§eHoneydew the Dwarf",
-  "visualscale": 0.4,
+  "visualscale": 0.6,
   "protect_treasure": true,
   "experience": 20,
   "droppeditemamount": 4,
   "effects": {
-    "cataclysm:monstrous": 2
+    "species:tanked": 2
   },
   "attributes": {
-    "generic.max_health": 30,
+    "generic.max_health": 400,
     "generic.follow_range": 50,
     "generic.knockback_resistance": 10,
     "generic.movement_speed": 0.4
@@ -18,14 +18,14 @@
 	  "attack_speed": 2.6,
     "dropgear": 6
   },
-  "gear": {
-   "mainhand": "{id: \"kubejs:jaffa_cake"
-  },
-  
+"gear": {
+  "mainhand": "{id:\"cataclysm:infernal_forge\",Count:1b,tag:{display:{Name:'{\"text\":\"Dwarven War Hammer\",\"italic\":false}',Lore:['{\"text\":\"Diggy diggy hole..\",\"italic\":false}']},Enchantments:[{id:\"minecraft:knockback\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:3s}]}}",
+  "offhand": "{id:\"kubejs:mcejaffa\",Count:8b}"
+},
   "ai-goals": {
 	  "brutalbosses:jumpattack": {"healthinterval": "10-0",          
  "attackdist": 12,                     
- "extraDamage": 2,                    
+ "extraDamage": 50,                    
  "maxdist": 15,                       
  "mindist": 2,                        
  "maxheight": 15,                      

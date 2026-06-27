@@ -52,6 +52,16 @@
       "r": 170,
       "g": 0,
       "b": 0
+    },
+      {
+      "isFlat": true,
+      "frameBlock": "kubejs:ancient_portal_stone",
+      "isFluidIgniter": false,
+      "itemIgniter": "quark:diamond_heart",
+      "dimension": "mce:dwarven_depths",
+      "r": 211,
+      "g": 175,
+      "b": 55
     }
   ]
 }

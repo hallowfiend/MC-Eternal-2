@@ -5,9 +5,9 @@
     "gripType": "ntgl:bazooka",
     "category": "heavy",
     "rate": 4,
-    "maxAmmo": 3,
+    "maxAmmo": 4,
     "equipTime": 15,
-    "reloadTime": 90,
+    "reloadTime": 150,
     "recoilAngle": -0.1,
     "alwaysSpread": true,
     "enchantable": false,
@@ -105,9 +105,9 @@
         "visible": true,
         "gravity": true,
         "affectedByFluid": false,
-        "damage": 50.0,
+        "damage": 40.0,
         "size": 4.0,
-        "speed": 5.0,
+        "speed": 3,
         "life": 1200
       }
     }

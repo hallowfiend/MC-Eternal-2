@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "fluid": "jaffactory:orange_juice_fluid",
+            "amount": 25
+        },
+        {
+            "item": "tconstruct:ichor_slime_ball"
+        }
+    ],
+    "results": [
+        {
+            "item": "jaffactory:jaffa_slime"
+        }
+    ]
+}

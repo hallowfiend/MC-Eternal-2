@@ -31,7 +31,6 @@
 			only_one: true
 		}
 		{ item: "alexscaves:green_soylent" }
-		{ item: "rats:raw_rat" }
 		{
 			item: {
 				Count: 1
@@ -39,7 +38,7 @@
 				tag: {
 					display: {
 						Lore: [
-							"{\"translate\":\"lore.mce2.dev.2\" ,\"color\":\"gray\",\"italic\":true}"
+							"{\"translate\":\"lore.mce2.dev.2\",\"color\":\"gray\",\"italic\":true}"
 							"{\"translate\":\"lore.mce2.dev.3\",\"color\":\"red\",\"italic\":true}"
 							"{\"translate\":\"lore.mce2.dev.4\",\"color\":\"dark_red\",\"underlined\":true}"
 							"{\"translate\":\"lore.mce2.dev.5\",\"color\":\"gray\",\"italic\":true}"

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "MCE2 TIP",
+    "translate": "tips.mce2.title",
     "bold": true,
     "color": "gold"
   },
   "tip": {
-    "text": "In its first phase, The Wither cares not for you. You are nothing more than a small ant compared to its greatness.. It will wreak havoc on the land.. You will need to damage it to get its attention! BE WARNED: The Wither takes no prisoners..."
+    "translate": "tips.mce2.witherboss"
   }
 }
