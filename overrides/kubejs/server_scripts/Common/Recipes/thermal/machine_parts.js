@@ -7,8 +7,8 @@ ServerEvents.recipes(event => {
         'GDG',
         'SGS'
     ], {
-        S: '#forge:ingots/silver',
-        G: 'minecraft:tinted_glass',
+        S: '#forge:storage_blocks/silver',
+        G: 'thermal:cinnabar',
         D: 'thermal:diamond_gear'
     }).id('thermal:machine_frame')
 
