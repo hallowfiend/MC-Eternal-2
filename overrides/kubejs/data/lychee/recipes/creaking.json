@@ -4,7 +4,7 @@
         "item": "minecraft:ender_eye"
     },
     "block_in": {
-    "blocks": ["vanillabackport:creaking_heart"],
+    "blocks": ["minecraft:creaking_heart"],
         "state": {
             "creaking_heart_state": "awake"
         }
@@ -28,7 +28,7 @@
             ],
             "block": {
               "blocks": [
-                "vanillabackport:pale_oak_log"
+                "minecraft:pale_oak_log"
               ]
             }
           },

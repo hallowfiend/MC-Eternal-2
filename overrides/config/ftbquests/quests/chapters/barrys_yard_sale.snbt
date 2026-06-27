@@ -976,11 +976,11 @@
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "vanillabackport:music_disc_lava_chicken"
+			icon: "minecraft:music_disc_lava_chicken"
 			id: "160FEAD5EF3B96C3"
 			rewards: [{
 				id: "2D9CA78605E260DB"
-				item: "vanillabackport:music_disc_lava_chicken"
+				item: "minecraft:music_disc_lava_chicken"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1589747398047667907.subtitle}"
@@ -2799,3 +2799,5 @@
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"
 }
+
+

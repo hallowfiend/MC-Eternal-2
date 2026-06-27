@@ -1366,7 +1366,7 @@
 				}
 				{
 					id: "6945EB2F28C161D2"
-					item: "vanillabackport:music_disc_lava_chicken"
+					item: "minecraft:music_disc_lava_chicken"
 					type: "item"
 				}
 				{
@@ -2499,3 +2499,5 @@
 	]
 	title: "{ftbquests.chapter.challenges.title}"
 }
+
+
