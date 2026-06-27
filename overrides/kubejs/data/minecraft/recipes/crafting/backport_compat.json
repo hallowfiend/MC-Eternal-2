@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:sulfur"
+  },
+  "result": "thermal:sulfur",
+  "experience": 0.2,
+  "cookingtime": 50
+}
