@@ -198,6 +198,7 @@
     "tooltip.mce2.kubejs.regret_scroll": "§7Returns you to Normal Mode from Expert Mode upon Right-Clicking",
     "tooltip.mce2.kubejs.regret_scroll1": "§8§oEverybody makes mistakes.. Everybody has those days..",
     "tooltip.mce2.kubejs.loot_bag.table": "Loot Table: %s",
+    "tooltip.mce2.kubejs.dwarven_ring": "§7Upon equipping gain &eLava Walker&r &7and &eGold Touched",
 
     "loot_table.mce:cave_tablet_random.name": "Random Cave Tablet",
 
