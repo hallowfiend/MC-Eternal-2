@@ -9,6 +9,15 @@
     "result":"allow",
     "when": "onjoin"
   },
+    {
+  "mob": "alexsmobs:underminer",
+  "dimension": "mce:dwarven_depths",
+  "when": "onjoin",
+   "mincount": {
+    "amount": 15
+  },
+  "result": "deny"
+},
    {
   "mob": "iceandfire:fire_dragon",
   "dimension": "mce:dwarven_depths",
