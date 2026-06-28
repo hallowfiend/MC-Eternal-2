@@ -6,6 +6,7 @@ StartupEvents.registry("item", event => {
   
   event.create('crimson').glow(true);
   event.create('unsigned_contract').glow(false);
+  event.create('dwarven_ring').glow(true);
 
   event.create('dwarven_map')
     .fireResistant(true)
