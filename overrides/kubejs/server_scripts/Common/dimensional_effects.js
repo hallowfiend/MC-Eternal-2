@@ -25,7 +25,28 @@ addDimensionalEffect("thegreatbelow:thegreatbelow", "xaeroworldmap:no_world_map"
 
 //dwarven depths
 addDimensionalEffect("mce:dwarven_depths", "goety:burn_hex", 0, 225, false)
-addDimensionalEffect("mce:dwarven_depths", "goety:nyctophobia", 3, 225, false)
+
+addDimensionalEffect(
+    "mce:dwarven_depths",
+    "goety:nyctophobia",
+    3,
+    40,
+    false,
+    player =>
+        player.mainHandItem.id != "ars_additions:golden_lantern" &&
+        player.offHandItem.id != "ars_additions:golden_lantern"
+)
+
+addDimensionalEffect(
+    "mce:dwarven_depths",
+    "minecraft:darkness",
+    0,
+    80,
+    false,
+    player =>
+        player.mainHandItem.id != "ars_additions:golden_lantern" &&
+        player.offHandItem.id != "ars_additions:golden_lantern"
+)
 
 ServerEvents.tick(event => {
     //console.log(dimEffectTickCounter, dimEffectUpdateDelay)
