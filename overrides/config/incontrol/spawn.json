@@ -73,15 +73,7 @@
 "minheight": "50",
   "result": "deny"
 },
-    {
-  "mod": "untitledduckmod",
-  "dimension": "minecraft:overworld",
-  "when": "onjoin",
-   "mincount": {
-    "amount": 8
-  },
-  "result": "deny"
-},
+    
   {
   "mob": "gtbcs_geomancy_plus:geo_grandmaster",
   "when": "finalize",
