@@ -63,6 +63,7 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:regret_scroll', Text.translate("tooltip.mce2.kubejs.regret_scroll").color('#FFFFFF')); 
 	event.add('kubejs:regret_scroll', Text.translate("tooltip.mce2.kubejs.regret_scroll1").color('#FFFFFF')); 
 	event.add('kubejs:dwarven_ring', Text.translate("tooltip.mce2.kubejs.dwarven_ring").color('#FFFFFF'));
+	event.add('kubejs:lorkhan_heart', Text.translate("tooltip.mce2.kubejs.lorkhan_heart").color('#FFFFFF'));
 
 	//Soul Stone
 	event.add('kubejs:artifact_endergem', Text.translate("tooltip.mce2.kubejs.artifact_endergem.1").color('#FFFFFF'));
