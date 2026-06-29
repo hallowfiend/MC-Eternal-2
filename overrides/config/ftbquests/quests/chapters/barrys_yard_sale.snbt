@@ -2800,10 +2800,13 @@
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"Upon interacting, will show balance privately in chat."
+				"Upon interacting, will send you your balance privately in chat."
+				""
 				"{image:ftblibrary:icons/money width:20 height:20 align:center}"
 				""
 				"&7\"I like money\" - Mr Krabs"
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest1370390521532918241.description3}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2848,7 +2851,7 @@
 				}
 				{
 					disable_toast: true
-					elapsedTime: 60L
+					elapsedTime: 30L
 					icon: "supplementaries:clock_block"
 					id: "4F506784312D6A10"
 					title: "Cooldown"
