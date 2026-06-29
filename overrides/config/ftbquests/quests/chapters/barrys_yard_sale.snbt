@@ -2793,11 +2793,72 @@
 				type: "eternalcurrencies:currency"
 			}]
 			title: "&eRegrets? I've Had a Few"
-			x: -4.0d
-			y: 5.0d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"Upon interacting, will show balance privately in chat."
+				"{image:ftblibrary:icons/money width:20 height:20 align:center}"
+				""
+				"&7\"I like money\" - Mr Krabs"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:chocolate_coin"
+			id: "31D0A00A61208B58"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute as @p run ec checkbalance eternalcurrencies:coins"
+					elevate_perms: true
+					icon: "eternalcurrencies:debit_card"
+					id: "268B1E937396F9E4"
+					title: "&eAuto Check Balance"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run playsound iceandfire:gold_pile_step master @p ~ ~ ~"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "tconstruct:maille"
+						tag: {
+							Material: "tconstruct:gold"
+						}
+					}
+					id: "079E5604519F48CA"
+					title: "&6Sound Effect"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Check Coin Balance"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2CF0B135C5F979B4"
+					title: "&6Check Coin Balance &e(Click)"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					elapsedTime: 60L
+					icon: "supplementaries:clock_block"
+					id: "4F506784312D6A10"
+					title: "Cooldown"
+					type: "questsadditions:time"
+				}
+			]
+			title: "&eCheck Balance"
+			x: -3.0d
+			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"
 }
-
-
