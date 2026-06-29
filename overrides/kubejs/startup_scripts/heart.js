@@ -28,6 +28,3 @@ ItemEvents.modification(event => {
     })
     
 })
-PlayerEvents.death(event => {
-    event.player.stages.remove('curio_cooldown')
-})
