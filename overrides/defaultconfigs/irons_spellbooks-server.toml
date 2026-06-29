@@ -12,7 +12,7 @@
 	#The maximum amount of times an applicable piece of equipment can be upgraded in the arcane anvil. Default: 3
 	maxUpgrades = 3
 	#From 0-1, the percent of max mana a player respawns with. Default: 0.0
-	manaSpawnPercent = 0.0
+	manaSpawnPercent = 1.0
 	#From 0-1, the percent chance for scrolls to be successfully recycled. Default: 0.5 (50%)
 	scrollRecycleChance = 0.5
 	#Whether or not potions should be allowed to be brewed in the alchemist cauldron)
@@ -86,7 +86,7 @@
 		#Additional Health
 		additionalHealth = 300.0
 		#Additional Melee Attack Damage
-		additionalAttackDamage = 30.0
+		additionalAttackDamage = 40.0
 		#Additional Spell Power (additive percent)
 		additionalSpellPower = 300.0
 
@@ -94,7 +94,7 @@
 		#Additional Health
 		additionalHealth = 200.0
 		#Additional Melee Attack Damage
-		additionalAttackDamage = 10.0
+		additionalAttackDamage = 20.0
 		#Additional Spell Power (additive percent)
-		additionalSpellPower = 50.0
+		additionalSpellPower = 60.0
 
