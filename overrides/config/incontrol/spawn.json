@@ -439,6 +439,13 @@
     "speedmultiply": 1.1
   },
   {
+    "mob": "majruszsdifficulty:cerberus",
+    "when": "finalize",
+    "healthmultiply": 2.0,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.2
+  },
+     {
     "mob": "alexsmobs:elephant",
     "when": "finalize",
     "result": "allow",
