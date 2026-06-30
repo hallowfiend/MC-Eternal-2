@@ -1,0 +1,8 @@
+{
+    "from": "mce:dwarven_depths",
+    "to": "minecraft:overworld",
+    "from_y_min": 120,
+    "from_y_max": 122,
+    "to_y": -58,
+    "cloud_platform": false
+}
