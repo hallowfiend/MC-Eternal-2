@@ -574,7 +574,7 @@
     "result": "deny"
   },
     {
-    "mod": "irons_spellbooks",
+    "mob": "irons_spellbooks:necromancer",
     "when": "onjoin",
     "biome": [
       "alexscaves:abyssal_chasm",
