@@ -725,13 +725,13 @@
 			icon: "enderio:empty_soul_vial"
 			id: "03DA3D57743E6D7D"
 			rewards: [{
-				id: "5EBF4160B5C10026"
+				id: "55382B7A8B1BEFBB"
 				item: "enderio:empty_soul_vial"
 				type: "item"
 			}]
 			subtitle: "Purchase Soul Vial"
 			tasks: [{
-				amount: 1200L
+				amount: 800L
 				currency: "eternalcurrencies:coins"
 				id: "33EFA8A71793A0E6"
 				type: "eternalcurrencies:currency"
@@ -800,9 +800,7 @@
 			y: 12.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.description1}"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "artifacts:helium_flamingo"
@@ -814,7 +812,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest6912393888080576994.subtitle}"
 			tasks: [{
-				amount: 1200L
+				amount: 1000L
 				currency: "eternalcurrencies:coins"
 				id: "6E96EBCCC7C568C5"
 				type: "eternalcurrencies:currency"
@@ -861,7 +859,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest1432910829707183266.subtitle}"
 			tasks: [{
-				amount: 4500L
+				amount: 2500L
 				currency: "eternalcurrencies:coins"
 				id: "15D985D888F354CB"
 				type: "eternalcurrencies:currency"
@@ -1076,7 +1074,7 @@
 			}]
 			subtitle: "Purchase Potion of Mana IV"
 			tasks: [{
-				amount: 80L
+				amount: 50L
 				currency: "eternalcurrencies:coins"
 				id: "402EEE608482552C"
 				type: "eternalcurrencies:currency"
@@ -1149,7 +1147,7 @@
 			}]
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest488986572967293936.subtitle}"
 			tasks: [{
-				amount: 15000L
+				amount: 10000L
 				currency: "eternalcurrencies:coins"
 				id: "75A99232C9E867F3"
 				type: "eternalcurrencies:currency"
@@ -1183,24 +1181,28 @@
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"]
+			description: [
+				"&7\"If I could save time in a bottle. The first thing that I'd like to do. Is to save every day till eternity passes away. Just to spend them with you.\""
+				""
+				"{ftbquests.chapter.barrys_yard_sale.quest222191021648202861.description1}"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
-			icon: "artifacts:pickaxe_heater"
+			icon: "tiab:time_in_a_bottle"
 			id: "0315618E959F4C6D"
 			rewards: [{
-				id: "5B636509EECD59E0"
-				item: "artifacts:pickaxe_heater"
+				id: "5DEB574C80DE660C"
+				item: "tiab:time_in_a_bottle"
 				type: "item"
 			}]
-			subtitle: "Purchase Pickaxe Heater"
+			subtitle: "Purchase Time in a Bottle"
 			tasks: [{
-				amount: 500L
+				amount: 5000L
 				currency: "eternalcurrencies:coins"
 				id: "168BB3FADE55193D"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "&eYard Sale:&r Pickaxe Heater"
+			title: "&eYard Sale:&r Time in a Bottle"
 			x: 6.0d
 			y: 10.0d
 		}
@@ -2065,7 +2067,7 @@
 			}]
 			subtitle: "Purchase a Onion Ring"
 			tasks: [{
-				amount: 800L
+				amount: 500L
 				currency: "eternalcurrencies:coins"
 				id: "6D4010A12513E5AE"
 				type: "eternalcurrencies:currency"
