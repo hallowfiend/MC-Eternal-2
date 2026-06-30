@@ -222,7 +222,7 @@
 		}
 	},
 	"spellpower3": {
-		"title": "§dBlessing of the Archmage:§r +9% Spell Power",
+		"title": "§dBlessing of the Archmage:§r +10% Spell Power",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -240,7 +240,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:spell_power",
-					"value": 0.08,
+					"value": 0.10,
 					"operation": "multiply_total"
 				}
 			}
@@ -296,7 +296,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "irons_spellbooks:cast_time_reduction",
-					"value": 0.1,
+					"value": 0.15,
 					"operation": "multiply_total"
 				}
 			}
