@@ -86,7 +86,6 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:artifact_beating_heart', Text.translate("tooltip.mce2.kubejs.artifact_beating_heart.3").color('#FFFFFF'));
 	//Obsidian Palantir
 	event.add('kubejs:nether_item', Text.translate("tooltip.mce2.kubejs.nether_item.1").color('#FFFFFF'));
-	event.add('kubejs:nether_item', Text.translate("tooltip.mce2.kubejs.nether_item.2").color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.translate("tooltip.mce2.kubejs.nether_item.3").color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.translate("tooltip.mce2.kubejs.nether_item.4").color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.translate("tooltip.mce2.kubejs.nether_item.5").color('#FFFFFF'));
